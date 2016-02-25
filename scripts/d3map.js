@@ -11,7 +11,7 @@ var path = d3.geo.path()
 
 var graticule = d3.geo.graticule();
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#map-container").append("svg")
     .attr("width", width)
     .attr("height", height);
 
@@ -20,7 +20,7 @@ svg.append("path")
     .attr("class", "graticule")
     .attr("d", path);
 
-d3.json("/mbostock/raw/4090846/world-50m.json", function(error, world) {
+d3.json("world50m.json", function(error, world) {
   if (error) throw error;
 
   svg.insert("path", ".graticule")
