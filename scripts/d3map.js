@@ -11,7 +11,7 @@ var path = d3.geo.path()
 
 var graticule = d3.geo.graticule();
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#map-container").append("svg")
     .attr("width", width)
     .attr("height", height);
 
@@ -20,8 +20,19 @@ svg.append("path")
     .attr("class", "graticule")
     .attr("d", path);
 
-d3.json("/mbostock/raw/4090846/world-50m.json", function(error, world) {
+d3.json("world50m.json", function(error, world) {
   if (error) throw error;
+
+  var countries = topojson.feature(world, world.objects.countries).features;
+  var color = d3.scale.category20()
+  var neighbors = topojson.neighbors(world.objects.countries.geometries);
+
+  svg.selectAll(".country")
+     .data(countries)
+     .enter().insert("path", ".graticule")
+     .attr("class", "country")
+     .attr("d", path)
+     .style("fill", function(d, i) { return color(d.color = d3.max(neighbors[i], function(n) { return countries[n].color; }) + 1 | 0); });
 
   svg.insert("path", ".graticule")
       .datum(topojson.feature(world, world.objects.land))
