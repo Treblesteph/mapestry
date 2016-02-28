@@ -23,6 +23,17 @@ svg.append("path")
 d3.json("world50m.json", function(error, world) {
   if (error) throw error;
 
+  var countries = topojson.feature(world, world.objects.countries).features;
+  var color = d3.scale.category20()
+  var neighbors = topojson.neighbors(world.objects.countries.geometries);
+
+  svg.selectAll(".country")
+     .data(countries)
+     .enter().insert("path", ".graticule")
+     .attr("class", "country")
+     .attr("d", path)
+     .style("fill", function(d, i) { return color(d.color = d3.max(neighbors[i], function(n) { return countries[n].color; }) + 1 | 0); });
+
   svg.insert("path", ".graticule")
       .datum(topojson.feature(world, world.objects.land))
       .attr("class", "land")
