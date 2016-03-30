@@ -21,6 +21,7 @@ svg.append("path")
     .attr("d", path);
 
 d3.json("world50m.json", function(error, world) {
+  console.log(world)
   if (error) throw error;
 
   var countries = topojson.feature(world, world.objects.countries).features;
