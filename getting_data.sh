@@ -1,11 +1,7 @@
 !# /bin/sh
 
 # Download layers from naturalearthdata.com: ne_10m_admin_0_map_subunits
-python -m SimpleHTTPServer &
-simpleserver_PID=$!
-echo simpleserver_PID
-http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_map_subunits.zip
-kill $simpleserver_PID
+wget http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_map_subunits.zip
 
 unzip ne_10m_admin_0_map_subunits.zip
 
