@@ -1,5 +1,14 @@
 # Mapestry
 
+Map game with simple UI
+
+## Plans
+
+- recognising countries from shapes in situ
+- jigsaw puzzle - placing country shapes
+- capitals
+- flags
+
 ## Useful resources
 
 - [GDAL/OGR Quickstart](http://live.osgeo.org/en/quickstart/gdal_quickstart.html)
@@ -19,3 +28,4 @@
 - [Github natural earth](https://github.com/nvkelso/natural-earth-vector/tree/master/50m_physical)
 - [gdal cheat sheet](https://github.com/dwtkns/gdal-cheat-sheet)
 - [US states cloropleth](https://live2.zoomdata.com/zoomdata/visualization#53f22849e4b08f9d5f15360a-522655b0e4b00f4f3af30f12)
+- [interactive mapping tutorial](http://www.coppelia.io/2016/01/interactive-mapping/)
