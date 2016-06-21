@@ -73,6 +73,6 @@
 
 ## Missing sovereign states
 
-- ?? Equatorial Guinea
-- ?? Mauritius
-- ?? Seychelles
+- GNQ Equatorial Guinea
+- MUS Mauritius
+- SYC Seychelles
