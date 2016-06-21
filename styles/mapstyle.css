@@ -16,3 +16,56 @@
   stroke-width: .5px;
   stroke-linejoin: round;
 }
+
+.subunit.DZA { fill: teal }
+.subunit.AGO { fill: tomato }
+.subunit.BEN { fill: gold }
+.subunit.BWA { fill: tomato }
+.subunit.BFA { fill: teal }
+.subunit.BDI { fill: teal }
+.subunit.CPV { fill: tomato }
+.subunit.CMR { fill: tomato }
+.subunit.CAF { fill: grey }
+.subunit.TCD { fill: gold }
+.subunit.CIV { fill: tomato }
+.subunit.COM { fill: grey }
+.subunit.COD { fill: gold }
+.subunit.COG { fill: teal }
+.subunit.DJI { fill: tomato }
+.subunit.EGY { fill: gold }
+.subunit.ERI { fill: gold }
+.subunit.ETH { fill: grey }
+.subunit.GAB { fill: gold }
+.subunit.GMB { fill: teal }
+.subunit.GHA { fill: gold }
+.subunit.GIN { fill: teal }
+.subunit.GNB { fill: gold }
+.subunit.KEN { fill: gold }
+.subunit.LSO { fill: gold }
+.subunit.LBR { fill: gold }
+.subunit.LBY { fill: grey }
+.subunit.MDG { fill: teal }
+.subunit.MWI { fill: gold }
+.subunit.MLI { fill: grey }
+.subunit.MRT { fill: gold }
+.subunit.MAR { fill: tomato }
+.subunit.MOZ { fill: grey }
+.subunit.NAM { fill: gold }
+.subunit.NER { fill: tomato }
+.subunit.NGA { fill: teal }
+.subunit.RWA { fill: grey }
+.subunit.STS { fill: gold }
+.subunit.STA { fill: gold }
+.subunit.SEN { fill: tomato }
+.subunit.SLE { fill: tomato }
+.subunit.SOX { fill: teal }
+.subunit.ZAX { fill: teal }
+.subunit.SDS { fill: tomato }
+.subunit.SDN { fill: teal }
+.subunit.SWZ { fill: tomato }
+.subunit.TZA { fill: tomato }
+.subunit.TGO { fill: grey }
+.subunit.TUN { fill: gold }
+.subunit.UGA { fill: teal }
+.subunit.ZMB { fill: teal }
+.subunit.ZWE { fill: gold }
