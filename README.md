@@ -5,9 +5,14 @@ Map game with simple UI
 ## Plans
 
 - recognising countries from shapes in situ
-- jigsaw puzzle - placing country shapes
+- jigsaw puzzle - placing country/state/county/etc shapes
 - capitals
 - flags
+- mountain ranges
+- tectonic plates
+- presidents/kings/queens/prime ministers
+- resource extraction
+- other info contained already in natural earth for example
 
 ## Useful resources
 
