@@ -7,15 +7,15 @@ unzip ne_10m_admin_0_map_subunits.zip
 
 # Convert data to GeoJSON format
 ogr2ogr \
--f GeoJSON \
--where "continent = 'Africa'" \
-continenttest.json \
-ne_10m_admin_0_map_subunits/ne_10m_admin_0_map_subunits.shp
+  -f GeoJSON \
+  -where "continent = 'Africa'" \
+  continenttest.json \
+  ne_10m_admin_0_map_subunits/ne_10m_admin_0_map_subunits.shp
 
 # Convert to TopoJSON format
 topojson \
-> -o africa.json \
-> --id-property SU_A3 \
-> --properties name=NAME \
-> -- \
-> continenttest.json
+  -o africa.json \
+  --id-property SU_A3 \
+  --properties name=NAME \
+  -- \
+  continenttest.json
