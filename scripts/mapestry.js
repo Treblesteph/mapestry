@@ -20,10 +20,10 @@ d3.json("africa.json", function(error, africa) {
      .datum(countries)
      .attr("d", path)
 
-svg.selectAll(".subunit")
+console.log(svg.selectAll(".subunit")
      .data(topojson.feature(africa, africa.objects.continenttest).features)
      .enter().append("path")
-     .attr("class", function(d) { return "subunit " + d.id; })
-     .attr("d", path)
+     .attr("class", function(d) { return "africa " + d.id; })
+     .attr("d", path))
 
 })
