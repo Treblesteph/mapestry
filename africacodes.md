@@ -2,20 +2,20 @@
 
 ## Not sovereign states
 
-- ESC - Canary Islands
-- EUI - Europa Island
-- GNA - Annóbon
-- GNK - Bioko
-- GNR - Río Muni
-- JUI - Juan De Nova I
-- MYT - Mayotte
-- PMD - Madeira
-- SAH - Western Sahara
-- SEC - Ceuta
-- SEM - Melilla
-- SOL - Somaliland
-- SOP - Puntland
-- TZZ - Zanzibar
+- ESC - Canary Islands (Spain - hide)
+- EUI - Europa Island (France - hide)
+- GNA - Annóbon (Equatorial Guinea island - show)
+- GNK - Bioko (Equatorial Guinea island - show)
+- GNR - Río Muni (Equatorial Guinea mainland - show)
+- JUI - Juan De Nova I (France - hide)
+- MYT - Mayotte (France - hide)
+- PMD - Madeira (Portugal - hide)
+- SAH - Western Sahara (it's complicated - leave black)
+- SEC - Ceuta (Spain - hide)
+- SEM - Melilla (Spain - hide)
+- SOL - Somaliland (Somalia - show)
+- SOP - Puntland (Somalia - show)
+- TZZ - Zanzibar (Tanzania - show)
 
 ## Sovereign states
 
