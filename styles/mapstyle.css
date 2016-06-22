@@ -50,7 +50,7 @@
 .subunit.MRT { fill: gold }
 .subunit.MAR { fill: tomato }
 .subunit.MOZ { fill: grey }
-.subunit.NAM { fill: gold }
+.subunit.NAM { fill: grey }
 .subunit.NER { fill: tomato }
 .subunit.NGA { fill: teal }
 .subunit.RWA { fill: grey }
@@ -59,13 +59,27 @@
 .subunit.SEN { fill: tomato }
 .subunit.SLE { fill: tomato }
 .subunit.SOX { fill: teal }
+.subunit.SOL { fill: teal }
+.subunit.SOP { fill: teal }
 .subunit.ZAX { fill: teal }
 .subunit.SDS { fill: tomato }
 .subunit.SDN { fill: teal }
 .subunit.SWZ { fill: tomato }
 .subunit.TZA { fill: tomato }
+.subunit.TZZ { fill: tomato }
 .subunit.TGO { fill: grey }
 .subunit.TUN { fill: gold }
 .subunit.UGA { fill: teal }
 .subunit.ZMB { fill: teal }
 .subunit.ZWE { fill: gold }
+.subunit.GNA { fill: grey }
+.subunit.GNK { fill: grey }
+.subunit.GNR { fill: grey }
+
+.subunit.ESC { display: none }
+.subunit.EUI { display: none }
+.subunit.JUI { display: none }
+.subunit.MYT { display: none }
+.subunit.PMD { display: none }
+.subunit.SEC { display: none }
+.subunit.SEM { display: none }
