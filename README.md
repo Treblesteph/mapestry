@@ -13,6 +13,7 @@ Map game with simple UI
 - presidents/kings/queens/prime ministers
 - resource extraction
 - other info contained already in natural earth for example
+- island territories per country?
 
 ## Useful resources
 
