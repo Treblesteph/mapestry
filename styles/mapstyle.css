@@ -27,8 +27,38 @@ Pink: deeppink #FF1493 (Oceania)
   stroke-linejoin: round;
 }
 
+.northamerica {
+  fill: orangered;
+  stroke: lightgrey;
+  stroke-width: 1px;
+}
+
+.southamerica {
+  fill: gold;
+  stroke: lightgrey;
+  stroke-width: 1px;
+}
+
+.europe {
+  fill: mediumseagreen;
+  stroke: lightgrey;
+  stroke-width: 1px;
+}
+
 .africa {
   fill: dodgerblue;
+  stroke: lightgrey;
+  stroke-width: 1px;
+}
+
+.asia {
+  fill: darkviolet;
+  stroke: lightgrey;
+  stroke-width: 1px;
+}
+
+.oceania {
+  fill: deeppink;
   stroke: lightgrey;
   stroke-width: 1px;
 }
