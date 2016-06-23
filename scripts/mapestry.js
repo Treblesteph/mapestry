@@ -1,5 +1,8 @@
-var width = 960
-var height = 1160
+var viewerWidth = $(document).width()
+var viewerHeight = $(document).height()
+
+var width = viewerWidth / 2
+var height = viewerHeight
 
 var svg = d3.select("#map-container").append("svg")
                                      .attr("width", width)
