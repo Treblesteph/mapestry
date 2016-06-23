@@ -19,31 +19,52 @@
 
   <body>
     <nav>
-      <div class="nav-wrapper grey lighten-1">
-        <a href="#!" data-activates="slide-out" class="button-collapse side-nav-button show-on-large">
-          <i class="material-icons">list</i>
-        </a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse right">
-          <i class="material-icons">menu</i>
-        </a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#" class="deep-orange-text text-darken-1">North America</a></li>
-          <li><a href="#" class="yellow-text text-accent-4">South America</a></li>
-          <li><a href="#" class="green-text text-accent-4">Europe</a></li>
-          <li><a href="#" class="blue-text text-darken-1">Africa</a></li>
-          <li><a href="#" class="purple-text text-darken-1">Asia</a></li>
-          <li><a href="#" class="pink-text">Oceania</a></li>
-          <li><a href="#">Other</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li><a href="#">North America</a></li>
-          <li><a href="#">South America</a></li>
-          <li><a href="#">Europe</a></li>
-          <li><a href="#">Africa</a></li>
-          <li><a href="#">Asia</a></li>
-          <li><a href="#">Oceania</a></li>
-          <li><a href="#">Other</a></li>
-        </ul>
+      <div class="head-container grey lighten-1">
+        <div class="row">
+          <a href="#!" data-activates="slide-out" class="button-collapse side-nav-button show-on-large">
+            <i class="material-icons">list</i>
+          </a>
+          <a href="#!" data-activates="continents-buttons" class="button-collapse right">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#" class="deep-orange darken-1 waves-effect waves-light btn-large">
+              North America
+              <img src="assets/icons/northamerica.png" style="height: 80%; vertical-align: middle">
+            </a></li>
+            <li><a href="#" class="yellow accent-4 waves-effect waves-light btn-large">
+              South America
+              <img src="assets/icons/southamerica.png" style="height: 80%; vertical-align: middle">
+            </a></li>
+            <li><a href="#" class="green accent-4 waves-effect waves-light btn-large">
+              Europe
+              <img src="assets/icons/europe.png" style="height: 80%; vertical-align: middle">
+            </a></li>
+            <li><a href="#" class="clicked blue darken-1 waves-effect waves-light btn-large">
+              Africa
+              <img src="assets/icons/africa.png" style="height: 80%; vertical-align: middle">
+            </a></li>
+            <li><a href="#" class="purple darken-1 waves-effect waves-light btn-large">
+              Asia
+              <img src="assets/icons/asia.png" style="height: 80%; vertical-align: middle">
+            </a></li>
+            <li><a href="#" class="pink waves-effect waves-light btn-large">
+              Oceania
+              <img src="assets/icons/oceania.png" style="height: 80%; vertical-align: middle">
+            </a></li>
+            <li><a href="#" class="grey waves-effect waves-light btn-large">Other</a></li>
+          </ul>
+
+          <ul class="side-nav" id="continents-buttons">
+            <li><a href="#" class="deep-orange darken-1 waves-effect waves-light btn-large">North America</a></li>
+            <li><a href="#" class="yellow accent-4 waves-effect waves-light btn-large">South America</a></li>
+            <li><a href="#" class="green accent-4 waves-effect waves-light btn-large">Europe</a></li>
+            <li><a href="#" class="clicked blue darken-1 waves-effect waves-light btn-large">Africa</a></li>
+            <li><a href="#" class="purple darken-1 waves-effect waves-light btn-large">Asia</a></li>
+            <li><a href="#" class="pink waves-effect waves-light btn-large">Oceania</a></li>
+            <li><a href="#" class="grey waves-effect waves-light btn-large">Other</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -51,5 +72,6 @@
 
     </div>
     <script src="scripts/mapestry.js"></script>
+    <script>$(".button-collapse").sideNav()</script>
   </body>
 </html>
