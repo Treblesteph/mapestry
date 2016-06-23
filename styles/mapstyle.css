@@ -1,11 +1,12 @@
 /*
 Colour scheme:
-Red: orangered #FF4500 (North America)
-Yellow: gold #FFD700 (South America)
-Green: mediumseagreen #3CB371 (Europe)
-Blue: dodgerblue #1E90FF (Africa)
-Purple: darkviolet #9400D3 (Asia)
-Pink: deeppink #FF1493 (Oceania)
+Grey: (outline/navbar) grey lighten-2 #e0e0e0
+Red: (North America) deep-orange darken-1 #f4511e
+Yellow: (South America) yellow accent-4 #ffd600
+Green: (Europe) green accent-4 #00c853
+Blue: (Africa) blue darken-1 #1976d2
+Purple: (Asia) purple darken-1 #8e24aa
+Pink: (Oceania) pink #e91e63
 */
 
 .graticule {
@@ -28,38 +29,38 @@ Pink: deeppink #FF1493 (Oceania)
 }
 
 .northamerica {
-  fill: orangered;
-  stroke: lightgrey;
+  fill: #f4511e;
+  stroke: #e0e0e0;
   stroke-width: 1px;
 }
 
 .southamerica {
-  fill: gold;
-  stroke: lightgrey;
+  fill: #ffd600;
+  stroke: #e0e0e0;
   stroke-width: 1px;
 }
 
 .europe {
-  fill: mediumseagreen;
-  stroke: lightgrey;
+  fill: #00c853;
+  stroke: #e0e0e0;
   stroke-width: 1px;
 }
 
 .africa {
-  fill: dodgerblue;
-  stroke: lightgrey;
+  fill: #1976d2;
+  stroke: #e0e0e0;
   stroke-width: 1px;
 }
 
 .asia {
-  fill: darkviolet;
-  stroke: lightgrey;
+  fill: #8e24aa;
+  stroke: #e0e0e0;
   stroke-width: 1px;
 }
 
 .oceania {
-  fill: deeppink;
-  stroke: lightgrey;
+  fill: #e91e63;
+  stroke: #e0e0e0;
   stroke-width: 1px;
 }
 
