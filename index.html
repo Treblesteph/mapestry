@@ -24,53 +24,79 @@
           <a href="#!" data-activates="slide-out" class="button-collapse side-nav-button show-on-large">
             <i class="material-icons">list</i>
           </a>
-          <a href="#!" data-activates="continents-buttons" class="button-collapse right">
+          <a href="#!" data-activates="continents-sidenav" class="button-collapse right">
             <i class="material-icons">menu</i>
           </a>
-          <ul class="right hide-on-med-and-down">
+          <ul class="right hide-on-med-and-down" id="continents-topnav">
             <li><a href="#" class="deep-orange darken-1 waves-effect waves-light btn-large">
-              North America
-              <img src="assets/icons/northamerica.png" style="height: 80%; vertical-align: middle">
+              <span class="button_label">North America</span>
+              <span class="button_icon"><img src="assets/icons/northamerica.png" style="height: 80%; vertical-align: middle"></span>
             </a></li>
             <li><a href="#" class="yellow accent-4 waves-effect waves-light btn-large">
-              South America
-              <img src="assets/icons/southamerica.png" style="height: 80%; vertical-align: middle">
+              <span class="button_label">South America</span>
+              <span class="button_icon"><img src="assets/icons/southamerica.png" style="height: 80%; vertical-align: middle"></span>
             </a></li>
             <li><a href="#" class="green accent-4 waves-effect waves-light btn-large">
-              Europe
-              <img src="assets/icons/europe.png" style="height: 80%; vertical-align: middle">
+              <span class="button_label">Europe</span>
+              <span class="button_icon"><img src="assets/icons/europe.png" style="height: 80%; vertical-align: middle"></span>
             </a></li>
             <li><a href="#" class="clicked blue darken-1 waves-effect waves-light btn-large">
-              Africa
-              <img src="assets/icons/africa.png" style="height: 80%; vertical-align: middle">
+              <span class="button_label">Africa</span>
+              <span class="button_icon"><img src="assets/icons/africa.png" style="height: 80%; vertical-align: middle"></span>
             </a></li>
             <li><a href="#" class="purple darken-1 waves-effect waves-light btn-large">
-              Asia
-              <img src="assets/icons/asia.png" style="height: 80%; vertical-align: middle">
+              <span class="button_label">Asia</span>
+              <span class="button_icon"><img src="assets/icons/asia.png" style="height: 80%; vertical-align: middle"></span>
             </a></li>
             <li><a href="#" class="pink waves-effect waves-light btn-large">
-              Oceania
-              <img src="assets/icons/oceania.png" style="height: 80%; vertical-align: middle">
+              <span class="button_label">Oceania</span>
+              <span class="button_icon"><img src="assets/icons/oceania.png" style="height: 80%; vertical-align: middle"></span>
             </a></li>
             <li><a href="#" class="grey waves-effect waves-light btn-large">Other</a></li>
           </ul>
 
-          <ul class="side-nav" id="continents-buttons">
-            <li><a href="#" class="deep-orange darken-1 waves-effect waves-light btn-large">North America</a></li>
-            <li><a href="#" class="yellow accent-4 waves-effect waves-light btn-large">South America</a></li>
-            <li><a href="#" class="green accent-4 waves-effect waves-light btn-large">Europe</a></li>
-            <li><a href="#" class="clicked blue darken-1 waves-effect waves-light btn-large">Africa</a></li>
-            <li><a href="#" class="purple darken-1 waves-effect waves-light btn-large">Asia</a></li>
-            <li><a href="#" class="pink waves-effect waves-light btn-large">Oceania</a></li>
-            <li><a href="#" class="grey waves-effect waves-light btn-large">Other</a></li>
+          <ul class="side-nav" id="continents-sidenav">
+            <li><a href="#" class="white-text deep-orange darken-1 waves-effect waves-light btn-large">
+              <span class="button_label">North America</span>
+              <span class="button_icon"><img src="assets/icons/northamerica.png" style="height: 80%; vertical-align: middle"></span>
+            </a></li>
+            <li><a href="#" class="white-text yellow accent-4 waves-effect waves-light btn-large">
+              <span class="button_label">South America</span>
+              <span class="button_icon"><img src="assets/icons/southamerica.png" style="height: 80%; vertical-align: middle"></span>
+            </a></li>
+            <li><a href="#" class="white-text green accent-4 waves-effect waves-light btn-large">
+              <span class="button_label">Europe</span>
+              <span class="button_icon"><img src="assets/icons/europe.png" style="height: 80%; vertical-align: middle"></span>
+            </a></li>
+            <li><a href="#" class="clicked white-text blue darken-1 waves-effect waves-light btn-large">
+              <span class="button_label">Africa</span>
+              <span class="button_icon"><img src="assets/icons/africa.png" style="height: 80%; vertical-align: middle"></span>
+            </a></li>
+            <li><a href="#" class="white-text purple darken-1 waves-effect waves-light btn-large">
+              <span class="button_label">Asia</span>
+              <span class="button_icon"><img src="assets/icons/asia.png" style="height: 80%; vertical-align: middle"></span>
+            </a></li>
+            <li><a href="#" class="white-text pink waves-effect waves-light btn-large">
+              <span class="button_label">Oceania</span>
+              <span class="button_icon"><img src="assets/icons/oceania.png" style="height: 80%; vertical-align: middle"></span>
+            </a></li>
+            <li><a href="#" class="white-text grey waves-effect waves-light btn-large">Other</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div id="map-container">
-
-    </div>
+    <div class="row">
+      <div class="col s12 m6" id="map-container"></div>
+      <div class="col s12 m6" id="game-play">
+        <div class="card grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Can you name all the countries of Africa?</span>
+            <p>I am a very simple card. I am good at containing small bits of information.
+               I am convenient because I require little markup to use effectively.</p>
+          </div>
+        </div>
+      </div>
     <script src="scripts/mapestry.js"></script>
     <script>$(".button-collapse").sideNav()</script>
   </body>
