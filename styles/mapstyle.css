@@ -73,12 +73,20 @@ Pink: (Oceania) pink #e91e63
 .africa.SEM { display: none }
 .africa.SAH { display: none }
 
-.btn-large.clicked > img {
+.btn-large.clicked .button_label {
   opacity: 1.0 !important;
 }
 
-.btn-large > img {
+.btn-large .button_label {
   opacity: 0.5;
+}
+
+.btn-large.clicked .button_icon {
+  opacity: 1.0 !important;
+}
+
+.btn-large .button_icon {
+  opacity: 0.6;
 }
 
 #continents-topnav .btn-large {
