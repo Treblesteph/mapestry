@@ -90,16 +90,16 @@ Pink: (Oceania) pink #e91e63
 }
 
 #continents-topnav .btn-large {
-  margin-right: 6px !important;
-  margin-left: 6px !important;
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
+  margin-right: 6px;
+  margin-left: 6px;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 #continents-sidenav .btn-large {
-  margin-top: 25px !important;
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
+  margin-top: 25px;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .side-nav {
