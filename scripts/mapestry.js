@@ -4,9 +4,12 @@ var viewerHeight = $(document).height()
 var width = viewerWidth / 2
 var height = viewerHeight
 
-var svg = d3.select("#map-container").append("svg")
-                                     .attr("width", width)
-                                     .attr("height", height)
+var svg = d3.select("#map-container").append("div")
+                                     .classed("svg-container", true)
+                                     .append("svg")
+                                     .attr("preserveAspectRatio", "xMinYMin meet")
+                                     .attr("viewBox", "0 0 600 800")
+                                     .classed("svg-content-responsive", true)
 
 d3.json("africa.json", function(error, africa) {
   if (error) return console.error(error)
@@ -14,8 +17,8 @@ d3.json("africa.json", function(error, africa) {
   var countries = topojson.feature(africa, africa.objects.continenttest)
 
   var projection = d3.geo.azimuthalEqualArea()
-                         .scale(500)
-                         .translate([width / 2, height / 2])
+                         .scale(350)
+                         .translate([width / 5, height / 4])
 
   var path = d3.geo.path().projection(projection)
 
