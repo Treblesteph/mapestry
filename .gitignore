@@ -1,6 +1,7 @@
 # mapestry
 
 .DS_Store
+.*
 countries.json
 countries_1topo.json
 countries_2.json
