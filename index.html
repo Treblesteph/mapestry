@@ -95,6 +95,14 @@
               <div class="collapsible-header games-header">
                 <span class="game-icons"><img src="assets/icons/games/country.png" style="height: 70%; vertical-align: middle"></span>
                 <span class="game-labels">Can you name all the countries?</span>
+                <span class="game-options">
+                  <a class="tooltipped right" href="#" data-position="top" data-delay="50" data-tooltip="toggle list view" style="height: 100%">
+                    <img src="assets/icons/games/eye.png" style="height: 70%; vertical-align: middle">
+                  </a>
+                  <a class="tooltipped right" href="#" data-position="top" data-delay="50" data-tooltip="toggle timer" style="height: 100%">
+                    <img src="assets/icons/games/timer.png" style="height: 70%; vertical-align: middle">
+                  </a>
+                </span>
               </div>
               <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
             </li>
@@ -153,13 +161,5 @@
     <script src="scripts/mapestry.js"></script>
     <!-- Initialising collapsible side navigation bar. -->
     <script>$(".button-collapse").sideNav()</script>
-    <!-- Initialising accordion function for expandable/collapsible game cards. -->
-    <script>
-      $(document).ready(function(){
-        $('.collapsible').collapsible({
-          accordion : false
-        })
-      })
-    </script>
   </body>
 </html>
