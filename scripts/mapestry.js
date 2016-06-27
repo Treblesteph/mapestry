@@ -24,6 +24,13 @@ var southamericaprojection = d3.geo.azimuthalEqualArea()
                                    .scale(400)
 
 var europeprojection = d3.geo.conicConformal()
+                             .rotate([0, 20])
+                             .center([50, 25])
+                             .parallels([29.5, 45.5])
+                             .scale(450)
+                             .translate([width / 2, height / 2])
+                             .precision(.1)
+
 var africaprojection = d3.geo.azimuthalEqualArea()
                              .scale(350)
                              .translate([width / 5, height / 4])
@@ -71,4 +78,4 @@ function showcontinent(continentname) {
   })
 }
 
-showcontinent("southamerica")
+showcontinent("europe")
