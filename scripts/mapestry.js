@@ -29,7 +29,8 @@ var europeprojection = d3.geo.azimuthalEqualArea()
                              .translate([width / 2, height / 2])
 
 var africaprojection = d3.geo.azimuthalEqualArea()
-                             .scale(350)
+                             .scale(400)
+                             .center([0, 5])
                              .translate([width / 5, height / 4])
 
 var asiaprojection = d3.geo.conicConformal()
@@ -76,4 +77,4 @@ function showcontinent(continentname) {
   })
 }
 
-showcontinent("europe")
+showcontinent("africa")
