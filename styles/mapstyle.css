@@ -48,38 +48,38 @@ Pink: (Oceania) pink #e91e63
 
 .northamerica {
   fill: #f4511e;
-  stroke: #e0e0e0;
-  stroke-width: 1px;
+  stroke: black;
+  stroke-width: 0.7px;
 }
 
 .southamerica {
   fill: #ffd600;
-  stroke: #e0e0e0;
-  stroke-width: 1px;
+  stroke: black;
+  stroke-width: 0.7px;
 }
 
 .europe {
   fill: #00c853;
-  stroke: #e0e0e0;
-  stroke-width: 1px;
+  stroke: black;
+  stroke-width: 0.7px;
 }
 
 .africa {
   fill: #1976d2;
-  stroke: #e0e0e0;
-  stroke-width: 1px;
+  stroke: black;
+  stroke-width: 0.7px;
 }
 
 .asia {
   fill: #8e24aa;
-  stroke: #e0e0e0;
-  stroke-width: 1px;
+  stroke: black;
+  stroke-width: 0.7px;
 }
 
 .oceania {
   fill: #e91e63;
-  stroke: #e0e0e0;
-  stroke-width: 1px;
+  stroke: black;
+  stroke-width: 0.7px;
 }
 
 .africa.ESC { display: none }
