@@ -18,6 +18,7 @@ var northamericaprojection = d3.geo.conicConformal()
                                    .scale(350)
                                    .translate([width / 2, height / 2])
                                    .precision(.1)
+
 var southamericaprojection = d3.geo.azimuthalEqualArea()
 var europeprojection = d3.geo.conicConformal()
 var africaprojection = d3.geo.azimuthalEqualArea()
@@ -58,10 +59,6 @@ function showcontinent(continentname) {
     }
 
     var path = d3.geo.path().projection(projection)
-
-    svg.append("path")
-       .datum(countries)
-       .attr("d", path)
 
     console.log(svg.selectAll(".subunit")
            .data(topojson.feature(continent, continent.objects[geofilename]).features)
