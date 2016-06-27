@@ -1,5 +1,6 @@
 # mapestry
 
+.DS_Store
 **/.DS_Store
 .*
 countries.json
@@ -11,3 +12,4 @@ uk.json
 un_country_codes.tsv
 un_country_codes_fixed.tsv
 world-country-names.tsv
+old_unused
