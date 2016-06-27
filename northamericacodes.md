@@ -1,4 +1,4 @@
-# Africa Codes from ne_10m_admin_0_map_subunits
+# North America Codes from ne_10m_admin_0_map_subunits
 
 ## Not sovereign states
 
