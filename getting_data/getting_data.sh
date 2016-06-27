@@ -9,37 +9,37 @@ unzip ne_10m_admin_0_map_subunits.zip
 ogr2ogr \
   -f GeoJSON \
   -where "continent = 'North America'" \
-  continentNorthAmerica.json \
+  continentnorthamerica.json \
   ne_10m_admin_0_map_subunits/ne_10m_admin_0_map_subunits.shp
 
 ogr2ogr \
   -f GeoJSON \
   -where "continent = 'South America'" \
-  continentSouthAmerica.json \
+  continentsouthamerica.json \
   ne_10m_admin_0_map_subunits/ne_10m_admin_0_map_subunits.shp
 
 ogr2ogr \
   -f GeoJSON \
   -where "continent = 'Europe'" \
-  continentEurope.json \
+  continenteurope.json \
   ne_10m_admin_0_map_subunits/ne_10m_admin_0_map_subunits.shp
 
 ogr2ogr \
   -f GeoJSON \
   -where "continent = 'Africa'" \
-  continentAfrica.json \
+  continentafrica.json \
   ne_10m_admin_0_map_subunits/ne_10m_admin_0_map_subunits.shp
 
 ogr2ogr \
   -f GeoJSON \
   -where "continent = 'Asia'" \
-  continentAsia.json \
+  continentasia.json \
   ne_10m_admin_0_map_subunits/ne_10m_admin_0_map_subunits.shp
 
 ogr2ogr \
   -f GeoJSON \
   -where "continent = 'Oceania'" \
-  continentOceania.json \
+  continentoceania.json \
   ne_10m_admin_0_map_subunits/ne_10m_admin_0_map_subunits.shp
 
 # Convert to TopoJSON format
@@ -48,39 +48,39 @@ topojson \
   --id-property SU_A3 \
   --properties name=NAME \
   -- \
-  continentNorthAmerica.json
+  continentnorthamerica.json
 
 topojson \
   -o southamerica.json \
   --id-property SU_A3 \
   --properties name=NAME \
   -- \
-  continentSouthAmerica.json
+  continentsouthamerica.json
 
 topojson \
   -o europe.json \
   --id-property SU_A3 \
   --properties name=NAME \
   -- \
-  continentEurope.json
+  continenteurope.json
 
 topojson \
   -o africa.json \
   --id-property SU_A3 \
   --properties name=NAME \
   -- \
-  continentAfrica.json
+  continentafrica.json
 
 topojson \
   -o asia.json \
   --id-property SU_A3 \
   --properties name=NAME \
   -- \
-  continentAsia.json
+  continentasia.json
 
 topojson \
   -o oceania.json \
   --id-property SU_A3 \
   --properties name=NAME \
   -- \
-  continentOceania.json
+  continentoceania.json
