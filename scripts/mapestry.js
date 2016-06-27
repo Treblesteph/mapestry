@@ -20,6 +20,9 @@ var northamericaprojection = d3.geo.conicConformal()
                                    .precision(.1)
 
 var southamericaprojection = d3.geo.azimuthalEqualArea()
+                                   .center([-25, -15])
+                                   .scale(400)
+
 var europeprojection = d3.geo.conicConformal()
 var africaprojection = d3.geo.azimuthalEqualArea()
                              .scale(350)
@@ -68,4 +71,4 @@ function showcontinent(continentname) {
   })
 }
 
-showcontinent("northamerica")
+showcontinent("southamerica")
