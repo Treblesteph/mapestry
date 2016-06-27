@@ -12,7 +12,7 @@ var svg = d3.select("#map-container").append("div")
                                      .classed("svg-content-responsive", true)
 
 var northamericaprojection = d3.geo.conicConformal()
-                                   .rotate([98, 0])
+                                   .rotate([98, 2])
                                    .center([25, 12])
                                    .parallels([29.5, 45.5])
                                    .scale(350)
