@@ -82,15 +82,6 @@ Pink: (Oceania) pink #e91e63
   stroke-width: 0.7px;
 }
 
-.africa.ESC { display: none }
-.africa.EUI { display: none }
-.africa.JUI { display: none }
-.africa.MYT { display: none }
-.africa.PMD { display: none }
-.africa.SEC { display: none }
-.africa.SEM { display: none }
-.africa.SAH { display: none }
-
 .northamerica.ABW { display: none }
 .northamerica.AIA { display: none }
 .northamerica.BLM { display: none }
@@ -105,6 +96,18 @@ Pink: (Oceania) pink #e91e63
 .northamerica.SXM { display: none }
 .northamerica.TCA { display: none }
 .northamerica.VGB { display: none }
+
+.southamerica.FLK { display: none }
+.southamerica.GUF { display: none }
+
+.africa.ESC { display: none }
+.africa.EUI { display: none }
+.africa.JUI { display: none }
+.africa.MYT { display: none }
+.africa.PMD { display: none }
+.africa.SEC { display: none }
+.africa.SEM { display: none }
+.africa.SAH { display: none }
 
 .btn-large.clicked .button_label {
   opacity: 1.0 !important;
