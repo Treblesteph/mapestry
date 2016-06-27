@@ -13,9 +13,9 @@ var svg = d3.select("#map-container").append("div")
 
 var northamericaprojection = d3.geo.conicConformal()
                                    .rotate([98, 0])
-                                   .center([0, 38])
+                                   .center([25, 12])
                                    .parallels([29.5, 45.5])
-                                   .scale(1000)
+                                   .scale(350)
                                    .translate([width / 2, height / 2])
                                    .precision(.1)
 var southamericaprojection = d3.geo.azimuthalEqualArea()
@@ -43,6 +43,20 @@ function showcontinent(continentname) {
                            .translate([width / 2, height / 2])
                            .precision(.1)
 
+    if (continentname === "northamerica") {
+      projection = northamericaprojection
+    } else if (continentname === "southamerica") {
+      projection = southamericaprojection
+    } else if (continentname === "europe") {
+      projection = europeprojection
+    } else if (continentname === "africa") {
+      projection = africaprojection
+    } else if (continentname === "asia") {
+      projection = asiaprojection
+    } else if (continentname === "oceania") {
+      projection = oceaniaprojection
+    }
+
     var path = d3.geo.path().projection(projection)
 
     svg.append("path")
@@ -57,4 +71,4 @@ function showcontinent(continentname) {
   })
 }
 
-showcontinent("southamerica")
+showcontinent("northamerica")
