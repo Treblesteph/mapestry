@@ -4,12 +4,12 @@ var viewerHeight = $(document).height()
 var width = viewerWidth / 2
 var height = viewerHeight
 
-var svg = d3.select("#map-container").append("div")
-                                     .classed("svg-container", true)
-                                     .append("svg")
-                                     .attr("preserveAspectRatio", "xMinYMin meet")
-                                     .attr("viewBox", "0 0 600 800")
-                                     .classed("svg-content-responsive", true)
+var svg = d3.select('#map-container').append('div')
+                                     .classed('svg-container', true)
+                                     .append('svg')
+                                     .attr('preserveAspectRatio', 'xMinYMin meet')
+                                     .attr('viewBox', '0 0 600 800')
+                                     .classed('svg-content-responsive', true)
 
 var northamericaprojection = d3.geo.conicConformal()
                                    .rotate([98, 2])
@@ -50,44 +50,44 @@ var oceaniaprojection = d3.geo.conicConformal()
 
 // Open continent map (and toggle clicked class) on click of continent button
 
-document.getElementById("northamerica").onclick = function() {
-  showcontinent("northamerica")
-  toggleclicked("northamerica")
+document.getElementById('northamerica').onclick = function() {
+  showcontinent('northamerica')
+  toggleclicked('northamerica')
 }
 
-document.getElementById("southamerica").onclick = function() {
-  showcontinent("southamerica")
-  toggleclicked("southamerica")
+document.getElementById('southamerica').onclick = function() {
+  showcontinent('southamerica')
+  toggleclicked('southamerica')
 }
 
-document.getElementById("europe").onclick = function() {
-  showcontinent("europe")
-  toggleclicked("europe")
+document.getElementById('europe').onclick = function() {
+  showcontinent('europe')
+  toggleclicked('europe')
 }
 
-document.getElementById("africa").onclick = function() {
-  showcontinent("africa")
-  toggleclicked("africa")
+document.getElementById('africa').onclick = function() {
+  showcontinent('africa')
+  toggleclicked('africa')
 }
 
-document.getElementById("asia").onclick = function() {
-  showcontinent("asia")
-  toggleclicked("asia")
+document.getElementById('asia').onclick = function() {
+  showcontinent('asia')
+  toggleclicked('asia')
 }
 
-document.getElementById("oceania").onclick = function() {
-  showcontinent("oceania")
-  toggleclicked("oceania")
+document.getElementById('oceania').onclick = function() {
+  showcontinent('oceania')
+  toggleclicked('oceania')
 }
 
 function showcontinent(continentname) {
-  svg.selectAll("*").remove()
-  
-  var filename = continentname + ".json"
+  svg.selectAll('*').remove()
+
+  var filename = continentname + '.json'
   d3.json(filename, function(error, continent) {
     if (error) return console.error(error)
 
-    var geofilename = "continent" + continentname
+    var geofilename = 'continent' + continentname
     var countries = topojson.feature(continent, continent.objects[geofilename])
 
     var projection = d3.geo.robinson()
@@ -95,30 +95,31 @@ function showcontinent(continentname) {
                            .translate([width / 2, height / 2])
                            .precision(.1)
 
-    if (continentname === "northamerica") {
+    if (continentname === 'northamerica') {
       projection = northamericaprojection
-    } else if (continentname === "southamerica") {
+    } else if (continentname === 'southamerica') {
       projection = southamericaprojection
-    } else if (continentname === "europe") {
+    } else if (continentname === 'europe') {
       projection = europeprojection
-    } else if (continentname === "africa") {
+    } else if (continentname === 'africa') {
       projection = africaprojection
-    } else if (continentname === "asia") {
+    } else if (continentname === 'asia') {
       projection = asiaprojection
-    } else if (continentname === "oceania") {
+    } else if (continentname === 'oceania') {
       projection = oceaniaprojection
     }
 
     var path = d3.geo.path().projection(projection)
 
-    console.log(svg.selectAll(".subunit")
+    console.log(svg.selectAll('.subunit')
            .data(topojson.feature(continent, continent.objects[geofilename]).features)
-           .enter().append("path")
-           .attr("class", function(d) { return continentname + " " + d.id; })
-           .attr("d", path))
+           .enter().append('path')
+           .attr('class', function(d) { return continentname + ' ' + d.id; })
+           .attr('d', path))
   })
 }
 
 function toggleclicked(id) {
-
+  var selector = '#' + id
+  $(selector).toggleClass('clicked')
 }
