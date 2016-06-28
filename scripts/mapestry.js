@@ -150,13 +150,19 @@ function showcontinent(continentname) {
 }
 
 function toggleclicked(id) {
-  var idselector = '#' + id
+
+  // Getting rid of id number (for topnav/sidebar button) and adding id # selector
+  var idselector1 = '#' + id.slice(0, -1) + '1'
+  var idselector2 = '#' + id.slice(0, -1) + '2'
 
   // Remove clicked from other buttons
   $('.clicked').toggleClass('clicked')
 
-  // Add clicked to this button if it doesn't already have it on
-  if (!($(idselector).hasClass('clicked'))) {
-    $(idselector).toggleClass('clicked')
+  // Add clicked to this button (both topnav and sidebar) if they don't already have it on
+  if (!($(idselector1).hasClass('clicked'))) {
+    $(idselector1).toggleClass('clicked')
+  }
+  if (!($(idselector2).hasClass('clicked'))) {
+    $(idselector2).toggleClass('clicked')
   }
 }
