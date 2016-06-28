@@ -40,11 +40,13 @@ var asiaprojection =  d3.geo.patterson()
                             .precision(.1);
 
 
-var oceaniaprojection = d3.geo.orthographic()
-    // .scale(475)
-    // .translate([width / 2, height / 2])
-    // .clipAngle(90)
-    // .precision(.1)
+var oceaniaprojection = d3.geo.conicConformal()
+                              .rotate([-132, 0])
+                              .center([105, -42])
+                              .parallels([-18, -36])
+                              .scale(300)
+                              .translate([width / 2, height / 2])
+                              .precision(0.1);
 
 function showcontinent(continentname) {
   var filename = continentname + ".json"
@@ -83,4 +85,4 @@ function showcontinent(continentname) {
   })
 }
 
-showcontinent("asia")
+showcontinent("oceania")
