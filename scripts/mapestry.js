@@ -50,32 +50,61 @@ var oceaniaprojection = d3.geo.conicConformal()
 
 // Open continent map (and toggle clicked class) on click of continent button
 
-document.getElementById('northamerica').onclick = function() {
+document.getElementById('northamerica1').onclick = function() {
   showcontinent('northamerica')
   toggleclicked('northamerica')
 }
 
-document.getElementById('southamerica').onclick = function() {
+document.getElementById('northamerica2').onclick = function() {
+  showcontinent('northamerica')
+  toggleclicked('northamerica')
+}
+
+document.getElementById('southamerica1').onclick = function() {
   showcontinent('southamerica')
   toggleclicked('southamerica')
 }
 
-document.getElementById('europe').onclick = function() {
+document.getElementById('southamerica2').onclick = function() {
+  showcontinent('southamerica')
+  toggleclicked('southamerica')
+}
+
+document.getElementById('europe1').onclick = function() {
   showcontinent('europe')
   toggleclicked('europe')
 }
 
-document.getElementById('africa').onclick = function() {
+document.getElementById('europe2').onclick = function() {
+  showcontinent('europe')
+  toggleclicked('europe')
+}
+
+document.getElementById('africa1').onclick = function() {
   showcontinent('africa')
   toggleclicked('africa')
 }
 
-document.getElementById('asia').onclick = function() {
+document.getElementById('africa2').onclick = function() {
+  showcontinent('africa')
+  toggleclicked('africa')
+}
+
+document.getElementById('asia1').onclick = function() {
   showcontinent('asia')
   toggleclicked('asia')
 }
 
-document.getElementById('oceania').onclick = function() {
+document.getElementById('asia2').onclick = function() {
+  showcontinent('asia')
+  toggleclicked('asia')
+
+document.getElementById('oceania1').onclick = function() {
+  showcontinent('oceania')
+  toggleclicked('oceania')
+}
+
+document.getElementById('oceania2').onclick = function() {
   showcontinent('oceania')
   toggleclicked('oceania')
 }
