@@ -109,6 +109,15 @@ Pink: (Oceania) pink #e91e63
 .africa.SEM { display: none }
 .africa.SAH { display: none }
 
+.asia.CCK { display: none }
+.asia.CNM { display: none }
+.asia.CXR { display: none }
+.asia.CYN { display: none }
+.asia.CYP { display: none }
+.asia.ESB { display: none }
+.asia.SYU { display: none }
+.asia.WSB { display: none }
+
 .btn-large.clicked .button_label {
   opacity: 1.0 !important;
 }
