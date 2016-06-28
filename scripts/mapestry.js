@@ -48,6 +48,38 @@ var oceaniaprojection = d3.geo.conicConformal()
                               .translate([width / 2, height / 2])
                               .precision(0.1);
 
+// Open continent map (and toggle clicked class) on click of continent button
+
+document.getElementById("northamerica").onclick = function() {
+  showcontinent("northamerica")
+  toggleclicked("northamerica")
+}
+
+document.getElementById("southamerica").onclick = function() {
+  showcontinent("southamerica")
+  toggleclicked("southamerica")
+}
+
+document.getElementById("europe").onclick = function() {
+  showcontinent("europe")
+  toggleclicked("europe")
+}
+
+document.getElementById("africa").onclick = function() {
+  showcontinent("africa")
+  toggleclicked("africa")
+}
+
+document.getElementById("asia").onclick = function() {
+  showcontinent("asia")
+  toggleclicked("asia")
+}
+
+document.getElementById("oceania").onclick = function() {
+  showcontinent("oceania")
+  toggleclicked("oceania")
+}
+
 function showcontinent(continentname) {
   var filename = continentname + ".json"
   d3.json(filename, function(error, continent) {
@@ -84,5 +116,3 @@ function showcontinent(continentname) {
            .attr("d", path))
   })
 }
-
-showcontinent("oceania")
