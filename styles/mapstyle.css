@@ -194,5 +194,6 @@ Pink: (Oceania) pink #e91e63
 }
 
 .game-options img {
-  opacity: 0.2;
+  opacity: 0.4;
+  padding-top: 1rem;
 }
