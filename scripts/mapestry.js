@@ -81,6 +81,8 @@ document.getElementById("oceania").onclick = function() {
 }
 
 function showcontinent(continentname) {
+  svg.selectAll("*").remove()
+  
   var filename = continentname + ".json"
   d3.json(filename, function(error, continent) {
     if (error) return console.error(error)
@@ -115,4 +117,8 @@ function showcontinent(continentname) {
            .attr("class", function(d) { return continentname + " " + d.id; })
            .attr("d", path))
   })
+}
+
+function toggleclicked(id) {
+
 }
