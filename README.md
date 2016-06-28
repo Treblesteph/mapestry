@@ -1,3 +1,5 @@
+![mapestrylogo](https://raw.githubusercontent.com/Treblesteph/mapestry/gh-pages/assets/logos/mapestry.png)
+
 # Mapestry
 
 Map game with simple UI
