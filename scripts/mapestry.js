@@ -52,62 +52,62 @@ var oceaniaprojection = d3.geo.conicConformal()
 
 document.getElementById('northamerica1').onclick = function() {
   showcontinent('northamerica')
-  toggleclicked('northamerica')
+  toggleclicked('northamerica1')
 }
 
 document.getElementById('northamerica2').onclick = function() {
   showcontinent('northamerica')
-  toggleclicked('northamerica')
+  toggleclicked('northamerica2')
 }
 
 document.getElementById('southamerica1').onclick = function() {
   showcontinent('southamerica')
-  toggleclicked('southamerica')
+  toggleclicked('southamerica1')
 }
 
 document.getElementById('southamerica2').onclick = function() {
   showcontinent('southamerica')
-  toggleclicked('southamerica')
+  toggleclicked('southamerica2')
 }
 
 document.getElementById('europe1').onclick = function() {
   showcontinent('europe')
-  toggleclicked('europe')
+  toggleclicked('europe1')
 }
 
 document.getElementById('europe2').onclick = function() {
   showcontinent('europe')
-  toggleclicked('europe')
+  toggleclicked('europe2')
 }
 
 document.getElementById('africa1').onclick = function() {
   showcontinent('africa')
-  toggleclicked('africa')
+  toggleclicked('africa1')
 }
 
 document.getElementById('africa2').onclick = function() {
   showcontinent('africa')
-  toggleclicked('africa')
+  toggleclicked('africa2')
 }
 
 document.getElementById('asia1').onclick = function() {
   showcontinent('asia')
-  toggleclicked('asia')
+  toggleclicked('asia1')
 }
 
 document.getElementById('asia2').onclick = function() {
   showcontinent('asia')
-  toggleclicked('asia')
+  toggleclicked('asia2')
 }
 
 document.getElementById('oceania1').onclick = function() {
   showcontinent('oceania')
-  toggleclicked('oceania')
+  toggleclicked('oceania1')
 }
 
 document.getElementById('oceania2').onclick = function() {
   showcontinent('oceania')
-  toggleclicked('oceania')
+  toggleclicked('oceania2')
 }
 
 function showcontinent(continentname) {
