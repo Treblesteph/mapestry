@@ -98,6 +98,7 @@ document.getElementById('asia1').onclick = function() {
 document.getElementById('asia2').onclick = function() {
   showcontinent('asia')
   toggleclicked('asia')
+}
 
 document.getElementById('oceania1').onclick = function() {
   showcontinent('oceania')
