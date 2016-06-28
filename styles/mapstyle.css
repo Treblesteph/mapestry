@@ -168,12 +168,17 @@ Pink: (Oceania) pink #e91e63
 }
 
 #game-play {
+  height: 30rem;
   border-radius: 2px;
   padding-top: 0.04rem;
   margin-top: 3rem;
   padding-bottom: 0.1rem;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+#game-play > h3 {
+  padding-left: 1rem;
 }
 
 .games-header {
@@ -186,8 +191,4 @@ Pink: (Oceania) pink #e91e63
 
 .game-options > a {
   padding-right: 0.85rem;
-}
-
-.game-options {
-  opacity: 10%;
 }
