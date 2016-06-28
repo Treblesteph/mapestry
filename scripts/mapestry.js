@@ -33,7 +33,13 @@ var africaprojection = d3.geo.azimuthalEqualArea()
                              .center([0, 5])
                              .translate([width / 5, height / 4])
 
-var asiaprojection = d3.geo.conicConformal()
+var asiaprojection =  d3.geo.patterson()
+                        	  .center([22,94])
+                            .scale(210)
+                            .translate([0,0])
+                            .precision(.1);
+
+
 var oceaniaprojection = d3.geo.orthographic()
     // .scale(475)
     // .translate([width / 2, height / 2])
@@ -77,4 +83,4 @@ function showcontinent(continentname) {
   })
 }
 
-showcontinent("africa")
+showcontinent("asia")
