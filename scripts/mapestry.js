@@ -120,6 +120,13 @@ function showcontinent(continentname) {
 }
 
 function toggleclicked(id) {
-  var selector = '#' + id
-  $(selector).toggleClass('clicked')
+  var idselector = '#' + id
+
+  // Remove clicked from other buttons
+  $('.clicked').toggleClass('clicked')
+
+  // Add clicked to this button if it doesn't already have it on
+  if (!($(idselector).hasClass('clicked'))) {
+    $(idselector).toggleClass('clicked')
+  }
 }
