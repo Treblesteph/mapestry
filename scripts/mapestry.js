@@ -118,7 +118,18 @@ function showcontinent(continentname) {
     if (error) return console.error(error)
 
     var geofilename = 'continent' + continentname
-    var countries = topojson.feature(continent, continent.objects[geofilename])
+
+    // Making a hash of country ISO and name string.
+    var countries_data = topojson.feature(continent, continent.objects[geofilename])
+    var countries = {}
+
+    countries_data["features"].forEach(function(d) {
+      var thisISO = d.id
+      var thisname = d.properties.name
+      countries[thisISO] = thisname
+    })
+
+    console.log(countries)
 
     var projection = d3.geo.robinson()
                            .scale(150)
