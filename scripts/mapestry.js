@@ -121,15 +121,16 @@ function showcontinent(continentname) {
 
     // Making a hash of country ISO and name string.
     var countries_data = topojson.feature(continent, continent.objects[geofilename])
-    var countries = {}
+    var all_answers = {}
 
     countries_data["features"].forEach(function(d) {
-      var thisISO = d.id
-      var thisname = d.properties.name
-      countries[thisISO] = thisname
+      var iso = d.id
+      all_answers[iso] = {}
+      var country = d.properties.name
+      all_answers[iso].country = country
     })
 
-    console.log(countries)
+    console.log(all_answers)
 
     var projection = d3.geo.robinson()
                            .scale(150)
@@ -152,11 +153,11 @@ function showcontinent(continentname) {
 
     var path = d3.geo.path().projection(projection)
 
-    console.log(svg.selectAll('.subunit')
-           .data(topojson.feature(continent, continent.objects[geofilename]).features)
-           .enter().append('path')
-           .attr('class', function(d) { return continentname + ' ' + d.id; })
-           .attr('d', path))
+    svg.selectAll('.subunit')
+       .data(topojson.feature(continent, continent.objects[geofilename]).features)
+       .enter().append('path')
+       .attr('class', function(d) { return continentname + ' ' + d.id; })
+       .attr('d', path)
   })
 }
 
