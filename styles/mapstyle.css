@@ -46,6 +46,11 @@ Pink: (Oceania) pink #e91e63
   stroke-linejoin: round;
 }
 
+.country:hover{
+  fill-opacity: 0.7;
+  cursor: pointer;
+}
+
 .northamerica {
   fill: #f4511e;
   stroke: black;
