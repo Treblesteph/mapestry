@@ -202,3 +202,7 @@ Pink: (Oceania) pink #e91e63
   opacity: 0.4;
   padding-top: 1rem;
 }
+
+#game-play .collapsible-body {
+  background-color: white;
+}
