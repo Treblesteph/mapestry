@@ -150,6 +150,34 @@ Pink: (Oceania) pink #e91e63
   opacity: 0.6;
 }
 
+#list_countries_buttons .btn-large {
+  background-color: lightgrey;
+}
+#list_countries_buttons.northamerica .btn-large {
+  background-color: #f4511e;
+}
+#list_countries_buttons.southamerica .btn-large {
+  background-color: #ffd600;
+}
+#list_countries_buttons.europe .btn-large {
+  background-color: #00c853;
+}
+#list_countries_buttons.africa .btn-large {
+  background-color: #1976d2;
+}
+#list_countries_buttons.asia .btn-large {
+  background-color: #8e24aa;
+}
+#list_countries_buttons.oceania .btn-large {
+  background-color: #e91e63;
+}
+
+#list_countries_buttons {
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+
+
 .brand-logo {
   font-family: 'Petit Formal Script', cursive;
   padding-left: 3rem !important;
