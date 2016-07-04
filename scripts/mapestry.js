@@ -6,13 +6,19 @@ var height = viewerHeight
 
 var sec = 0
 
-var timer = setInterval(function () {
-    document.getElementById("seconds").innerHTML = ++sec
-}, 1000);
+document.getElementById('play-countries-list').onclick = function() {
+  startTimer()
+}
 
-setTimeout(function () {
-    clearInterval(timer);
-}, 1100000);
+function startTimer() {
+  var timer = setInterval(function () {
+      document.getElementById("seconds").innerHTML = ++sec
+  }, 1000)
+
+  setTimeout(function () {
+      clearInterval(timer)
+  }, 11000000)
+}
 
 var svg = d3.select('#map-container').append('div')
                                      .classed('svg-container', true)
