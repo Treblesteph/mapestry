@@ -48,6 +48,8 @@ var oceaniaprojection = d3.geo.conicConformal()
                               .translate([width / 2, height / 2])
                               .precision(0.1);
 
+var currentMap = 'world'
+
 // Open continent map (and toggle clicked class) on click of continent button
 
 document.getElementById('northamerica1').onclick = function() {
@@ -111,6 +113,8 @@ document.getElementById('oceania2').onclick = function() {
 }
 
 function showcontinent(continentname) {
+  $("#list_countries_buttons").removeClass(['northamerica', 'southamerica', 'europe', 'africa', 'asia', 'oceania']).addClass(continentname)
+  currentMap = continentname
   svg.selectAll('*').remove()
 
   var filename = continentname + '.json'
