@@ -199,6 +199,9 @@ Pink: (Oceania) pink #e91e63
   padding-bottom: 1rem;
 }
 
+#list-countries-buttons > a, #list-countries-buttons > span {
+  margin-right: 1rem;
+}
 
 .brand-logo {
   font-family: 'Petit Formal Script', cursive;
