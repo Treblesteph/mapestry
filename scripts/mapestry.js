@@ -4,6 +4,16 @@ var viewerHeight = $(document).height()
 var width = viewerWidth / 2
 var height = viewerHeight
 
+var sec = 0
+
+var timer = setInterval(function () {
+    document.getElementById("seconds").innerHTML = ++sec
+}, 1000);
+
+setTimeout(function () {
+    clearInterval(timer);
+}, 1100000);
+
 var svg = d3.select('#map-container').append('div')
                                      .classed('svg-container', true)
                                      .append('svg')
@@ -113,7 +123,7 @@ document.getElementById('oceania2').onclick = function() {
 }
 
 function showcontinent(continentname) {
-  $("#list_countries_buttons").removeClass(['northamerica', 'southamerica', 'europe', 'africa', 'asia', 'oceania']).addClass(continentname)
+  $("#list-countries-buttons").removeClass(['northamerica', 'southamerica', 'europe', 'africa', 'asia', 'oceania']).addClass(continentname)
   currentMap = continentname
   svg.selectAll('*').remove()
 
