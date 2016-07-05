@@ -12,7 +12,7 @@ document.getElementById('play-countries-list').onclick = function() {
 
 function startTimer() {
   var timer = setInterval(function () {
-      document.getElementById("seconds").innerHTML = ++sec
+      document.getElementById('seconds').innerHTML = ++sec
   }, 1000)
 
   setTimeout(function () {
