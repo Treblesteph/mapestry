@@ -20,6 +20,31 @@ function startTimer() {
   }, 11000000)
 }
 
+// Toggle difficulty and time mode button actions:
+
+document.getElementById('toggle-difficulty').onclick = function() {
+
+}
+
+function toggleDifficultyButton() {
+  if ($('#toggle-difficulty').hasClass('easy')) {
+    $('#toggle-difficulty').removeClass('easy')
+    $('#toggle-difficulty').addClass('medium')
+    $('#easy-icon').addClass('inactive')
+    $('#medium-icon').removeClass('inactive')
+  } else if ($('#toggle-difficulty').hasClass('medium')) {
+    $('#toggle-difficulty').removeClass('medium')
+    $('#toggle-difficulty').addClass('hard')
+    $('#medium-icon').addClass('inactive')
+    $('#hard-icon').removeClass('inactive')
+  }  else if ($('#toggle-difficulty').hasClass('hard')) {
+    $('#toggle-difficulty').removeClass('hard')
+    $('#toggle-difficulty').addClass('easy')
+    $('#hard-icon').addClass('inactive')
+    $('#easy-icon').removeClass('inactive')
+  }
+}
+
 var svg = d3.select('#map-container').append('div')
                                      .classed('svg-container', true)
                                      .append('svg')
