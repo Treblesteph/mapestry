@@ -106,12 +106,17 @@
                 <span class="game-labels">Country</span>
               </div>
               <div class="collapsible-body">
-                <p class="flow-text">Click on the countries as they come up below, or click skip and come back to them at the end</p>
-                <div id="list-countries-buttons" class="valign-wrapper">
-                  <a id='play-countries-list' class="valign btn-floating btn-large waves-effect waves-light"><i class="material-icons">play_arrow</i></a>
-                  <span class="valign thin "id="seconds">00</span>
-                  <a href="#" class="valign skip-this-item">SKIP</a>
-                  <a href="#" class="valign quit-this-game"><i class="material-icons">clear</i></a>
+                <div id="game-play-visible" class="inactive">
+                  <p class="flow-text">Click on the countries as they come up below, or click skip and come back to them at the end</p>
+                  <div id="list-countries-buttons" class="valign-wrapper">
+                    <a id='play-countries-list' class="valign btn-floating btn-large waves-effect waves-light"><i class="material-icons">play_arrow</i></a>
+                    <span class="valign thin "id="seconds">00</span>
+                    <a href="#" class="valign skip-this-item">SKIP</a>
+                    <a href="#" class="valign quit-this-game"><i class="material-icons">clear</i></a>
+                  </div>
+                </div>
+                <div id="game-play-hidden">
+                  <p class="flow-text"> Choose a continent from the buttons above to start playing!</p>
                 </div>
               </div>
             </li>
