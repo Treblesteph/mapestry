@@ -263,3 +263,7 @@ Pink: (Oceania) pink #e91e63
 #seconds {
   font-size: 2rem;
 }
+
+.inactive {
+  display: none;
+}
