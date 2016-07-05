@@ -23,7 +23,7 @@ function startTimer() {
 // Toggle difficulty and time mode button actions:
 
 document.getElementById('toggle-difficulty').onclick = function() {
-
+  toggleDifficultyButton()
 }
 
 function toggleDifficultyButton() {
