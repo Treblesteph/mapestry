@@ -6,18 +6,51 @@ var height = viewerHeight
 
 var sec = 0
 
-document.getElementById('play-countries-list').onclick = function() {
-  startTimer()
-}
+document.getElementById('countries-list').onclick = startPauseTimer
 
-function startTimer() {
-  var timer = setInterval(function () {
-      document.getElementById('seconds').innerHTML = ++sec
-  }, 1000)
+var timer = null
 
-  setTimeout(function () {
-      clearInterval(timer)
-  }, 11000000)
+function startPauseTimer() {
+  // function that updates the timer with elapsed seconds
+  // accounting for any pause time
+  var timerFn = function () {
+    if (!timer || !timer.started) return
+    var now = new Date().getTime()
+    var elapsed = (now - timer.started) / 1000 + timer.lastpause
+    $('#seconds').html('' + Math.floor(elapsed, 0))
+  }
+
+  // If the button is showing a play symbol:
+  if ($('#countries-list > i').html() === 'play_arrow') {
+    if (!timer) {
+      // create the timer and start it
+      timer = {
+        state: 'running',
+        started: new Date().getTime(),
+        lastpause: 0,
+        interval: window.setInterval(timerFn, 200)
+      }
+    } else if (timer.state === 'paused') {
+      // the timer paused - restart it
+      timer.interval = window.setInterval(timerFn, 200)
+      timer.state = 'running'
+      timer.started = new Date().getTime()
+    }
+    $('#countries-list > i').html('pause')
+  } else {
+    // pause the timer
+
+    // stop the interval loop
+    window.clearInterval(timer.interval)
+
+    // save the pause time
+    var now = new Date().getTime()
+    var elapsed = (now - timer.started) / 1000 + timer.lastpause
+    timer.lastpause = elapsed
+
+    timer.state = 'paused'
+    $('#countries-list > i').html('play_arrow')
+  }
 }
 
 // Toggle difficulty and time mode button actions:
