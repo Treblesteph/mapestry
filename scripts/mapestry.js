@@ -129,13 +129,16 @@ document.getElementById('oceania2').onclick = function() {
 }
 
 function showcontinent(continentname) {
-  $("#list-countries-buttons").removeClass('northamerica')
-  $("#list-countries-buttons").removeClass('southamerica')
-  $("#list-countries-buttons").removeClass('europe')
-  $("#list-countries-buttons").removeClass('africa')
-  $("#list-countries-buttons").removeClass('asia')
-  $("#list-countries-buttons").removeClass('oceania')
-  $("#list-countries-buttons").addClass(continentname)
+  $('#game-play-visible').removeClass('inactive')
+  $('#game-play-hidden').addClass('inactive')
+
+  $('#list-countries-buttons').removeClass('northamerica')
+  $('#list-countries-buttons').removeClass('southamerica')
+  $('#list-countries-buttons').removeClass('europe')
+  $('#list-countries-buttons').removeClass('africa')
+  $('#list-countries-buttons').removeClass('asia')
+  $('#list-countries-buttons').removeClass('oceania')
+  $('#list-countries-buttons').addClass(continentname)
   currentMap = continentname
   svg.selectAll('*').remove()
 
