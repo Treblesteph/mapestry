@@ -132,13 +132,13 @@ function showcontinent(continentname) {
   $('#game-play-visible').removeClass('inactive')
   $('#game-play-hidden').addClass('inactive')
 
-  $('#list-countries-buttons').removeClass('northamerica')
-  $('#list-countries-buttons').removeClass('southamerica')
-  $('#list-countries-buttons').removeClass('europe')
-  $('#list-countries-buttons').removeClass('africa')
-  $('#list-countries-buttons').removeClass('asia')
-  $('#list-countries-buttons').removeClass('oceania')
-  $('#list-countries-buttons').addClass(continentname)
+  $('.in-game-options').removeClass('northamerica')
+  $('.in-game-options').removeClass('southamerica')
+  $('.in-game-options').removeClass('europe')
+  $('.in-game-options').removeClass('africa')
+  $('.in-game-options').removeClass('asia')
+  $('.in-game-options').removeClass('oceania')
+  $('.in-game-options').addClass(continentname)
   currentMap = continentname
   svg.selectAll('*').remove()
 

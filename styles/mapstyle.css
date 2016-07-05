@@ -150,48 +150,48 @@ Pink: (Oceania) pink #e91e63
   opacity: 0.6;
 }
 
-#list-countries-buttons .btn-large {
+.in-game-options .btn-large {
   background-color: lightgrey;
 }
-#list-countries-buttons.northamerica .btn-large {
+.in-game-options.northamerica .btn-large {
   background-color: #f4511e;
 }
-#list-countries-buttons.southamerica .btn-large {
+.in-game-options.southamerica .btn-large {
   background-color: #ffd600;
 }
-#list-countries-buttons.europe .btn-large {
+.in-game-options.europe .btn-large {
   background-color: #00c853;
 }
-#list-countries-buttons.africa .btn-large {
+.in-game-options.africa .btn-large {
   background-color: #1976d2;
 }
-#list-countries-buttons.asia .btn-large {
+.in-game-options.asia .btn-large {
   background-color: #8e24aa;
 }
-#list-countries-buttons.oceania .btn-large {
+.in-game-options.oceania .btn-large {
   background-color: #e91e63;
 }
 
-#list-countries-buttons.northamerica a {
+.in-game-options.northamerica a {
   color: #f4511e;
 }
-#list-countries-buttons.southamerica a {
+.in-game-options.southamerica a {
   color: #ffd600;
 }
-#list-countries-buttons.europe a {
+.in-game-options.europe a {
   color: #00c853;
 }
-#list-countries-buttons.africa a {
+.in-game-options.africa a {
   color: #1976d2;
 }
-#list-countries-buttons.asia a {
+.in-game-options.asia a {
   color: #8e24aa;
 }
-#list-countries-buttons.oceania a {
+.in-game-options.oceania a {
   color: #e91e63;
 }
 
-#list-countries-buttons {
+.in-game-options {
   height: auto;
   border-radius: 5px;
   border-color: grey;
@@ -199,7 +199,7 @@ Pink: (Oceania) pink #e91e63
   padding-bottom: 1rem;
 }
 
-#list-countries-buttons > a, #list-countries-buttons > span {
+.in-game-options > a, .in-game-options > span {
   margin-right: 1rem;
 }
 
