@@ -23,7 +23,8 @@ function startTimer() {
 // Toggle difficulty and time mode button actions:
 
 document.getElementById('toggle-difficulty').onclick = function() {
-  toggleDifficultyButton()
+  var currentdifficulty = toggleDifficultyButton()
+  changeDifficultyMode(currentdifficulty)
 }
 
 function toggleDifficultyButton() {
@@ -32,17 +33,27 @@ function toggleDifficultyButton() {
     $('#toggle-difficulty').addClass('medium')
     $('#easy-icon').addClass('inactive')
     $('#medium-icon').removeClass('inactive')
+    return 'medium'
   } else if ($('#toggle-difficulty').hasClass('medium')) {
     $('#toggle-difficulty').removeClass('medium')
     $('#toggle-difficulty').addClass('hard')
     $('#medium-icon').addClass('inactive')
     $('#hard-icon').removeClass('inactive')
+    return 'hard'
   }  else if ($('#toggle-difficulty').hasClass('hard')) {
     $('#toggle-difficulty').removeClass('hard')
     $('#toggle-difficulty').addClass('easy')
     $('#hard-icon').addClass('inactive')
     $('#easy-icon').removeClass('inactive')
+    return 'easy'
   }
+}
+
+function changeDifficultyMode(difficulty) {
+  $('.easy.flow-text').addClass('inactive')
+  $('.medium.flow-text').addClass('inactive')
+  $('.hard.flow-text').addClass('inactive')
+  $('.' + difficulty + '.flow-text').removeClass('inactive')
 }
 
 var svg = d3.select('#map-container').append('div')
