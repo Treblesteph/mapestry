@@ -281,7 +281,7 @@
 		"capital": ["Brasília", "Brasilia"],
 		"flag": "../assets/flags/southamerica/BRA.png",
 		"leader": {"type": "president", "name": "Dilma Rousseff"},
-		"dialing": "55",
+		"dialing": "+55",
 		"currency": ["BRL", "Real"],
 		"Language": ["Portuguese"],
 		"timezone": "UTC-2 - UTC-5",
