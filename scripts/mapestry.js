@@ -197,6 +197,61 @@ document.getElementById('oceania2').onclick = function() {
   toggleclicked('oceania2')
 }
 
+function showInGameOptions(game_id, continent) {
+  var game_descriptions = {
+    country: {
+      easy: 'Which of the countries shown below is highlighted on the map to the left?',
+      medium: 'On the map to the left, click on:',
+      hard: 'What is the name of the country highlighted on the map?'
+    },
+    capital: {
+      easy: 'From the options on the map to the left, select the country with the capital city:',
+      medium: 'Which of the capital cities shown below is in the country shown on the map?',
+      hard: 'What is the name of the capital city of the country shown on the map?'
+    },
+    flag: {
+      easy: 'From the four options on the map to the left, select the country which has the flag shown below',
+      medium: 'Select the flag from the four options below that belongs to the country shown on the map',
+      hard: 'Select the flag from the 20 options below that belongs to the country shown on the map'
+    },
+    leader: {
+      easy: 'Which of the following leaders are present in the country shown on the map to the left?',
+      medium: 'From the options on the map to the left, select the country with the <span class="leader-type"></span>:',
+      hard: 'Who is the <span class="leader-type"></span> of the country shown on the map?'
+    },
+    dialing: {
+      easy: 'From the options on the map to the left, select the country with the dialing code:',
+      medium: 'Which of the dialing codes shown below is for the country shown on the map?',
+      hard: 'What is the dialing code of the country shown on the map?'
+    },
+    currency: {
+      easy: 'From the options on the map to the left, select the country with the currency:',
+      medium: 'Which of the currencies shown below is for the country shown on the map?',
+      hard: 'What is the currency of the country shown on the map?'
+    },
+    Language: {
+      easy: 'Which of the Languages shown below is spoken in the country shown on the map?',
+      medium: 'Name a national Language of the country shown on the map',
+      hard: 'Name all of the national Languages of the country shown on the map'
+    },
+    timezone: {
+      easy: 'Which of the timezones shown below is for the country shown on the map?',
+      medium: 'Which of the timezones shown below is for the country shown on the map?',
+      hard: 'What is the timezone(s) for the country shown on the map?'
+    },
+    demonym: {
+      easy: 'From the options on the map to the left, select the country with the demonym:',
+      medium: 'Which of the demonyms shown below is for the country shown on the map?',
+      hard: 'What is the name of the demonym of the country shown on the map?'
+    },
+    area: {
+      easy: 'Which of the areas (in square KM) shown below is for the country shown on the map?',
+      medium: 'Which of the areas (in square KM) shown below is for the country shown on the map?',
+      hard: 'What is the area of the country shown on the map?'
+    }
+  }
+}
+
 function showcontinent(continentname) {
   $('#game-play-visible').removeClass('inactive')
   $('#game-play-hidden').addClass('inactive')
