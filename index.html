@@ -92,9 +92,10 @@
         <div class="grey lighten-1" id="game-play">
           <span class="game-options">
             <a id="toggle-difficulty" class="easy tooltipped right" href="#" data-position="top" data-delay="50" data-tooltip="difficulty" style="height: 15%">
-              <img id="easy-icon" src="assets/icons/games/easy.png" style="height: 70%">
+              <div class="easy" id="difficulty-level"></div>
+              <!-- <img id="easy-icon" src="assets/icons/games/easy.png" style="height: 70%">
               <img class="inactive" id="medium-icon" src="assets/icons/games/medium.png" style="height: 70%">
-              <img class="inactive" id="hard-icon" src="assets/icons/games/hard.png" style="height: 70%">
+              <img class="inactive" id="hard-icon" src="assets/icons/games/hard.png" style="height: 70%"> -->
             </a>
             <a id="toggle-timer-mode" class="tooltipped right" href="#" data-position="top" data-delay="50" data-tooltip="toggle time limit" style="height: 15%">
               <img src="assets/icons/games/timer.png" style="height: 70%">
@@ -102,83 +103,75 @@
           </span>
           <h3 class="thin flow-text left-align white-text">Games</h3>
           <ul class="collapsible" data-collapsible="accordion">
-            <li>
+            <li id="country">
               <div class="collapsible-header games-header">
                 <span class="game-icons"><img src="assets/icons/games/country.png" style="height: 70%; vertical-align: middle"></span>
                 <span class="game-labels">Country</span>
               </div>
-              <div class="collapsible-body">
-                <div id="game-play-visible" class="inactive">
-                  <p class="easy flow-text">Select the country from the two options below that is shown on the map to the left</p>
-                  <p class="inactive medium flow-text">Select the country from the four options below that is shown on the map to the left</p>
-                  <p class="inactive hard flow-text">On the map to the left, click on the country shown below</p>
-                  <div class="in-game-options valign-wrapper">
-                    <a id='countries-list' class="play valign btn-floating btn-large waves-effect waves-light"><i class="material-icons">play_arrow</i></a>
-                    <span class="valign thin" id="seconds">00</span>
-                    <a href="#" class="valign skip-this-item tooltipped" data-position="top" data-delay="50" data-tooltip="skip this question">SKIP</a>
-                    <a href="#" class="valign quit-this-game tooltipped" data-position="top" data-delay="50" data-tooltip="quit this game"><i class="material-icons">clear</i></a>
-                  </div>
-                </div>
-                <div id="game-play-hidden">
-                  <p class="flow-text"> Choose a continent from the buttons above to start playing!</p>
-                </div>
-              </div>
+              <div class="collapsible-body"><div class="game-play"></div></div>
             </li>
-            <li>
+            <li id="capital">
               <div class="collapsible-header games-header">
                 <span class="game-icons"><img src="assets/icons/games/capital.png" style="height: 70%; vertical-align: middle"></span>
                 <span class="game-labels">Capital city</span>
               </div>
-              <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+              <div class="collapsible-body"><div class="game-play"></div></div>
             </li>
-            <li>
+            <li id="flag">
               <div class="collapsible-header games-header">
                 <span class="game-icons"><img src="assets/icons/games/flag.png" style="height: 70%; vertical-align: middle"></span>
                 <span class="game-labels">Flag</span>
               </div>
-              <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+              <div class="collapsible-body"><div class="game-play"></div></div>
             </li>
-            <li>
+            <li id="leader">
               <div class="collapsible-header games-header">
                 <span class="game-icons"><img src="assets/icons/games/leader.png" style="height: 70%; vertical-align: middle"></span>
                 <span class="game-labels">State leader</span>
               </div>
-              <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+              <div class="collapsible-body"><div class="game-play"></div></div>
             </li>
-            <li>
+            <li id="dialing">
               <div class="collapsible-header games-header">
                 <span class="game-icons"><img src="assets/icons/games/dialing.png" style="height: 70%; vertical-align: middle"></span>
                 <span class="game-labels">International dialing code</span>
               </div>
-              <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+              <div class="collapsible-body"><div class="game-play"></div></div>
             </li>
-            <li>
+            <li id="currency">
               <div class="collapsible-header games-header">
                 <span class="game-icons"><img src="assets/icons/games/currency.png" style="height: 70%; vertical-align: middle"></span>
                 <span class="game-labels">Currency</span>
               </div>
-              <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+              <div class="collapsible-body"><div class="game-play"></div></div>
             </li>
-            <li>
+            <li id="language">
               <div class="collapsible-header games-header">
                 <span class="game-icons"><img src="assets/icons/games/language.png" style="height: 70%; vertical-align: middle"></span>
                 <span class="game-labels">National language</span>
               </div>
-              <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+              <div class="collapsible-body"><div class="game-play"></div></div>
             </li>
-            <li>
+            <li id="timezone">
               <div class="collapsible-header games-header">
-                <span class="game-icons"><img src="assets/icons/games/mountains.png" style="height: 70%; vertical-align: middle"></span>
-                <span class="game-labels">Mountain ranges</span>
+                <span class="game-icons"><img src="assets/icons/games/timezone.png" style="height: 70%; vertical-align: middle"></span>
+                <span class="game-labels">Timezone</span>
               </div>
-              <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+              <div class="collapsible-body"><div class="game-play"></div></div>
             </li>
-            <li>
+            <li id="demonym">
               <div class="collapsible-header games-header">
-                <span class="game-icons"><img src="assets/icons/games/territories.png" style="height: 70%; vertical-align: middle"></span>
-                <span class="game-labels">Overseas territories</span>
+                <span class="game-icons"><img src="assets/icons/games/demonym.png" style="height: 70%; vertical-align: middle"></span>
+                <span class="game-labels">Demonym</span>
               </div>
-              <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+              <div class="collapsible-body"><div class="game-play"></div></div>
+            </li>
+            <li id="area">
+              <div class="collapsible-header games-header">
+                <span class="game-icons"><img src="assets/icons/games/area.png" style="height: 70%; vertical-align: middle"></span>
+                <span class="game-labels">Area</span>
+              </div>
+              <div class="collapsible-body"><div class="game-play"></div></div>
             </li>
           </ul>
         </div>
