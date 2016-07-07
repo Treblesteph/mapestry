@@ -777,6 +777,7 @@
 		"Language": ["French"],
 		"timezone": "UTC+1",
 		"demonym": "Gabonese",
+		"fake_demonyms": ["Gab", "Gabonan", "Gabonian", "Gabonic", "Gabonish", "Gabonabe", "Gaboner"],
 		"area (sq km)": "267668"
 	},
 	"GMB": {
@@ -789,6 +790,7 @@
 		"Language": ["English"],
 		"timezone": "UTC",
 		"demonym": "Gambian",
+		"fake_demonyms": ["Gamb", "Gambese", "Gamban", "Gambic", "Gambish", "Gambiabe", "Gambier"],
 		"area (sq km)": "10689"
 	},
 	"GEG": {
@@ -801,6 +803,7 @@
 		"Language": ["Georgian"],
 		"timezone": "UTC+4",
 		"demonym": "Georgian",
+		"fake_demonyms": ["Georg", "Georgese", "Georgan", "Georgic", "Georgish", "Georgiabe", "Georgier"],
 		"area (sq km)": "69700"
 	},
 	"DEU": {
@@ -813,6 +816,7 @@
 		"Language": ["German"],
 		"timezone": "UTC+1",
 		"demonym": "German",
+		"fake_demonyms": ["Germ", "Germanese", "Germanian", "Germanic", "Germanish", "Germanabe", "Germaner"],
 		"area (sq km)": "357114"
 	},
 	"GHA": {
@@ -825,6 +829,7 @@
 		"Language": ["English"],
 		"timezone": "UTC",
 		"demonym": "Ghanaian",
+		"fake_demonyms": ["Ghan", "Ghanese", "Ghanan", "Ghanaic", "Ghanaish", "Ghanabe", "Ghaner"],
 		"area (sq km)": "238533"
 	},
 	"GRC": {
@@ -837,6 +842,7 @@
 		"Language": ["Greek"],
 		"timezone": "UTC+2",
 		"demonym": "Greek",
+		"fake_demonyms": ["Grek", "Grecan", "Grecabe", "Greecer"],
 		"area (sq km)": "131990"
 	},
 	"GRD": {
@@ -849,6 +855,7 @@
 		"Language": ["English"],
 		"timezone": "UTC-4",
 		"demonym": "Grenadian",
+		"fake_demonyms": ["Gren", "Grenadese", "Grenadan", "Grenadic", "Grenadish", "Grenadabe", "Grenader"],
 		"area (sq km)": "344"
 	},
 	"GTM": {
@@ -861,6 +868,7 @@
 		"Language": ["Spanish"],
 		"timezone": "UTC-6",
 		"demonym": "Guatemalan",
+		"fake_demonyms": ["Guat", "Guatemalese", "Guatemalian", "Guatemalic", "Guatemalish", "Guatemalabe", "Guatemaler"],
 		"area (sq km)": "108889"
 	},
 	"GIN": {
@@ -873,6 +881,7 @@
 		"Language": ["French"],
 		"timezone": "UTC",
 		"demonym": "Guinean",
+		"fake_demonyms": ["Guin", "Guinese", "Guinan", "Guineaic", "Guineaish", "Guineabe", "Guineaer"],
 		"area (sq km)": "245857"
 	},
 	"GNB": {
@@ -885,6 +894,7 @@
 		"Language": ["Portuguese"],
 		"timezone": "UTC",
 		"demonym": "Guinea-Bissauan",
+		"fake_demonyms": ["Guinea-Biss", "Guinea-Bissauese", "Guinea-Bissauaian", "Guinea-Bissauic", "Guinea-Bissauish", "Guinea-Bissauabe", "Guinea-Bissauer"],
 		"area (sq km)": "36125"
 	},
 	"GUY": {
@@ -897,6 +907,7 @@
 		"Language": ["English"],
 		"timezone": "UTC-4",
 		"demonym": "Guyanese",
+		"fake_demonyms": ["Guy", "Guyani", "Guyanian", "Guyanic", "Guyanish", "Guyanabe", "Guyaner"],
 		"area (sq km)": "214969"
 	},
 	"HTI": {
@@ -909,6 +920,7 @@
 		"Language": ["French", "Haitian Creole"],
 		"timezone": "UTC-5",
 		"demonym": "Haitian",
+		"fake_demonyms": ["Hait", "Haitese", "Haitan", "Haitic", "Haitish", "Haitiabe", "Haitier"],
 		"area (sq km)": "27750"
 	},
 	"HND": {
@@ -921,6 +933,7 @@
 		"Language": ["Spanish"],
 		"timezone": "UTC-6",
 		"demonym": "Honduran",
+		"fake_demonyms": ["Hondu", "Hondurese", "Hondurian", "Honduric", "Hondurish", "Hondurabe", "Hondurer"],
 		"area (sq km)": "112492"
 	},
 	"HUN": {
@@ -933,6 +946,7 @@
 		"Language": ["Hungarian"],
 		"timezone": "UTC+1",
 		"demonym": "Hungarian",
+		"fake_demonyms": ["Hunga", "Hungarese", "Hungaran", "Hungaric", "Hungarish", "Hungarabe", "Hungarer"],
 		"area (sq km)": "93028"
 	},
 	"ISL": {
@@ -945,6 +959,7 @@
 		"Language": ["Icelandic"],
 		"timezone": "UTC",
 		"demonym": "Icelander",
+		"fake_demonyms": ["Ice", "Icelandese", "Icelandian", "Icelandan", "Icelandish", "Icelandic", "Icelandiabe"],
 		"area (sq km)": "103000"
 	},
 	"INX": {
@@ -957,6 +972,7 @@
 		"Language": ["Hindi", "English"],
 		"timezone": "UTC+5.30",
 		"demonym": "Indian",
+		"fake_demonyms": ["Ind", "Indese", "Indi", "Indan", "Indish", "Indic", "Indiabe", "Indier"],
 		"area (sq km)": "3287590"
 	},
 	"IDN": {
@@ -969,6 +985,7 @@
 		"Language": ["Indonesian"],
 		"timezone": "UTC+7 - UTC+9",
 		"demonym": "Indonesian",
+		"fake_demonyms": ["Indones", "Indonese", "Indonesi", "Indonesan", "Indonesish", "Indonesic", "Indonesiabe", "Indonesier"],
 		"area (sq km)": "1904569"
 	},
 	"IRN": {
@@ -981,6 +998,7 @@
 		"Language": ["Persian"],
 		"timezone": "UTC+3.30",
 		"demonym": "Iranian",
+		"fake_demonyms": ["Iranese", "Irani", "Iranan", "Iranish", "Iranic", "Iranabe", "Iraner"],
 		"area (sq km)": "1648195"
 	},
 	"IRR": {
@@ -993,6 +1011,7 @@
 		"Language": ["Arabic", "Kurdish"],
 		"timezone": "UTC+3",
 		"demonym": "Iraqi",
+		"fake_demonyms": ["Iraqese", "Iraqian", "Iraqan", "Iraqish", "Iraqic", "Iraqabe", "Iraqer"],
 		"area (sq km)": "438317"
 	},
 	"IRL": {
@@ -1005,6 +1024,7 @@
 		"Language": ["English", "Irish"],
 		"timezone": "UTC",
 		"demonym": "Irish",
+		"fake_demonyms": ["Ire", "Irese", "Irelandi", "Irelandan", "Irelandian", "Irelandic", "Irelandiabe", "Irelander"],
 		"area (sq km)": "70273"
 	},
 	"ISR": {
@@ -1017,6 +1037,7 @@
 		"Language": ["Hebrew", "Arabic"],
 		"timezone": "UTC+2",
 		"demonym": "Israeli",
+		"fake_demonyms": ["Israelese", "Israelian", "Israelan", "Israelish", "Israelic", "Israelabe", "Israeler"],
 		"area (sq km)": "20770"
 	},
 	"ITX": {
@@ -1029,6 +1050,7 @@
 		"Language": ["Italian"],
 		"timezone": "UTC+1",
 		"demonym": "Italian",
+		"fake_demonyms": ["Italese", "Itali", "Italan", "Italish", "Italic", "Italabe", "Italer"],
 		"area (sq km)": "301336"
 	},
 	"JAM": {
@@ -1041,6 +1063,7 @@
 		"Language": ["English"],
 		"timezone": "UTC-5",
 		"demonym": "Jamaican",
+		"fake_demonyms": ["Jamaic", "Jamaicese", "Jamaician", "Jamaicic", "Jamaicish", "Jamaicabe", "Jamaicer"],
 		"area (sq km)": "10991"
 	},
 	"JPX": {
@@ -1053,6 +1076,7 @@
 		"Language": ["Japanese"],
 		"timezone": "UTC+9",
 		"demonym": "Japanese",
+		"fake_demonyms": ["Jap", "Japani", "Japanian", "Japanic", "Japanish", "Japanabe", "Japaner"],
 		"area (sq km)": "377930"
 	},
 	"JOR": {
@@ -1065,6 +1089,7 @@
 		"Language": ["Arabic"],
 		"timezone": "UTC+2",
 		"demonym": "Jordanian",
+		"fake_demonyms": ["Jord", "Jordese", "Jordani", "Jordanish", "Jordanic", "Jordanabe", "Jordaner"],
 		"area (sq km)": "89342"
 	},
 	"KAZ": {
@@ -1077,6 +1102,7 @@
 		"Language": ["Kazakh", "Russian"],
 		"timezone": "UTC+5",
 		"demonym": "Kazakhstani",
+		"fake_demonyms": ["Kazak", "Kazakhstanese", "Kazakhstanian", "Kazakhstanan", "Kazakhstanish", "Kazakhstanic", "Kazakhabe", "Kazakhstaner"],
 		"area (sq km)": "2724900"
 	},
 	"KEN": {
@@ -1089,6 +1115,7 @@
 		"Language": ["English", "Swahili"],
 		"timezone": "UTC+3",
 		"demonym": "Kenyan",
+		"fake_demonyms": ["Ken", "Kenyese", "Kenyian", "Kenyic", "Kenyish", "Kenyabe", "Kenyer"],
 		"area (sq km)": "580367"
 	},
 	"KIR": {
@@ -1101,6 +1128,7 @@
 		"Language": ["English", "Gilbertese"],
 		"timezone": "UTC+12 - UTC+14",
 		"demonym": "I-Kiribati",
+		"fake_demonyms": ["Kirib", "Kiribatese", "Kiribatian", "Kiribatan", "Kiribatish", "Kiribatic", "Kiribatabe", "Kiribatier"],
 		"area (sq km)": "811"
 	},
 	"KOS": {
@@ -1113,6 +1141,7 @@
 		"Language": ["Albanian", "Serbian"],
 		"timezone": "UTC+1",
 		"demonym": "Kosovar",
+		"fake_demonyms": ["Kos", "Kosovese", "Kosovian", "Kosovan", "Kosovi", "Kosovic", "Kosovabe", "Kosover"],
 		"area (sq km)": "10908"
 	},
 	"KWT": {
@@ -1125,6 +1154,7 @@
 		"Language": ["Arabic"],
 		"timezone": "UTC+3",
 		"demonym": "Kuwaiti",
+		"fake_demonyms": ["Kuwaitese", "Kuwaitian", "Kuwaitan", "Kuwaitish", "Kuwaitic", "Kuwaitabe", "Kuwaiter"],
 		"area (sq km)": "17818"
 	},
 	"KGZ": {
@@ -1137,6 +1167,7 @@
 		"Language": ["Kyrgyz", "Russian"],
 		"timezone": "UTC+5 - UTG+6",
 		"demonym": "Kirghiz",
+		"fake_demonyms": ["Kirghese", "Kirghian", "Kirghan", "Kirghish", "Kirghic", "Kirghabe", "Kirghier"],
 		"area (sq km)": "199951"
 	},
 	"LAO": {
@@ -1149,6 +1180,7 @@
 		"Language": ["French"],
 		"timezone": "UTC+7",
 		"demonym": "Laotian",
+		"fake_demonyms": ["Lao", "Laoese", "Laoi", "Laoish", "Laoic", "Laoabe", "Laoer"],
 		"area (sq km)": "236800"
 	},
 	"LVA": {
@@ -1161,6 +1193,7 @@
 		"Language": ["Latvian"],
 		"timezone": "UTC+2",
 		"demonym": "Latvian",
+		"fake_demonyms": ["Lat", "Latvese", "Latvi", "Latvish", "Latvic", "Latviabe", "Latvier"],
 		"area (sq km)": "64559"
 	},
 	"LBN": {
@@ -1173,6 +1206,7 @@
 		"Language": ["Arabic"],
 		"timezone": "UTC+2",
 		"demonym": "Lebanese",
+		"fake_demonyms": ["Leb", "Lebani", "Lebanonian", "Lebanic", "Lebanish", "Lebanabe", "Lebanoner"],
 		"area (sq km)": "10452"
 	},
 	"LSO": {
@@ -1185,6 +1219,7 @@
 		"Language": ["Sesotho", "English"],
 		"timezone": "UTC+2",
 		"demonym": "Mosotho",
+		"fake_demonyms": ["Mot", "Mosothi", "Mosothian", "Mosothic", "Mosothish", "Mosotabe", "Mosother"],
 		"area (sq km)": "30355"
 	},
 	"LBR": {
@@ -1197,6 +1232,7 @@
 		"Language": ["English"],
 		"timezone": "UTC",
 		"demonym": "Liberian",
+		"fake_demonyms": ["Liber", "Liberese", "Liberi", "Liberish", "Liberic", "Liberiabe", "Liberier"],
 		"area (sq km)": "111369"
 	},
 	"LBY": {
@@ -1209,6 +1245,7 @@
 		"Language": ["Arabic"],
 		"timezone": "UTC+2",
 		"demonym": "Libyan",
+		"fake_demonyms": ["Lib", "Libyese", "Libian", "Libic", "Libyish", "Libyabe", "Libyer"],
 		"area (sq km)": "1759540"
 	},
 	"LIE": {
@@ -1221,6 +1258,7 @@
 		"Language": ["German"],
 		"timezone": "UTC+1",
 		"demonym": "Liechtensteiner",
+		"fake_demonyms": ["Liechten", "Liechtensteinese", "Liechtensteini", "Liechtensteinish", "Liechtensteinic", "Liechtensteinabe", "Liechtensteinian"],
 		"area (sq km)": "160"
 	},
 	"LTU": {
@@ -1233,6 +1271,7 @@
 		"Language": ["Lithuanian"],
 		"timezone": "UTC+2",
 		"demonym": "Lithuanian",
+		"fake_demonyms": ["Lithuan", "Lithuanese", "Lithuani", "Lithuanish", "Lithuanic", "Lithuaniabe", "Lithuanier"],
 		"area (sq km)": "65300"
 	},
 	"LUX": {
@@ -1245,6 +1284,7 @@
 		"Language": ["Luxembourgish", "German", "French"],
 		"timezone": "UTC+1",
 		"demonym": "Luxembourger",
+		"fake_demonyms": ["Luxem", "Luxembourgese", "Luxembourgi", "Luxembourgish", "Luxembourgic", "Luxembourgabe", "Luxembourgian"],
 		"area (sq km)": "2586"
 	},
 	"MKD": {
@@ -1257,6 +1297,7 @@
 		"Language": ["Macedonian"],
 		"timezone": "UTC+1",
 		"demonym": "Macedonian",
+		"fake_demonyms": ["Macedon", "Macedonese", "Macedoni", "Macedonish", "Macedonic", "Macedoniabe", "Macedonier"],
 		"area (sq km)": "25713"
 	},
 	"MDG": {
@@ -1269,6 +1310,7 @@
 		"Language": ["Malagasy", "French"],
 		"timezone": "UTC+3",
 		"demonym": "Malagasy",
+		"fake_demonyms": ["Madag", "Madagascese", "Madagasci", "Malagashi", "Malagic", "Malagabe", "Malagasier"],
 		"area (sq km)": "587041"
 	},
 	"MWI": {
@@ -1281,6 +1323,7 @@
 		"Language": ["English"],
 		"timezone": "UTC+2",
 		"demonym": "Malawian",
+		"fake_demonyms": ["Mala", "Malawese", "Malawi", "Malawish", "Malawic", "Malawiabe", "Malawier"],
 		"area (sq km)": "118484"
 	},
 	"MYS": {
@@ -1293,6 +1336,7 @@
 		"Language": ["Bahasa Malaysia"],
 		"timezone": "UTC+8",
 		"demonym": "Malaysian",
+		"fake_demonyms": ["Malay", "Malayse", "Malaysi", "Malash", "Malaic", "Malaysiabe", "Malaysier"],
 		"area (sq km)": "330803"
 	},
 	"MDV": {
@@ -1305,6 +1349,7 @@
 		"Language": ["Maldivian"],
 		"timezone": "UTC+5",
 		"demonym": "Maldivan",
+		"fake_demonyms": ["Mald", "Maldese", "Maldi", "Maldish", "Maldic", "Maldiabe", "Maldiver"],
 		"area (sq km)": "300"
 	},
 	"MLI": {
@@ -1317,6 +1362,7 @@
 		"Language": ["French"],
 		"timezone": "UTC",
 		"demonym": "Malian",
+		"fake_demonyms": ["Mal", "Malese", "Mali", "Malish", "Malic", "Maliabe", "Malier"],
 		"area (sq km)": "1240192"
 	},
 	"MLT": {
@@ -1329,6 +1375,7 @@
 		"Language": ["Maltese", "English"],
 		"timezone": "UTC+1",
 		"demonym": "Maltese",
+		"fake_demonyms": ["Malt", "Malti", "Maltian", "Maltic", "Maltish", "Maltabe", "Malter", "Malteser"],
 		"area (sq km)": "316"
 	},
 	"MHL": {
@@ -1341,6 +1388,7 @@
 		"Language": ["Marshallese", "English"],
 		"timezone": "UTC+12",
 		"demonym": "Marshallese",
+		"fake_demonyms": ["Marsh", "Marshalli", "Marshallian", "Marshi", "Marsha", "Marshabe", "Marshaller", "Marshallier", "Marshalleser"],
 		"area (sq km)": "181"
 	},
 	"MRT": {
