@@ -272,27 +272,23 @@ var game_descriptions = {
 }
 
 function showInGameOptions(continent) {
-  //Only show if there is an active (open) game.
-  if (($('#game-play li.active')).length !== 0) {
-    var game_id = $('#game-play li.active').attr('id')
-    var difficulty = $('#difficulty-level').attr('class')
-    var this_game = game_descriptions[game_id]
-    console.log(difficulty);
-    var htmlcontent = '<p class="flow-text">' + this_game[difficulty] + '</p>' +
-                      '<div class="in-game-options' + continent + 'valign-wrapper">' +
-                        '<a id="play-pause" class="play valign btn-floating btn-large waves-effect waves-light">' +
-                          '<i class="material-icons">play_arrow</i>' +
-                        '</a>' +
-                        '<span class="valign thin" id="seconds">00</span>' +
-                        '<a href="#" class="valign skip-this-item tooltipped" data-position="top" data-delay="50" data-tooltip="skip this question">SKIP</a>' +
-                        '<a href="#" class="valign quit-this-game tooltipped" data-position="top" data-delay="50" data-tooltip="quit this game">' +
-                          '<i class="material-icons">clear</i>' +
-                        '</a>' +
-                      '</div>'
+  var game_id = $('#game-play li.active').attr('id')
+  var difficulty = $('#difficulty-level').attr('class')
+  var this_game = game_descriptions[game_id]
+  var htmlcontent = '<p class="flow-text">' + this_game[difficulty] + '</p>' +
+                    '<div class="in-game-options ' + continent + ' valign-wrapper">' +
+                      '<a id="play-pause" class="play valign btn-floating btn-large waves-effect waves-light">' +
+                        '<i class="material-icons">play_arrow</i>' +
+                      '</a>' +
+                      '<span class="valign thin" id="seconds">00</span>' +
+                      '<a href="#" class="valign skip-this-item tooltipped" data-position="top" data-delay="50" data-tooltip="skip this question">SKIP</a>' +
+                      '<a href="#" class="valign quit-this-game tooltipped" data-position="top" data-delay="50" data-tooltip="quit this game">' +
+                        '<i class="material-icons">clear</i>' +
+                      '</a>' +
+                    '</div>'
 
-    $('#' + game_id + ' .game-play').html(htmlcontent)
-    initialiseTimer()
-  }
+  $('.game-play').html(htmlcontent)
+  initialiseTimer()
 }
 
 function showcontinent(continentname) {
