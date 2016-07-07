@@ -150,7 +150,7 @@ Pink: (Oceania) pink #e91e63
   opacity: 0.6;
 }
 
-.in-game-options .btn-large {
+.in-game-options.no-game-selected .btn-large {
   background-color: lightgrey;
 }
 .in-game-options.northamerica .btn-large {
