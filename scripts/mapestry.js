@@ -6,7 +6,7 @@ var height = viewerHeight
 
 var sec = 0
 
-$('.game-play').html('<p class="flow-text"> Choose a continent from the buttons above to start playing!</p>')
+document.getElementsByClassName('collapsible-header').onclick = showInGameOptions('none')
 
 //This needs to be in a function because the play-pause id does not exist to begin with.
 function initialiseTimer() {
@@ -151,16 +151,12 @@ continents_list.forEach(function(c) {
   var continent1 = c + '1'
   var continent2 = c + '2'
   document.getElementById(continent1).onclick = function() {
-    if (($('#game-play li.active')).length !== 0) {
-      showInGameOptions(c)
-    }
+    showInGameOptions(c)
     showcontinent(c)
     toggleclicked(continent1)
   }
   document.getElementById(continent2).onclick = function() {
-    if (($('#game-play li.active')).length !== 0) {
-      showInGameOptions(c)
-    }
+    showInGameOptions(c)
     showcontinent(c)
     toggleclicked(continent2)
   }
@@ -221,23 +217,33 @@ var game_descriptions = {
 }
 
 function showInGameOptions(continent) {
-  var game_id = $('#game-play li.active').attr('id')
-  var difficulty = $('#difficulty-level').attr('class')
-  var this_game = game_descriptions[game_id]
-  var htmlcontent = '<p class="flow-text">' + this_game[difficulty] + '</p>' +
-                    '<div class="in-game-options ' + continent + ' valign-wrapper">' +
-                      '<a id="play-pause" class="play valign btn-floating btn-large waves-effect waves-light">' +
-                        '<i class="material-icons">play_arrow</i>' +
-                      '</a>' +
-                      '<span class="valign thin" id="seconds">00</span>' +
-                      '<a href="#" class="valign skip-this-item tooltipped" data-position="top" data-delay="50" data-tooltip="skip this question">SKIP</a>' +
-                      '<a href="#" class="valign quit-this-game tooltipped" data-position="top" data-delay="50" data-tooltip="quit this game">' +
-                        '<i class="material-icons">clear</i>' +
-                      '</a>' +
-                    '</div>'
+  if (continent === 'none') {
+    $('.game-play').html('<p class="flow-text"> Choose a continent from the buttons above to start playing!</p>')
+  } else {
+    var difficulty = $('#difficulty-level').attr('class')
+    if (($('#game-play li.active')).length === 0) {
+      var game_id = 'no-game-selected'
+      var description = ''
+    } else {
+      var game_id = $('#game-play li.active').attr('id')
+      var this_game = game_descriptions[game_id]
+      var description = this_game[difficulty]
+    }
+    var htmlcontent = '<p class="flow-text">' + description + '</p>' +
+                      '<div class="in-game-options ' + continent + ' valign-wrapper">' +
+                        '<a id="play-pause" class="play valign btn-floating btn-large waves-effect waves-light">' +
+                          '<i class="material-icons">play_arrow</i>' +
+                        '</a>' +
+                        '<span class="valign thin" id="seconds">00</span>' +
+                        '<a href="#" class="valign skip-this-item tooltipped" data-position="top" data-delay="50" data-tooltip="skip this question">SKIP</a>' +
+                        '<a href="#" class="valign quit-this-game tooltipped" data-position="top" data-delay="50" data-tooltip="quit this game">' +
+                          '<i class="material-icons">clear</i>' +
+                        '</a>' +
+                      '</div>'
 
-  $('.game-play').html(htmlcontent)
-  initialiseTimer()
+    $('.game-play').html(htmlcontent)
+    initialiseTimer()
+  }
 }
 
 function showcontinent(continentname) {
