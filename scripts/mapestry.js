@@ -145,78 +145,27 @@ var oceaniaprojection = d3.geo.conicConformal()
 var currentMap = 'world'
 
 // Open continent map (and toggle clicked class) on click of continent button
+var continents_list = ['northamerica', 'southamerica', 'europe', 'africa', 'asia', 'oceania']
 
-document.getElementById('northamerica1').onclick = function() {
-  showInGameOptions('northamerica')
-  showcontinent('northamerica')
-  toggleclicked('northamerica1')
-}
+continents_list.forEach(function(c) {
+  var continent1 = c + '1'
+  var continent2 = c + '2'
+  document.getElementById(continent1).onclick = function() {
+    if (($('#game-play li.active')).length !== 0) {
+      showInGameOptions(c)
+    }
+    showcontinent(c)
+    toggleclicked(continent1)
+  }
+  document.getElementById(continent2).onclick = function() {
+    if (($('#game-play li.active')).length !== 0) {
+      showInGameOptions(c)
+    }
+    showcontinent(c)
+    toggleclicked(continent2)
+  }
+})
 
-document.getElementById('northamerica2').onclick = function() {
-  showInGameOptions('northamerica')
-  showcontinent('northamerica')
-  toggleclicked('northamerica2')
-}
-
-document.getElementById('southamerica1').onclick = function() {
-  showInGameOptions('southamerica')
-  showcontinent('southamerica')
-  toggleclicked('southamerica1')
-}
-
-document.getElementById('southamerica2').onclick = function() {
-  showInGameOptions('southamerica')
-  showcontinent('southamerica')
-  toggleclicked('southamerica2')
-}
-
-document.getElementById('europe1').onclick = function() {
-  showInGameOptions('europe')
-  showcontinent('europe')
-  toggleclicked('europe1')
-}
-
-document.getElementById('europe2').onclick = function() {
-  showInGameOptions('europe')
-  showcontinent('europe')
-  toggleclicked('europe2')
-}
-
-document.getElementById('africa1').onclick = function() {
-  showInGameOptions('africa')
-  showcontinent('africa')
-  toggleclicked('africa1')
-}
-
-document.getElementById('africa2').onclick = function() {
-  showInGameOptions('africa')
-  showcontinent('africa')
-  toggleclicked('africa2')
-}
-
-document.getElementById('asia1').onclick = function() {
-  showInGameOptions('asia')
-  showcontinent('asia')
-  toggleclicked('asia1')
-}
-
-document.getElementById('asia2').onclick = function() {
-  showInGameOptions('asia')
-  showcontinent('asia')
-  toggleclicked('asia2')
-}
-
-document.getElementById('oceania1').onclick = function() {
-  showInGameOptions('oceania')
-  showcontinent('oceania')
-  toggleclicked('oceania1')
-}
-
-document.getElementById('oceania2').onclick = function() {
-  showInGameOptions('oceania')
-  showcontinent('oceania')
-  toggleclicked('oceania2')
-}
 
 var game_descriptions = {
   'country': {
