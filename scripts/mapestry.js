@@ -6,60 +6,81 @@ var height = viewerHeight
 
 var sec = 0
 
-document.getElementsByClassName('collapsible-header').onclick = showInGameOptions('none')
+var selected_continent = 'none'
+var selected_game = 'none'
+var selected_difficulty = 'easy'
 
-//This needs to be in a function because the play-pause id does not exist to begin with.
-function initialiseTimer() {
-  //Only show if there is an active (open) game.
-  if (($('#game-play li.active')).length !== 0) {
-    document.getElementById('play-pause').onclick = startPauseTimer
+$('.collapsible-header').on('click', initialiseTimer)
+$('#continents-topnav .btn-large').on('click', initialiseTimer)
+$('#continents-sidenav .btn-large').on('click', initialiseTimer)
 
-    var timer = null
+var game = null
 
-    function startPauseTimer() {
-      // function that updates the timer with elapsed seconds
-      // accounting for any pause time
-      var timerFn = function () {
-        if (!timer || !timer.started) return
-        var now = new Date().getTime()
-        var elapsed = (now - timer.started) / 1000 + timer.lastpause
-        $('#seconds').html('' + Math.floor(elapsed, 0))
-      }
-
-      // If the button is showing a play symbol:
-      if ($('#play-pause > i').html() === 'play_arrow') {
-        if (!timer) {
-          // create the timer and start it
-          timer = {
-            state: 'running',
-            started: new Date().getTime(),
-            lastpause: 0,
-            interval: window.setInterval(timerFn, 200)
-          }
-        } else if (timer.state === 'paused') {
-          // the timer paused - restart it
-          timer.interval = window.setInterval(timerFn, 200)
-          timer.state = 'running'
-          timer.started = new Date().getTime()
-        }
-        $('#play-pause > i').html('pause')
-      } else {
-        // pause the timer
-
-        // stop the interval loop
-        window.clearInterval(timer.interval)
-
-        // save the pause time
-        var now = new Date().getTime()
-        var elapsed = (now - timer.started) / 1000 + timer.lastpause
-        timer.lastpause = elapsed
-
-        timer.state = 'paused'
-        $('#play-pause > i').html('play_arrow')
-      }
+function initialiseTimer(event) {
+  if (!(event.currentTarget.class === 'collapsible-header games-header active')) {
+    var game = event.target.id
+    if ($('#game').html() === '<p class="flow-text">Choose a continent from the buttons above to start playing!</p>') {
+      // If game is opened before continent is selected (ie this func run by clicking game)
+      return
+    } else if (($('#game-play li.active')).length === 0) {
+      // If no game is open (ie this func run by clicking continent)
+      return
+    } else {
+      game = $('#game-play li.active').attr('id')
     }
   }
 }
+
+var timer = null
+
+function startPauseTimer() {
+  if (!game) {
+    console.log('timer triggered when no game active')
+    return
+  }
+  // function that updates the timer with elapsed seconds
+  // accounting for any pause time
+  var timerFn = function () {
+    if (!timer || !timer.started) return
+    var now = new Date().getTime()
+    var elapsed = (now - timer.started) / 1000 + timer.lastpause
+    $('#' + game + ' .seconds').html('' + Math.floor(elapsed, 0))
+  }
+
+  // If the button is showing a play symbol:
+  console.log($('#' + game + ' .play-pause > i'));
+  if ($('#' + game + ' .play-pause > i').html() === 'play_arrow') {
+    if (!timer) {
+      // create the timer and start it
+      timer = {
+        state: 'running',
+        started: new Date().getTime(),
+        lastpause: 0,
+        interval: window.setInterval(timerFn, 200)
+      }
+    } else if (timer.state === 'paused') {
+      // the timer paused - restart it
+      timer.interval = window.setInterval(timerFn, 200)
+      timer.state = 'running'
+      timer.started = new Date().getTime()
+    }
+    $('#' + game + ' .play-pause > i').html('pause')
+  } else {
+    // pause the timer
+
+    // stop the interval loop
+    window.clearInterval(timer.interval)
+
+    // save the pause time
+    var now = new Date().getTime()
+    var elapsed = (now - timer.started) / 1000 + timer.lastpause
+    timer.lastpause = elapsed
+
+    timer.state = 'paused'
+    $('#' + game + ' .play-pause > i').html('play_arrow')
+  }
+}
+
 
 // Toggle difficulty and time mode button actions:
 
@@ -151,19 +172,36 @@ continents_list.forEach(function(c) {
   var continent1 = c + '1'
   var continent2 = c + '2'
   document.getElementById(continent1).onclick = function() {
-    showInGameOptions(c)
+    selected_continent = c
+    showInGameOptions(c, selected_game)
     showcontinent(c)
     toggleclicked(continent1)
   }
   document.getElementById(continent2).onclick = function() {
-    showInGameOptions(c)
+    selected_continent = c
+    showInGameOptions(c, selected_game)
     showcontinent(c)
     toggleclicked(continent2)
   }
 })
 
+var games_list = ['country', 'capital', 'flag', 'leader', 'dialing', 'currency', 'language', 'timezone', 'demonym', 'area']
+
+games_list.forEach(function(g) {
+  var gameid = g + '-game'
+  document.getElementById(gameid).onclick = function() {
+    selected_game = g
+    showInGameOptions(selected_continent, g)
+  }
+})
+
 
 var game_descriptions = {
+  'none': {
+    'easy': '',
+    'medium': '',
+    'hard': ''
+  },
   'country': {
     'easy': 'Which of the countries shown below is highlighted on the map to the left?',
     'medium': 'On the map to the left, click on:',
@@ -216,25 +254,19 @@ var game_descriptions = {
   }
 }
 
-function showInGameOptions(continent) {
+function showInGameOptions(continent, game) {
   if (continent === 'none') {
     $('.game-play').html('<p class="flow-text"> Choose a continent from the buttons above to start playing!</p>')
   } else {
     var difficulty = $('#difficulty-level').attr('class')
-    if (($('#game-play li.active')).length === 0) {
-      var game_id = 'no-game-selected'
-      var description = ''
-    } else {
-      var game_id = $('#game-play li.active').attr('id')
-      var this_game = game_descriptions[game_id]
-      var description = this_game[difficulty]
-    }
+    var this_game = game_descriptions[game]
+    var description = this_game[difficulty]
     var htmlcontent = '<p class="flow-text">' + description + '</p>' +
                       '<div class="in-game-options ' + continent + ' valign-wrapper">' +
-                        '<a id="play-pause" class="play valign btn-floating btn-large waves-effect waves-light">' +
+                        '<a class="play play-pause valign btn-floating btn-large waves-effect waves-light">' +
                           '<i class="material-icons">play_arrow</i>' +
                         '</a>' +
-                        '<span class="valign thin" id="seconds">00</span>' +
+                        '<span class="seconds valign thin">00</span>' +
                         '<a href="#" class="valign skip-this-item tooltipped" data-position="top" data-delay="50" data-tooltip="skip this question">SKIP</a>' +
                         '<a href="#" class="valign quit-this-game tooltipped" data-position="top" data-delay="50" data-tooltip="quit this game">' +
                           '<i class="material-icons">clear</i>' +
@@ -242,7 +274,6 @@ function showInGameOptions(continent) {
                       '</div>'
 
     $('.game-play').html(htmlcontent)
-    initialiseTimer()
   }
 }
 
