@@ -260,7 +260,9 @@ Pink: (Oceania) pink #e91e63
   background-color: white;
 }
 
-#seconds {
+#seconds-country, #seconds-capital, #seconds-flag, #seconds-leader,
+#seconds-dialing, #seconds-currency, #seconds-language, #seconds-timezone,
+#seconds-demonym, #seconds-area {
   font-size: 2rem;
 }
 
