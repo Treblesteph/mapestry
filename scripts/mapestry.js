@@ -10,46 +10,20 @@ var selected_continent = 'none'
 var selected_game = 'none'
 var selected_difficulty = 'easy'
 
-$('.collapsible-header').on('click', initialiseTimer)
-$('#continents-topnav .btn-large').on('click', initialiseTimer)
-$('#continents-sidenav .btn-large').on('click', initialiseTimer)
-
-var game = null
-
-function initialiseTimer(event) {
-  if (!(event.currentTarget.class === 'collapsible-header games-header active')) {
-    var game = event.target.id
-    if ($('#game').html() === '<p class="flow-text">Choose a continent from the buttons above to start playing!</p>') {
-      // If game is opened before continent is selected (ie this func run by clicking game)
-      return
-    } else if (($('#game-play li.active')).length === 0) {
-      // If no game is open (ie this func run by clicking continent)
-      return
-    } else {
-      game = $('#game-play li.active').attr('id')
-    }
-  }
-}
-
 var timer = null
 
-function startPauseTimer() {
-  if (!game) {
-    console.log('timer triggered when no game active')
-    return
-  }
+function startPauseTimer(continent, game) {
   // function that updates the timer with elapsed seconds
   // accounting for any pause time
   var timerFn = function () {
     if (!timer || !timer.started) return
     var now = new Date().getTime()
     var elapsed = (now - timer.started) / 1000 + timer.lastpause
-    $('#' + game + ' .seconds').html('' + Math.floor(elapsed, 0))
+    $('#seconds-' + game).html('' + Math.floor(elapsed, 0))
   }
 
   // If the button is showing a play symbol:
-  console.log($('#' + game + ' .play-pause > i'));
-  if ($('#' + game + ' .play-pause > i').html() === 'play_arrow') {
+  if ($('#play-pause-' + game + ' > i').html() === 'play_arrow') {
     if (!timer) {
       // create the timer and start it
       timer = {
@@ -64,7 +38,7 @@ function startPauseTimer() {
       timer.state = 'running'
       timer.started = new Date().getTime()
     }
-    $('#' + game + ' .play-pause > i').html('pause')
+    $('#play-pause-' + game + ' > i').html('pause')
   } else {
     // pause the timer
 
@@ -77,7 +51,7 @@ function startPauseTimer() {
     timer.lastpause = elapsed
 
     timer.state = 'paused'
-    $('#' + game + ' .play-pause > i').html('play_arrow')
+    $('#play-pause-' + game + ' > i').html('play_arrow')
   }
 }
 
@@ -192,6 +166,9 @@ games_list.forEach(function(g) {
   document.getElementById(gameid).onclick = function() {
     selected_game = g
     showInGameOptions(selected_continent, g)
+    if (selected_continent !== 'none') {
+      $('#play-pause-' + g + '> i').onclick = startPauseTimer(selected_continent, g)
+    }
   }
 })
 
@@ -263,10 +240,10 @@ function showInGameOptions(continent, game) {
     var description = this_game[difficulty]
     var htmlcontent = '<p class="flow-text">' + description + '</p>' +
                       '<div class="in-game-options ' + continent + ' valign-wrapper">' +
-                        '<a class="play play-pause valign btn-floating btn-large waves-effect waves-light">' +
+                        '<a id="play-pause-' + game + '" class="valign btn-floating btn-large waves-effect waves-light">' +
                           '<i class="material-icons">play_arrow</i>' +
                         '</a>' +
-                        '<span class="seconds valign thin">00</span>' +
+                        '<span id="seconds-' + game + '" class="=valign thin">00</span>' +
                         '<a href="#" class="valign skip-this-item tooltipped" data-position="top" data-delay="50" data-tooltip="skip this question">SKIP</a>' +
                         '<a href="#" class="valign quit-this-game tooltipped" data-position="top" data-delay="50" data-tooltip="quit this game">' +
                           '<i class="material-icons">clear</i>' +
