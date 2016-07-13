@@ -166,9 +166,7 @@ games_list.forEach(function(g) {
   document.getElementById(gameid).onclick = function() {
     selected_game = g
     showInGameOptions(selected_continent, g)
-    if (selected_continent !== 'none') {
-      $('#play-pause-' + g + '> i').onclick = startPauseTimer(selected_continent, g)
-    }
+    $('#' + g).on('click','a i', startPauseTimer)
   }
 })
 
