@@ -1401,6 +1401,7 @@
 		"Language": ["Arabic"],
 		"timezone": "UTC",
 		"demonym": "Mauritanian",
+		"fake_demonyms": ["Maurit", "Mauritani", "Mauritanese", "Mauri", "Mauritan", "Mauritaniabe", "Mauritanier", "Mauritanish", "Mauritanic"],
 		"area (sq km)": "1030700"
 	},
 	"MUS": {
@@ -1413,6 +1414,7 @@
 		"Language": ["Mauritian Creole", "English", "French"],
 		"timezone": "UTC+4",
 		"demonym": "Mauritian",
+		"fake_demonyms": ["Maurit", "Mauritese", "Mauriti", "Mauritish", "Mauritic", "Mauritiabe", "Mauritiuser"],
 		"area (sq km)": "2040"
 	},
 	"MEX": {
@@ -1425,6 +1427,7 @@
 		"Language": ["Spanish"],
 		"timezone": "UTC-8 - UTC-5",
 		"demonym": "Mexican",
+		"fake_demonyms": ["Mex", "Mexi", "Mexician", "Mexic", "Mexish", "Mexicabe", "Mexicer", "Mexicier"],
 		"area (sq km)": "1964375"
 	},
 	"FSM": {
@@ -1437,6 +1440,7 @@
 		"Language": ["English"],
 		"timezone": "UTC+10",
 		"demonym": "Micronesian",
+		"fake_demonyms": ["Micron", "Micronese", "Micronesan", "Micronesic", "Micronesish", "Micronesiabe", "Micronesier"],
 		"area (sq km)": "702"
 	},
 	"MDA": {
@@ -1449,6 +1453,7 @@
 		"Language": ["Romanian"],
 		"timezone": "UTC+2",
 		"demonym": "Moldovan",
+		"fake_demonyms": ["Mold", "Moldi", "Moldovian", "Moldovic", "Moldovish", "Moldovabe", "Moldov", "Moldover"],
 		"area (sq km)": "33846"
 	},
 	"MCO": {
@@ -1461,6 +1466,7 @@
 		"Language": ["French"],
 		"timezone": "UTC+1",
 		"demonym": "Monegasque",
+		"fake_demonyms": ["Monac", "Monaci", "Monacovian", "Monacovi", "Monacovish", "Monacabe", "Monc", "Monacoer"],
 		"area (sq km)": "2.02"
 	},
 	"MNG": {
@@ -1473,6 +1479,7 @@
 		"Language": ["Mongolian"],
 		"timezone": "UTC+7 - UTC+8",
 		"demonym": "Mongolian",
+		"fake_demonyms": ["Mongol", "Mongoli", "Mongolan", "Mongo", "Mongolish", "Mongoliabe", "Mongolic", "Mongolier"],
 		"area (sq km)": "1564110"
 	},
 	"MNE": {
@@ -1485,6 +1492,7 @@
 		"Language": ["Montenegrin"],
 		"timezone": "UTC+1",
 		"demonym": "Montenegrin",
+		"fake_demonyms": ["Monteneg", "Montenegi", "Montenegan", "Monten", "Montenegish", "Montenegrabe", "Montenegic", "Montenegroer"],
 		"area (sq km)": "13812"
 	},
 	"MAR": {
@@ -1497,6 +1505,7 @@
 		"Language": ["Arabic", "Berber"],
 		"timezone": "UTC",
 		"demonym": "Moroccan",
+		"fake_demonyms": ["Moroc", "Morocci", "Moroccian", "Moro", "Moroccish", "Moroccabe", "Moroccic", "Moroccoer"],
 		"area (sq km)": "446550"
 	},
 	"MOZ": {
@@ -1509,6 +1518,7 @@
 		"Language": ["Portuguese"],
 		"timezone": "UTC+2",
 		"demonym": "Mozambican",
+		"fake_demonyms": ["Mozam", "Mozambi", "Mozambian", "Moz", "Mozambish", "Mozambiabe", "Mozambiq", "Mozambiquer"],
 		"area (sq km)": "801590"
 	},
 	"MMR": {
@@ -1521,6 +1531,7 @@
 		"Language": ["Burmese"],
 		"timezone": "UTC+6.30",
 		"demonym": "Bamar",
+		"fake_demonyms": ["Myanman", "Myanmani", "Myan", "Burmese", "Burmish", "Barmese", "Barmish", "Barmic", "Burmic"],
 		"area (sq km)": "676578"
 	},
 	"NAM": {
@@ -1533,6 +1544,7 @@
 		"Language": ["English"],
 		"timezone": "UTC+1",
 		"demonym": "Namibian",
+		"fake_demonyms": ["Namib", "Namibi", "Namibese", "Nami", "Namibish", "Namibiabe", "Namibic", "Namibier"],
 		"area (sq km)": "825615"
 	},
 	"NRU": {
@@ -1545,6 +1557,7 @@
 		"Language": ["Nauruan", "English"],
 		"timezone": "UTC+12",
 		"demonym": "Nauruan",
+		"fake_demonyms": ["Nau", "Nauri", "Naurian", "Nauren", "Nauruish", "Nauruabe", "Nauric", "Nauruer"],
 		"area (sq km)": "21"
 	},
 	"NPL": {
