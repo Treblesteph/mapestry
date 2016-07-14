@@ -13,8 +13,6 @@ var selected_difficulty = 'easy'
 var timer = null
 
 function startPauseTimer(continent, game) {
-  console.log(game)
-  console.log($('#go-' + game))
   // function that updates the timer with elapsed seconds
   // accounting for any pause time
   var timerFn = function () {
@@ -167,7 +165,6 @@ var games_list = ['country', 'capital', 'flag', 'leader', 'dialing', 'currency',
 games_list.forEach(function(g) {
   var gameid = g + '-game'
   document.getElementById(gameid).onclick = function() {
-    console.log('selected button for game', g);
     selected_game = g
     showInGameOptions(selected_continent, g)
   }
@@ -236,7 +233,6 @@ function showInGameOptions(continent, game) {
   if (continent === 'none' || game === 'none') {
     if (gameplay) gameplay.html('<p class="flow-text"> Choose a continent from the buttons above to start playing!</p>')
   } else {
-    console.log('generating button elements');
     var difficulty = $('#difficulty-level').attr('class')
     var this_game = game_descriptions[game]
     var description = this_game[difficulty]
@@ -256,9 +252,7 @@ function showInGameOptions(continent, game) {
 
     var this_id = 'play-pause-' + game
     var btn = document.getElementById(this_id)
-    console.log('setting onclick for', btn)
     btn.onclick = function () {
-      console.log('button clicked for', game);
       startPauseTimer(selected_continent, game)
     }
   }
