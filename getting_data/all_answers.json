@@ -1570,6 +1570,7 @@
 		"Language": ["Nepali"],
 		"timezone": "UTC+5.45",
 		"demonym": "Nepalese",
+		"fake_demonyms": ["Nep", "Nepali", "Nepalian", "Nepalic", "Nepalish", "Nepalabe", "Nepa", "Nepaler"],
 		"area (sq km)": "147181"
 	},
 	"NLX": {
@@ -1582,6 +1583,7 @@
 		"Language": ["Dutch"],
 		"timezone": "UTC+1",
 		"demonym": "Dutch",
+		"fake_demonyms": ["Dutch", "Dutchi", "Nether", "Netherlandic", "Netherlandi", "Netherlander"],
 		"area (sq km)": "41850"
 	},
 	"NZL": {
@@ -1594,6 +1596,7 @@
 		"Language": ["English", "Māori", "Maori"],
 		"timezone": "UTC+12",
 		"demonym": "New Zealander",
+		"fake_demonyms": ["Zeal", "Kiwi", "New Zealandian", "New Zealandic", "New Zealandish", "New Zealandabe", "New Zealandese"],
 		"area (sq km)": "270467"
 	},
 	"NIC": {
@@ -1606,6 +1609,7 @@
 		"Language": ["Spanish"],
 		"timezone": "UTC-6",
 		"demonym": "Nicaraguan",
+		"fake_demonyms": ["Nicar", "Nicaraguai", "Nicaraguian", "Nicaragic", "Nicaragish", "Nicaraguabe", "Nicaraguese", "Nicaraguer"],
 		"area (sq km)": "130373"
 	},
 	"NER": {
@@ -1618,6 +1622,7 @@
 		"Language": ["French"],
 		"timezone": "UTC+1",
 		"demonym": "Nigerien",
+		"fake_demonyms": ["Nig", "Nigeri", "Nigeran", "Nigeric", "Nigerish", "Nigerabe", "Nigerese", "Nigerer"],
 		"area (sq km)": "1267000"
 	},
 	"NGA": {
@@ -1630,6 +1635,7 @@
 		"Language": ["English"],
 		"timezone": "UTC+1",
 		"demonym": "Nigerian",
+		"fake_demonyms": ["Nig", "Nigeri", "Nigeran", "Nigeric", "Nigerish", "Nigeriabe", "Nigeriese", "Nigerier"],
 		"area (sq km)": "923768"
 	},
 	"PRK": {
@@ -1642,6 +1648,7 @@
 		"Language": ["Korean"],
 		"timezone": "UTC+8.30",
 		"demonym": "North Korean",
+		"fake_demonyms": ["Kore", "Kori", "North Koran", "North Koreaic", "North Koreaish", "North Koreabe", "North Korese", "North Koreaer"],
 		"area (sq km)": "120538"
 	},
 	"NOW": {
@@ -1654,6 +1661,7 @@
 		"Language": ["Norwegian"],
 		"timezone": "UTC+1",
 		"demonym": "Norwegian",
+		"fake_demonyms": ["Norweg", "Norwegi", "Norwegan", "Norwegic", "Norwegish", "Norwegiabe", "Norwegese", "Norwegier"],
 		"area (sq km)": "323802"
 	},
 	"OMN": {
@@ -1666,6 +1674,7 @@
 		"Language": ["Arabic"],
 		"timezone": "UTC+4",
 		"demonym": "Omani",
+		"fake_demonyms": ["Om", "Omanian", "Omanan", "Omanic", "Omanish", "Omanabe", "Omanese", "Omaner"],
 		"area (sq km)": "309500"
 	},
 	"PAK": {
@@ -1678,6 +1687,7 @@
 		"Language": ["English", "Urdu"],
 		"timezone": "UTC+5",
 		"demonym": "Pakistani",
+		"fake_demonyms": ["Pak", "Pakistanian", "Pakistanan", "Pakistanic", "Pakistanish", "Pakistanabe", "Pakistanese", "Pakistaner"],
 		"area (sq km)": "881912"
 	},
 	"PLW": {
@@ -1690,6 +1700,7 @@
 		"Language": ["Palauan", "English"],
 		"timezone": "UTC+9",
 		"demonym": "Palauan",
+		"fake_demonyms": ["Pal", "Palauian", "Palaui", "Palauic", "Palauish", "Palauabe", "Palauese", "Palauer"],
 		"area (sq km)": "459"
 	},
 	"PSE": {
@@ -1702,6 +1713,7 @@
 		"Language": ["Arabic"],
 		"timezone": "UTC+2",
 		"demonym": "Palestinian",
+		"fake_demonyms": ["Palest", "Palestini", "Palestin", "Palestinic", "Palestinish", "Palestinabe", "Palestinese", "Palestiner"],
 		"area (sq km)": "6220"
 	},
 	"PAN": {
@@ -1714,6 +1726,7 @@
 		"Language": ["Spanish"],
 		"timezone": "UTC-5",
 		"demonym": "Panamanian",
+		"fake_demonyms": ["Panam", "Panamani", "Panaman", "Panamanic", "Panamanish", "Panamabe", "Panamese", "Panamer"],
 		"area (sq km)": "75417"
 	},
 	"PNX": {
@@ -1726,6 +1739,7 @@
 		"Language": ["Hiri Motu", "Tok Pisin", "English"],
 		"timezone": "UTC+10",
 		"demonym": "Papua New Guinean",
+		"fake_demonyms": ["Guin", "Pap", "Papua New Guin", "Papua New Guinic", "Papua New Guinish", "Papua New Guineabe", "Papua New Guinese", "Papua New Guineaer"],
 		"area (sq km)": "462840"
 	},
 	"PRY": {
@@ -1738,6 +1752,7 @@
 		"Language": ["Spanish", "Guarani", "Guaraní"],
 		"timezone": "UTC-4",
 		"demonym": "Paraguayan",
+		"fake_demonyms": ["Parag", "Paraguayi", "Paraguayian", "Paraguayic", "Paraguayish", "Paraguabe", "Paraguese", "Paraguayer"],
 		"area (sq km)": "406752"
 	},
 	"PER": {
@@ -1750,6 +1765,7 @@
 		"Language": ["Spanish", "Quechua", "Aymara"],
 		"timezone": "UTC-5",
 		"demonym": "Peruvian",
+		"fake_demonyms": ["Per", "Perui", "Peruvan", "Peruvic", "Peruvish", "Peruvabe", "Peruvese", "Peruver"],
 		"area (sq km)": "1285216"
 	},
 	"PHL": {
@@ -1762,6 +1778,7 @@
 		"Language": ["Filipino", "English"],
 		"timezone": "UTC+8",
 		"demonym": "Filipino",
+		"fake_demonyms": ["Philip", "Philippino", "Filipinyo", "Philippinyo", "Philippini", "Filipini", "Philippiner"],
 		"area (sq km)": "342353"
 	},
 	"POL": {
@@ -1774,6 +1791,7 @@
 		"Language": ["Polish"],
 		"timezone": "UTC+1",
 		"demonym": "Polish",
+		"fake_demonyms": ["Pole", "Polandian", "Polandan", "Polandic", "Polandish", "Polandabe", "Polandese", "Polander"],
 		"area (sq km)": "312679"
 	},
 	"PRX": {
@@ -1786,6 +1804,7 @@
 		"Language": ["Portuguese"],
 		"timezone": "UTC",
 		"demonym": "Portuguese",
+		"fake_demonyms": ["Port", "Portugalian", "Portugalan", "Portugalic", "Portugalish", "Portugaliabe", "Portugali", "Portugaler"],
 		"area (sq km)": "92090"
 	},
 	"QAT": {
@@ -1798,6 +1817,7 @@
 		"Language": ["Arabic"],
 		"timezone": "UTC+3",
 		"demonym": "Qatari",
+		"fake_demonyms": ["Qat", "Qatarian", "Qataran", "Qataric", "Qatarish", "Qatarabe", "Qatarese", "Qatarer"],
 		"area (sq km)": "11586"
 	},
 	"COG": {
@@ -1810,6 +1830,7 @@
 		"Language": ["French"],
 		"timezone": "UTC+1",
 		"demonym": "Congolese",
+		"fake_demonyms": ["Cong", "Congian", "Congan", "Congic", "Congish", "Congabe", "Congi", "Congoer"],
 		"area (sq km)": "342000"
 	},
 	"ROU": {
@@ -1822,6 +1843,7 @@
 		"Language": ["Romanian"],
 		"timezone": "UTC+2",
 		"demonym": "Romanian",
+		"fake_demonyms": ["Roman", "Romani", "Romanic", "Romanish", "Romaniabe", "Romanese", "Romanier"],
 		"area (sq km)": "238391"
 	},
 	"RUE": {
@@ -1834,6 +1856,7 @@
 		"Language": ["Russian"],
 		"timezone": "UTC+2 - UTC+12",
 		"demonym": "Russian",
+		"fake_demonyms": ["Rus", "Russi", "Russic", "Russish", "Russiabe", "Russiese", "Russier"],
 		"area (sq km)": "17098242"
 	},
 	"RWA": {
@@ -1846,6 +1869,7 @@
 		"Language": ["Kinyarwanda", "English", "French"],
 		"timezone": "UTC+2",
 		"demonym": "Rwandan",
+		"fake_demonyms": ["Rwand", "Rwandian", "Rwandi", "Rwandic", "Rwandish", "Rwandabe", "Rwandese", "Rwander"],
 		"area (sq km)": "26338"
 	},
 	"KNA": {
@@ -1858,6 +1882,7 @@
 		"Language": ["English"],
 		"timezone": "UTC-4",
 		"demonym": "Kittitian or Nevisian",
+		"fake_demonyms": ["Kitt or Nevit", "Kitti or Nevisi", "Kittic or Nevic", "Kittish or Nevish", "Kittese or Nevisese", "Kitter or Neviser"],
 		"area (sq km)": "261"
 	},
 	"LCA": {
@@ -1870,6 +1895,7 @@
 		"Language": ["English"],
 		"timezone": "UTC-4",
 		"demonym": "Saint Lucian",
+		"fake_demonyms": ["Luc", "Luci", "Lucian", "Saint Lucianic", "Lucianic", "Saint Luciabe", "Saint Luciese", "Saint Lucier"],
 		"area (sq km)": "616"
 	},
 	"VCT": {
@@ -1882,6 +1908,7 @@
 		"Language": ["English"],
 		"timezone": "UTC-4",
 		"demonym": "Saint Vincentian",
+		"fake_demonyms": ["Vinc", "Saint Vincenti", "Vincenti", "Vincentic", "Vincentish", "Saint Vincentabe", "Saint Vincentese", "Saint Vincenter"],
 		"area (sq km)": "389"
 	},
 	"WSM": {
@@ -1894,6 +1921,7 @@
 		"Language": ["Samoan", "English"],
 		"timezone": "UTC+13",
 		"demonym": "Samoan",
+		"fake_demonyms": ["Samo", "Samoian", "Samoi", "Samoic", "Samoish", "Samoabe", "Samoese", "Samoer"],
 		"area (sq km)": "2842"
 	},
 	"SMR": {
@@ -1906,6 +1934,7 @@
 		"Language": ["Italian"],
 		"timezone": "UTC+1",
 		"demonym": "Sammarinese",
+		"fake_demonyms": ["Sammarin", "Sammarian", "Sammari", "Sammarinic", "Sammarinish", "Sammarinabe", "Sammariner"],
 		"area (sq km)": "61"
 	},
 	"STP": {
@@ -1918,6 +1947,7 @@
 		"Language": ["Portuguese"],
 		"timezone": "UTC",
 		"demonym": "Sao Tomean",
+		"fake_demonyms": ["Tome", "Sao Tomi", "Sao Toman", "Sao Tomic", "Sao Tomish", "Sao Tomeabe", "Sao Tomese", "Sao Tomer"],
 		"area (sq km)": "964"
 	},
 	"SAU": {
@@ -1929,7 +1959,8 @@
 		"currency": ["SAR", "Saudi Riyal"],
 		"Language": ["Arabic"],
 		"timezone": "UTC+3",
-		"demonym": "Saudi-Arabian",
+		"demonym": "Saudi Arabian",
+		"fake_demonyms": ["Saudi Arab", "Saudi Arabic", "Arab", "Arabic", "Saudi Arabish", "Saudi Arabiabe", "Saudi Arabese", "Saudi Arabier"],
 		"area (sq km)": "2149690"
 	},
 	"SEN": {
@@ -1942,6 +1973,7 @@
 		"Language": ["French"],
 		"timezone": "UTC",
 		"demonym": "Senegalese",
+		"fake_demonyms": ["Seneg", "Senegalian", "Senegalan", "Senegalic", "Senegalish", "Senegalabe", "Senegali", "Senegaler"],
 		"area (sq km)": "196722"
 	},
 	"SRS": {
@@ -1954,6 +1986,7 @@
 		"Language": ["Serbian"],
 		"timezone": "UTC+1",
 		"demonym": "Serbian",
+		"fake_demonyms": ["Serb", "Serbi", "Serbic", "Serbish", "Serbiabe", "Serbiese", "Serbier"],
 		"area (sq km)": "88361"
 	},
 	"SYC": {
@@ -1966,6 +1999,7 @@
 		"Language": ["English", "French", "Seychellois Creole"],
 		"timezone": "UTC+4",
 		"demonym": "Seychellois",
+		"fake_demonyms": ["Seychel", "Seychelian", "Seychellan", "Seychellic", "Seychellish", "Seychelliabe", "Seychellese", "Seycheller"],
 		"area (sq km)": "452"
 	},
 	"SLE": {
@@ -1978,6 +2012,7 @@
 		"Language": ["English"],
 		"timezone": "UTC",
 		"demonym": "Sierra Leonean",
+		"fake_demonyms": ["Leon", "Sierra Leonian", "Sierra Leonan", "Sierra Leonic", "Sierra Leonish", "Sierra Leonabe", "Sierra Leonese", "Sierra Leoner"],
 		"area (sq km)": "71740"
 	},
 	"SGP": {
@@ -1990,6 +2025,7 @@
 		"Language": ["English"],
 		"timezone": "UTC+8",
 		"demonym": "Singaporean",
+		"fake_demonyms": ["Singap", "Singaporian", "Singaporan", "Singaporic", "Singaporish", "Singaporeabe", "Singapori", "Singaporer"],
 		"area (sq km)": "710"
 	},
 	"SVK": {
@@ -2002,6 +2038,7 @@
 		"Language": ["Slovak"],
 		"timezone": "UTC+1",
 		"demonym": "Slovak",
+		"fake_demonyms": ["Slov", "Slovakian", "Slovakan", "Slovakic", "Slovakish", "Slovakiabe", "Slovakese", "Slovakier"],
 		"area (sq km)": "49037"
 	},
 	"SVN": {
@@ -2014,6 +2051,7 @@
 		"Language": ["Slovene"],
 		"timezone": "UTC+1",
 		"demonym": "Slovene",
+		"fake_demonyms": ["Slov", "Slovenian", "Slovenan", "Slovenic", "Slovenish", "Sloveniabe", "Slovenese", "Slovenier"],
 		"area (sq km)": "20273"
 	},
 	"SLB": {
@@ -2026,6 +2064,7 @@
 		"Language": ["English"],
 		"timezone": "UTC+11",
 		"demonym": "Solomon Islander",
+		"fake_demonyms": ["Solom", "Solomonian", "Solomonan", "Solomonic", "Solomonish", "Solomonabe", "Solomonese", "Solomoni"],
 		"area (sq km)": "28896"
 	},
 	"SOX": {
@@ -2038,6 +2077,7 @@
 		"Language": ["Somali", "Arabic"],
 		"timezone": "UTC+3",
 		"demonym": "Somali",
+		"fake_demonyms": ["Som", "Somalian", "Somalan", "Somalic", "Somalish", "Somaliabe", "Somalese", "Somalier"],
 		"area (sq km)": "637657"
 	},
 	"ZAX": {
@@ -2050,6 +2090,7 @@
 		"Language": ["Afrikaans", "English", "Ndebele", "Northern Sotho", "Sotho", "Swazi", "Tsonga", "Tswana", "Venda", "Xhosa" "Zulu"],
 		"timezone": "UTC+2",
 		"demonym": "South African",
+		"fake_demonyms": ["Afrikaan", "South Afrikaan", "South Africish", "South Africabe", "South Africese", "South Africer"],
 		"area (sq km)": "1221037"
 	},
 	"KOR": {
@@ -2062,6 +2103,7 @@
 		"Language": ["Korean"],
 		"timezone": "UTC+9",
 		"demonym": "South Korean",
+		"fake_demonyms": ["Kor", "South Korian", "South Koran", "South Koreaic", "South Koreaish", "South Koreabe", "South Korese", "South Korer"],
 		"area (sq km)": "100210"
 	},
 	"SDS": {
@@ -2074,6 +2116,7 @@
 		"Language": ["English"],
 		"timezone": "UTC+3",
 		"demonym": "South Sudanese",
+		"fake_demonyms": ["South Sud", "South Sudanian", "South Sudanan", "South Sudanic", "South Sudanish", "South Sudanabe", "South Sudani", "South Sudaner"],
 		"area (sq km)": "619745"
 	},
 	"ESX": {
@@ -2086,6 +2129,7 @@
 		"Language": ["Spanish"],
 		"timezone": "UTC+1",
 		"demonym": "Spanish",
+		"fake_demonyms": ["Span", "Spaniard", "Spainan", "Spanic", "Hispanic", "Spaniabe", "Spainese", "Spainer"],
 		"area (sq km)": "505992"
 	},
 	"LKA": {
@@ -2098,6 +2142,7 @@
 		"Language": ["Sinhalese", "Tamil"],
 		"timezone": "UTC+5.30",
 		"demonym": "Sri Lankan",
+		"fake_demonyms": ["Lank", "Sri Lankian", "Sri Lanki", "Sri Lankic", "Sri Lankish", "Sri Lankabe", "Sri Lankese", "Sri Lanker"],
 		"area (sq km)": "65610"
 	},
 	"SDN": {
@@ -2110,6 +2155,7 @@
 		"Language": ["Arabic", "English"],
 		"timezone": "UTC+3",
 		"demonym": "Sudanese",
+		"fake_demonyms": ["Sud", "Sudanian", "Sudanan", "Sudanic", "Sudanish", "Sudanabe", "Sudani", "Sudaner"],
 		"area (sq km)": "1886068"
 	},
 	"SUR": {
@@ -2122,6 +2168,7 @@
 		"Language": ["Dutch"],
 		"timezone": "UTC-3",
 		"demonym": "Surinamer",
+		"fake_demonyms": ["Suri", "Surinamian", "Surinaman", "Surinamic", "Surinamish", "Surinabe", "Surinamese", "Surinami"],
 		"area (sq km)": "163820"
 	},
 	"SWZ": {
@@ -2134,6 +2181,7 @@
 		"Language": ["Swazi", "English"],
 		"timezone": "UTC+2",
 		"demonym": "Swazi",
+		"fake_demonyms": ["Swaz", "Swazilandian", "Swazilandan", "Swazilandic", "Swazilandish", "Swazilandabe", "Swazilandese", "Swazilander"],
 		"area (sq km)": "17364"
 	},
 	"SWE": {
@@ -2146,6 +2194,7 @@
 		"Language": ["Swedish"],
 		"timezone": "UTC+1",
 		"demonym": "Swedish",
+		"fake_demonyms": ["Swede", "Swedian", "Swedan", "Swedic", "Swedi", "Swediabe", "Swedese", "Swedener"],
 		"area (sq km)": "450295"
 	},
 	"CHE": {
@@ -2158,6 +2207,7 @@
 		"Language": ["German", "French", "Italian", "Romansh"],
 		"timezone": "UTC+1",
 		"demonym": "Swiss",
+		"fake_demonyms": ["Switz", "Switzerlandian", "Switzerlandan", "Switzerlandic", "Switzerlandish", "Switzerlandiabe", "Switzerlandese", "Switzerlander"],
 		"area (sq km)": "41284"
 	},
 	"SYX": {
@@ -2170,6 +2220,7 @@
 		"Language": ["Arabic"],
 		"timezone": "UTC+2",
 		"demonym": "Syrian",
+		"fake_demonyms": ["Syr", "Syri", "Syran", "Syric", "Syrish", "Syriabe", "Syriese", "Syrier"],
 		"area (sq km)": "185180"
 	},
 	"TWN": {
@@ -2182,6 +2233,7 @@
 		"Language": ["Mandarin"],
 		"timezone": "UTC+8",
 		"demonym": "Taiwanese",
+		"fake_demonyms": ["Tai", "Taiwanian", "Taiwani", "Taiwanic", "Taiwanish", "Taiwabe", "Taiwaner"],
 		"area (sq km)": "36193"
 	},
 	"TJK": {
@@ -2194,6 +2246,7 @@
 		"Language": ["Tajik"],
 		"timezone": "UTC+5",
 		"demonym": "Tadzhik",
+		"fake_demonyms": ["Tajiki", "Tajikistani", "Tajikian", "Tajikic", "Tajikistaner", "Tadzhiki", "Tadzhikian", "Tadzhikic"],
 		"area (sq km)": "143100"
 	},
 	"TZA": {
@@ -2206,6 +2259,7 @@
 		"Language": ["Swahili", "English"],
 		"timezone": "UTC+3",
 		"demonym": "Tanzanian",
+		"fake_demonyms": ["Tanz", "Tanzani", "Tanzan", "Tanzanic", "Tanzanish", "Tanzaniabe", "Tanzanese", "Tanzanier"],
 		"area (sq km)": "945087"
 	},
 	"THA": {
@@ -2218,6 +2272,7 @@
 		"Language": ["Thai"],
 		"timezone": "UTC+7",
 		"demonym": "Thai",
+		"fake_demonyms": ["Thailandi", "Thailandian", "Thailandan", "Thailandic", "Thailandish", "Thailandabe", "Thailandese", "Thailander"],
 		"area (sq km)": "513120"
 	},
 	"TLX": {
@@ -2230,6 +2285,7 @@
 		"Language": ["Tetum", "Portuguese"],
 		"timezone": "UTC+9",
 		"demonym": "East Timorese",
+		"fake_demonyms": ["Timor-Lester", "Timor-Lestian", "Timor-Lestic", "Timorean", "Timoric", "Timorer", "East Timoric", "East Timorian"],
 		"area (sq km)": "14874"
 	},
 	"TGO": {
@@ -2242,6 +2298,7 @@
 		"Language": ["French"],
 		"timezone": "UTC",
 		"demonym": "Togolese",
+		"fake_demonyms": ["Tog", "Togian", "Togan", "Togic", "Togish", "Togiabe", "Togoli", "Togoer"],
 		"area (sq km)": "56785"
 	},
 	"TON": {
@@ -2254,6 +2311,7 @@
 		"Language": ["Tongan", "English"],
 		"timezone": "UTC+13",
 		"demonym": "Tongan",
+		"fake_demonyms": ["Tong", "Tongian", "Tongani", "Tongic", "Tongish", "Tongabe", "Tongalese", "Tonger"],
 		"area (sq km)": "747"
 	},
 	"TTO": {
@@ -2266,6 +2324,7 @@
 		"Language": ["English"],
 		"timezone": "UTC-4",
 		"demonym": "Trinidadian",
+		"fake_demonyms": ["Trini", "Tobagi", "Trinidian", "Trinidadic", "Trinidadish", "Trinidabe", "Trinidese", "Trinidad and Tobagoer"],
 		"area (sq km)": "5130"
 	},
 	"TUN": {
@@ -2278,6 +2337,7 @@
 		"Language": ["Arabic"],
 		"timezone": "UTC+1",
 		"demonym": "Tunisian",
+		"fake_demonyms": ["Tunis", "Tunisi", "Tunisan", "Tunisic", "Tunisish", "Tunisiabe", "Tunisiese", "Tunisier"],
 		"area (sq km)": "163610"
 	},
 	"TUR": {
@@ -2290,6 +2350,7 @@
 		"Language": ["Turkish"],
 		"timezone": "UTC+2",
 		"demonym": "Turkish",
+		"fake_demonyms": ["Turk", "Turkian", "Turkan", "Turkic", "Turki", "Turkiabe", "Turkese", "Turkeyer"],
 		"area (sq km)": "783562"
 	},
 	"TKM": {
@@ -2302,6 +2363,7 @@
 		"Language": ["Turkmen"],
 		"timezone": "UTC+5",
 		"demonym": "Turkmen",
+		"fake_demonyms": ["Turkmeni", "Turkmenian", "Turkmenistani", "Turkmenistanic", "Turkmenistanish", "Turkmenic", "Turkmenese", "Turkmenistaner"],
 		"area (sq km)": "488100"
 	},
 	"TUV": {
@@ -2314,6 +2376,7 @@
 		"Language": ["English", "Tuvaluan"],
 		"timezone": "UTC+12",
 		"demonym": "Tuvaluan",
+		"fake_demonyms": ["Tuval", "Tuvaluvian", "Tuvalui", "Tuvaluic", "Tuvaluish", "Tuvaluabe", "Tuvalese", "Tuvaluer"],
 		"area (sq km)": "26"
 	},
 	"UGA": {
@@ -2326,6 +2389,7 @@
 		"Language": ["Swahili", "English"],
 		"timezone": "UTC+3",
 		"demonym": "Ugandan",
+		"fake_demonyms": ["Ugand", "Ugandian", "Ugandi", "Ugandic", "Ugandish", "Ugandabe", "Ugandese", "Ugander"],
 		"area (sq km)": "241550"
 	},
 	"UKR": {
@@ -2338,6 +2402,7 @@
 		"Language": ["Ukrainian"],
 		"timezone": "UTC+2",
 		"demonym": "Ukrainian",
+		"fake_demonyms": ["Kraine", "Ukraini", "Ukrainan", "Ukrainic", "Ukrainish", "Ukrainabe", "Ukrainese", "Ukrainer"],
 		"area (sq km)": "603500"
 	},
 	"ARE": {
@@ -2350,6 +2415,7 @@
 		"Language": ["Arabic"],
 		"timezone": "UTC+4",
 		"demonym": "Emirati",
+		"fake_demonyms": ["Arab", "Emirate", "United Arab Emiratian", "United Arab Emirati", "Arabic", "Emirabe", "Emiratese", "United Arab Emirater"],
 		"area (sq km)": "83600"
 	},
 	"GBR": {
@@ -2362,6 +2428,7 @@
 		"Language": ["English"],
 		"timezone": "UTC",
 		"demonym": "British",
+		"fake_demonyms": ["Brit", "Briton", "Britic", "Britese", "United Kingdish", "United King", "United Kingese", "United Kingdomer"],
 		"area (sq km)": "242900"
 	},
 	"USB": {
@@ -2374,6 +2441,7 @@
 		"Language": ["English"],
 		"timezone": "UTC-4 - UTC+11",
 		"demonym": "American",
+		"fake_demonyms": ["Yank", "Americ", "Statesian", "Yankee", "Americish", "Americabe", "Americese", "Americer"],
 		"area (sq km)": "9372610"
 	},
 	"URY": {
@@ -2386,6 +2454,7 @@
 		"Language": ["Spanish"],
 		"timezone": "UTC-3",
 		"demonym": "Uruguayan",
+		"fake_demonyms": ["Urug", "Uruguayian", "Uruguayi", "Uruguayic", "Uruguayish", "Uruguabe", "Uruguese", "Uruguayer"],
 		"area (sq km)": "181034"
 	},
 	"UZB": {
@@ -2398,6 +2467,7 @@
 		"Language": ["Uzbek", "Russian"],
 		"timezone": "UTC+5",
 		"demonym": "Uzbekistani",
+		"fake_demonyms": ["Uzbek", "Uzbekian", "Uzbekan", "Uzbekistanic", "Uzbekistanish", "Uzbekistabe", "Uzbekese", "Uzbekistaner"],
 		"area (sq km)": "447400"
 	},
 	"VUT": {
@@ -2410,6 +2480,7 @@
 		"Language": ["Dutch"],
 		"timezone": "UTC+11",
 		"demonym": "Ni-Vanuatu",
+		"fake_demonyms": ["Vanut", "Vanuatian", "Ni-Van", "Ni-Vanua", "Vanuatish", "Vanuatabe", "Vanuatese", "Vanuatuer"],
 		"area (sq km)": "12189"
 	},
 	"VAT": {
@@ -2422,6 +2493,7 @@
 		"Language": ["Italian", "Latin"],
 		"timezone": "UTC+1",
 		"demonym": "Italian",
+		"fake_demonyms": ["Vatic", "Vati", "Vat", "Vati", "Italia", "Italic", "Italese", "Vaticaner", "Lat", "Latiner"],
 		"area (sq km)": "0.44"
 	},
 	"VEN": {
@@ -2434,6 +2506,7 @@
 		"Language": ["Spanish"],
 		"timezone": "UTC-4",
 		"demonym": "Venezuelan",
+		"fake_demonyms": ["Venez", "Venezuelian", "Venezueli", "Venezuelic", "Venezuelish", "Venezuelabe", "Venezuelese", "Venezueler"],
 		"area (sq km)": "916445"
 	},
 	"VNM": {
@@ -2446,6 +2519,7 @@
 		"Language": ["Vietnamese"],
 		"timezone": "UTC+7",
 		"demonym": "Vietnamese",
+		"fake_demonyms": ["Viet", "Vietnamian", "Vietnaman", "Vietnamic", "Vietnamish", "Vietnamabe", "Vietnami", "Vietnamer"],
 		"area (sq km)": "331212"
 	},
 	"YEM": {
@@ -2458,6 +2532,7 @@
 		"Language": ["Arabic"],
 		"timezone": "UTC+3",
 		"demonym": "Yemeni",
+		"fake_demonyms": ["Yem", "Yemenian", "Yemenan", "Yemenic", "Yemenish", "Yemeniabe", "Yemenese", "Yemener"],
 		"area (sq km)": "527968"
 	},
 	"ZMB": {
@@ -2470,6 +2545,7 @@
 		"Language": ["English"],
 		"timezone": "UTC+2",
 		"demonym": "Zambian",
+		"fake_demonyms": ["Zamb", "Zambi", "Zamban", "Zambic", "Zambish", "Zambiabe", "Zambese", "Zambier"],
 		"area (sq km)": "752612"
 	},
 	"ZWE": {
@@ -2482,6 +2558,7 @@
 		"Language": ["Chewa", "Chibarwe", "English", "Kalanga", "Koisan", "Nambya", "Ndau", "Ndebele", "Shangani", "Shona", "Sotho", "Tonga", "Tswana", "Venda", "Xhosa"],
 		"timezone": "UTC+2",
 		"demonym": "Zimbabwean",
+		"fake_demonyms": ["Zimbab", "Zimbabwian", "Zimbabwi", "Zimbabwic", "Zimbabwish", "Zimbabwabe", "Zimbabwese", "Zimbabwer"],
 		"area (sq km)": "390757"
 	}
 }
