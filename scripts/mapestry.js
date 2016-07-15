@@ -113,18 +113,18 @@ var southamericaprojection = d3.geo.azimuthalEqualArea()
                                    .scale(400)
 
 var europeprojection = d3.geo.azimuthalEqualArea()
-                             .center([34, 30])
-                             .scale(590)
+                             .center([47, 55])
+                             .scale(640)
 
 var africaprojection = d3.geo.azimuthalEqualArea()
-                             .scale(400)
-                             .center([0, 5])
+                             .scale(440)
+                             .center([37, 5])
 
 var asiaprojection =  d3.geo.patterson()
                         	  .center([22,94])
                             .scale(210)
                             .translate([0,0])
-                            .precision(.1);
+                            .precision(.1)
 
 
 var oceaniaprojection = d3.geo.conicConformal()
@@ -132,7 +132,7 @@ var oceaniaprojection = d3.geo.conicConformal()
                               .center([86, -46])
                               .parallels([-18, -36])
                               .scale(356)
-                              .precision(0.1);
+                              .precision(0.1)
 
 var currentMap = 'world'
 
