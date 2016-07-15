@@ -56,42 +56,21 @@ function startPauseTimer(continent, game) {
   }
 }
 
+var difficulty_levels = ['easy', 'medium', 'hard']
 
 // Toggle difficulty and time mode button actions:
 
 document.getElementById('toggle-difficulty').onclick = function() {
-  var currentdifficulty = toggleDifficultyButton()
-  changeDifficultyMode(currentdifficulty)
+  changeDifficultyMode(currentdifficulty, selected_game, selected_continent)
 }
 
-function toggleDifficultyButton() {
-  if ($('#toggle-difficulty').hasClass('easy')) {
-    $('#toggle-difficulty').removeClass('easy')
-    $('#toggle-difficulty').addClass('medium')
-    $('#easy-icon').addClass('inactive')
-    $('#medium-icon').removeClass('inactive')
-    return 'medium'
-  } else if ($('#toggle-difficulty').hasClass('medium')) {
-    $('#toggle-difficulty').removeClass('medium')
-    $('#toggle-difficulty').addClass('hard')
-    $('#medium-icon').addClass('inactive')
-    $('#hard-icon').removeClass('inactive')
-    return 'hard'
-  }  else if ($('#toggle-difficulty').hasClass('hard')) {
-    $('#toggle-difficulty').removeClass('hard')
-    $('#toggle-difficulty').addClass('easy')
-    $('#hard-icon').addClass('inactive')
-    $('#easy-icon').removeClass('inactive')
-    return 'easy'
-  }
-}
-
-function changeDifficultyMode(difficulty) {
-
-  $('.easy.flow-text').addClass('inactive')
-  $('.medium.flow-text').addClass('inactive')
-  $('.hard.flow-text').addClass('inactive')
-  $('.' + difficulty + '.flow-text').removeClass('inactive')
+function changeDifficultyMode(difficulty, game, continent) {
+  // Change game text
+  // Set new difficulty level
+  var curr_diff_index = difficulty_levels.findIndex(function(level) { return level === selected_difficulty })
+  selected_difficulty = difficulty_levels[1 + curr_diff_index % 2]
+  // Chnage button icon
+  $('#toggle-difficulty').html('<img id="difficulty-icon" src="assets/icons/games/' + selected_difficulty + '.png">')
 }
 
 var svg = d3.select('#map-container').append('div')
