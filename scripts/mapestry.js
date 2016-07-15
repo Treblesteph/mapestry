@@ -103,10 +103,9 @@ var svg = d3.select('#map-container').append('div')
 
 var northamericaprojection = d3.geo.conicConformal()
                                    .rotate([98, 2])
-                                   .center([25, 12])
+                                   .center([37, 53])
                                    .parallels([29.5, 45.5])
-                                   .scale(350)
-                                   .translate([width / 2, height / 2])
+                                   .scale(370)
                                    .precision(.1)
 
 var southamericaprojection = d3.geo.azimuthalEqualArea()
@@ -116,12 +115,10 @@ var southamericaprojection = d3.geo.azimuthalEqualArea()
 var europeprojection = d3.geo.azimuthalEqualArea()
                              .center([34, 30])
                              .scale(590)
-                             .translate([width / 2, height / 2])
 
 var africaprojection = d3.geo.azimuthalEqualArea()
                              .scale(400)
                              .center([0, 5])
-                             .translate([width / 5, height / 4])
 
 var asiaprojection =  d3.geo.patterson()
                         	  .center([22,94])
@@ -135,7 +132,6 @@ var oceaniaprojection = d3.geo.conicConformal()
                               .center([86, -46])
                               .parallels([-18, -36])
                               .scale(356)
-                              .translate([width / 2, height / 2])
                               .precision(0.1);
 
 var currentMap = 'world'
