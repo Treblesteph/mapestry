@@ -65,12 +65,15 @@ document.getElementById('toggle-difficulty').onclick = function() {
 }
 
 function changeDifficultyMode(difficulty, game, continent) {
-  // Change game text
   // Set new difficulty level
   var curr_diff_index = difficulty_levels.findIndex(function(level) { return level === selected_difficulty })
   selected_difficulty = difficulty_levels[(1 + curr_diff_index) % 3]
   // Chnage button icon
   $('#toggle-difficulty').html('<img id="difficulty-icon" src="assets/icons/games/' + selected_difficulty + '.png">')
+  // Change game text
+  if ((selected_game !== 'none') && (selected_continent !== 'none')) {
+    $
+  }
 }
 
 var svg = d3.select('#map-container').append('div')
@@ -123,13 +126,13 @@ continents_list.forEach(function(c) {
   var continent2 = c + '2'
   document.getElementById(continent1).onclick = function() {
     selected_continent = c
-    showInGameOptions(c, selected_game)
+    showInGameOptions(c, selected_game, selected_difficulty)
     showcontinent(c)
     toggleclicked(continent1)
   }
   document.getElementById(continent2).onclick = function() {
     selected_continent = c
-    showInGameOptions(c, selected_game)
+    showInGameOptions(c, selected_game, selected_difficulty)
     showcontinent(c)
     toggleclicked(continent2)
   }
@@ -141,7 +144,7 @@ games_list.forEach(function(g) {
   var gameid = g + '-game'
   document.getElementById(gameid).onclick = function() {
     selected_game = g
-    showInGameOptions(selected_continent, g)
+    showInGameOptions(selected_continent, g, selected_difficulty)
   }
 })
 
@@ -203,12 +206,11 @@ var game_descriptions = {
   }
 }
 
-function showInGameOptions(continent, game) {
+function showInGameOptions(continent, game, difficulty) {
   var gameplay = $('#' + game + ' .game-play')
   if (continent === 'none' || game === 'none') {
     if (gameplay) gameplay.html('<p class="flow-text"> Choose a continent from the buttons above to start playing!</p>')
   } else {
-    var difficulty = $('#difficulty-level').attr('class')
     var this_game = game_descriptions[game]
     var description = this_game[difficulty]
     var htmlcontent = '<p class="flow-text">' + description + '</p>' +
