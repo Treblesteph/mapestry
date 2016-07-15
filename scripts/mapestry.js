@@ -129,7 +129,7 @@ var asiaprojection =  d3.geo.patterson()
 
 var oceaniaprojection = d3.geo.conicConformal()
                               .rotate([-132, 0])
-                              .center([86, -46])
+                              .center([60, -10])
                               .parallels([-18, -36])
                               .scale(356)
                               .precision(0.1)
