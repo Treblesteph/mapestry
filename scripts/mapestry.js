@@ -61,14 +61,14 @@ var difficulty_levels = ['easy', 'medium', 'hard']
 // Toggle difficulty and time mode button actions:
 
 document.getElementById('toggle-difficulty').onclick = function() {
-  changeDifficultyMode(currentdifficulty, selected_game, selected_continent)
+  changeDifficultyMode(selected_difficulty, selected_game, selected_continent)
 }
 
 function changeDifficultyMode(difficulty, game, continent) {
   // Change game text
   // Set new difficulty level
   var curr_diff_index = difficulty_levels.findIndex(function(level) { return level === selected_difficulty })
-  selected_difficulty = difficulty_levels[1 + curr_diff_index % 2]
+  selected_difficulty = difficulty_levels[(1 + curr_diff_index) % 3]
   // Chnage button icon
   $('#toggle-difficulty').html('<img id="difficulty-icon" src="assets/icons/games/' + selected_difficulty + '.png">')
 }
