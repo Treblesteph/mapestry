@@ -135,54 +135,54 @@ var game_descriptions = {
     'hard': ''
   },
   'country': {
-    'easy': 'Which of the countries shown below is highlighted on the map to the left?',
-    'medium': 'On the map to the left, click on:',
-    'hard': 'What is the name of the country highlighted on the map?'
+    'easy': 'Easy: Which of the countries shown below is highlighted on the map to the left?',
+    'medium': 'Medium: On the map to the left, click on:',
+    'hard': 'Hard: What is the name of the country highlighted on the map?'
   },
   'capital': {
-    'easy': 'From the options on the map to the left, select the country with the capital city:',
-    'medium': 'Which of the capital cities shown below is in the country shown on the map?',
-    'hard': 'What is the name of the capital city of the country shown on the map?'
+    'easy': 'Easy: From the options on the map to the left, select the country with the capital city:',
+    'medium': 'Medium: Which of the capital cities shown below is in the country shown on the map?',
+    'hard': 'Hard: What is the name of the capital city of the country shown on the map?'
   },
   'flag': {
-    'easy': 'From the four options on the map to the left, select the country which has the flag shown below',
-    'medium': 'Select the flag from the four options below that belongs to the country shown on the map',
-    'hard': 'Select the flag from the 20 options below that belongs to the country shown on the map'
+    'easy': 'Easy: From the four options on the map to the left, select the country which has the flag shown below',
+    'medium': 'Medium: Select the flag from the four options below that belongs to the country shown on the map',
+    'hard': 'Hard: Select the flag from the 20 options below that belongs to the country shown on the map'
   },
   'leader': {
-    'easy': 'Which of the following leaders are present in the country shown on the map to the left?',
-    'medium': 'From the options on the map to the left, select the country with the leader:',
-    'hard': 'Who is the leader of the country shown on the map?'
+    'easy': 'Easy: Which of the following leaders are present in the country shown on the map to the left?',
+    'medium': 'Medium: From the options on the map to the left, select the country with the leader:',
+    'hard': 'Hard: Who is the leader of the country shown on the map?'
   },
   'dialing': {
-    'easy': 'From the options on the map to the left, select the country with the dialing code:',
-    'medium': 'Which of the dialing codes shown below is for the country shown on the map?',
-    'hard': 'What is the dialing code of the country shown on the map?'
+    'easy': 'Easy: From the options on the map to the left, select the country with the dialing code:',
+    'medium': 'Medium: Which of the dialing codes shown below is for the country shown on the map?',
+    'hard': 'Hard: What is the dialing code of the country shown on the map?'
   },
   'currency': {
-    'easy': 'From the options on the map to the left, select the country with the currency:',
-    'medium': 'Which of the currencies shown below is for the country shown on the map?',
-    'hard': 'What is the currency of the country shown on the map?'
+    'easy': 'Easy: From the options on the map to the left, select the country with the currency:',
+    'medium': 'Medium: Which of the currencies shown below is for the country shown on the map?',
+    'hard': 'Hard: What is the currency of the country shown on the map?'
   },
   'language': {
-    'easy': 'Which of the Languages shown below is spoken in the country shown on the map?',
-    'medium': 'Name a national Language of the country shown on the map',
-    'hard': 'Name all of the national Languages of the country shown on the map'
+    'easy': 'Easy: Which of the Languages shown below is spoken in the country shown on the map?',
+    'medium': 'Medium: Name a national Language of the country shown on the map',
+    'hard': 'Hard: Name all of the national Languages of the country shown on the map'
   },
   'timezone': {
-    'easy': 'Which of the timezones shown below is for the country shown on the map?',
-    'medium': 'Which of the timezones shown below is for the country shown on the map?',
-    'hard': 'What is the timezone(s) for the country shown on the map?'
+    'easy': 'Easy: Which of the timezones shown below is for the country shown on the map?',
+    'medium': 'Medium: Which of the timezones shown below is for the country shown on the map?',
+    'hard': 'Hard: What is the timezone(s) for the country shown on the map?'
   },
   'demonym': {
-    'easy': 'From the options on the map to the left, select the country with the demonym:',
-    'medium': 'Which of the demonyms shown below is for the country shown on the map?',
-    'hard': 'What is the name of the demonym of the country shown on the map?'
+    'easy': 'Easy: From the options on the map to the left, select the country with the demonym:',
+    'medium': 'Medium: Which of the demonyms shown below is for the country shown on the map?',
+    'hard': 'Hard: What is the name of the demonym of the country shown on the map?'
   },
   'area': {
-    'easy': 'Which of the areas (in square KM) shown below is for the country shown on the map?',
-    'medium': 'Which of the areas (in square KM) shown below is for the country shown on the map?',
-    'hard': 'What is the area of the country shown on the map?'
+    'easy': 'Easy: Which of the areas (in square KM) shown below is for the country shown on the map?',
+    'medium': 'Medium: Which of the areas (in square KM) shown below is for the country shown on the map?',
+    'hard': 'Hard: What is the area of the country shown on the map?'
   }
 }
 
