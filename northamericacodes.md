@@ -20,7 +20,7 @@
 - USG - USNB Guantanamo Bay (USA - hide)
 - USK - Alaska (USA - show)
 - VGB - British Virgin Islands (UK - hide)
-- VIR - US Virgin Is. (USA - show)
+- VIR - US Virgin Is. (USA - hide)
 
 ## Sovereign states
 
@@ -46,6 +46,6 @@
 - LCA - St Lucia
 - VCT - St Vincent & the Grenadines
 - TTD & TTG - Trinidad & Tobago
-- USB - USA
+- USA - USB (America mainland) + USK (Alaska)
 
 ## Missing sovereign states
