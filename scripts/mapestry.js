@@ -285,7 +285,7 @@ function cleanISOs(continent) {
     $('.northamerica.ACB').addClass('ATG')
     $('.northamerica.USK').addClass('USB')
   } else if (continentname === 'southamerica') {
-
+    $('.southamerica.ECG').addClass('ECD')
   } else if (continentname === 'europe') {
 
   } else if (continentname === 'africa') {
