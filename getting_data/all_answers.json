@@ -741,10 +741,10 @@
 		"fake_demonyms": ["Fij", "Fijese", "Fijan", "Fijic", "Fijish", "Fijiabe", "Fijier"],
 		"area (sq km)": "18272"
 	},
-	"FIN": {
+	"FIL": {
 		"country": ["Finland", "Republic of Finland", "Rep of Finland"],
 		"capital": ["Helsinki"],
-		"flag": "../assets/flags/europe/FIN.png",
+		"flag": "../assets/flags/europe/FIL.png",
 		"leader": {"type": ["president", "prime minister"], "name": ["Sauli Niinistö", "Juha Sipilä"]},
 		"dialing": "+358",
 		"currency": ["EUR", "Euro"],
