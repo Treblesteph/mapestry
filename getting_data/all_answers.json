@@ -273,10 +273,10 @@
 		"fake_demonyms": ["Bolive", "Bolivese", "Boliv", "Bolivic", "Bolivish", "Bolivi", "Boliviabe", "Bolivier", "Boliviot"],
 		"area (sq km)": "1098581"
 	},
-	"BHF": {
+	"BOS": {
 		"country": ["Bosnia and Herzegovina", "Bosnia & Herzegovina", "Bosnia Herzegovina"],
 		"capital": ["Sarajevo"],
-		"flag": "../assets/flags/europe/BHF.png",
+		"flag": "../assets/flags/europe/BOS.png",
 		"leader": {"type": "prime minister", "name": "Denis Zvizdić"},
 		"dialing": "+387",
 		"currency": ["BAM", "Convertible Mark"],

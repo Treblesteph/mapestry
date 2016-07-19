@@ -38,7 +38,7 @@
 - AND - Andorra
 - AUT - Austria
 - BLR - Belarus
-- BHF - Bosnia Herzegovina
+- BOS - BHF (Bosnia Herzegovina) + BHB + BIS
 - BGR - Bulgaria
 - HRV - Croatia
 - CZE - Czech Republic
