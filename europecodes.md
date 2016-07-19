@@ -44,7 +44,7 @@
 - CZE - Czech Republic
 - DNK - Denmark
 - EST - Estonia
-- FIN - Finland
+- FIL - FIN (Finland) + ALD (Aland)
 - FXX - France
 - DEU - Germany
 - GRC - Greece
