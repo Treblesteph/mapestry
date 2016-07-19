@@ -2431,10 +2431,10 @@
 		"fake_demonyms": ["Brit", "Briton", "Britic", "Britese", "United Kingdish", "United King", "United Kingese", "United Kingdomer"],
 		"area (sq km)": "242900"
 	},
-	"USB": {
+	"USA": {
 		"country": ["USA", "United States of America", "US", "America", "United States", "The States"],
 		"capital": ["Washington D. C.", "Washington", "D. C.", "DC", "D.C.", "Washington DC", "Washington D.C."],
-		"flag": "../assets/flags/northamerica/USB.png",
+		"flag": "../assets/flags/northamerica/USA.png",
 		"leader": {"type": "president", "name": "Barack Obama"},
 		"dialing": "+1",
 		"currency": ["USD", "US Dollar", "United States Dollar"],
