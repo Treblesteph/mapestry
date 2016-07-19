@@ -267,10 +267,6 @@ function showcontinent(continentname) {
       projection = oceaniaprojection
     }
 
-    console.log(continent)
-
-    var selected = d3.set(['USB', 'USK'])
-
     var path = d3.geo.path().projection(projection)
 
     svg.selectAll('.subunit')
@@ -279,36 +275,35 @@ function showcontinent(continentname) {
        .attr('class', function(d) { return 'country ' + continentname + ' ' + d.id; })
        .attr('d', path)
 
+    // Merging paths for countries with multiple paths.
+    var multi_paths = {
+      'northamerica': {'oldISOs': [d3.set(['USB', 'USK']), d3.set(['ACA', 'ACB'])],
+                       'newISOs': ['USA', 'ATG']},
+      'southamerica': {'oldISOs': [],
+                       'newISOs': []},
+      'europe': {'oldISOs': [],
+                 'newISOs': []},
+      'africa': {'oldISOs': [],
+                 'newISOs': []},
+      'asia': {'oldISOs': [],
+               'newISOs': []},
+      'oceania': {'oldISOs': [],
+                  'newISOs': []},
+    }
 
-    svg.append('path')
-       .datum(topojson.merge(continent, continent.objects.continentnorthamerica.geometries.filter(function(d) {
-         return selected.has(d.id)
-       })))
-       .attr('class', 'country northamerica USA')
-       .attr('d', path)
-    // cleanISOs(continentname)
+    var counter = 0
+
+    selected.forEach(function (codes) {
+      svg.append('path')
+         .datum(topojson.merge(continent, continent.objects.continentnorthamerica.geometries.filter(function(d) {
+           return codes.has(d.id)
+         })))
+         .attr('class', 'country northamerica ' + newISOs[counter])
+         .attr('d', path)
+         counter += 1
+    })
   })
 }
-
-// function cleanISOs(continent) {
-//   if (continentname === 'northamerica') {
-//     svg.append('path')
-//        .datum(topojson.merge(continent, ))
-//     $('.northamerica.ACA').addClass('ATG')
-//     $('.northamerica.ACB').addClass('ATG')
-//     $('.northamerica.USK').addClass('USB')
-//   } else if (continentname === 'southamerica') {
-//     $('.southamerica.ECG').addClass('ECD')
-//   } else if (continentname === 'europe') {
-//     $('.europe.ALD').addClass('FIN')
-//   } else if (continentname === 'africa') {
-//
-//   } else if (continentname === 'asia') {
-//
-//   } else if (continentname === 'oceania') {
-//
-//   }
-// }
 
 function toggleclicked(id) {
 
