@@ -279,8 +279,8 @@ function showcontinent(continentname) {
     var multi_paths = {
       'northamerica': {'oldISOs': [d3.set(['USB', 'USK']), d3.set(['ACA', 'ACB'])],
                        'newISOs': ['USA', 'ATG']},
-      'southamerica': {'oldISOs': [],
-                       'newISOs': []},
+      'southamerica': {'oldISOs': [d3.set(['ECG', 'ECD'])],
+                       'newISOs': ['ECU']},
       'europe': {'oldISOs': [],
                  'newISOs': []},
       'africa': {'oldISOs': [],
@@ -292,6 +292,7 @@ function showcontinent(continentname) {
     }
 
     var counter = 0
+    var selected = multi_paths.continentname.oldISOs
 
     selected.forEach(function (codes) {
       svg.append('path')
