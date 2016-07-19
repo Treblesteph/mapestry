@@ -11,7 +11,7 @@
 - BRA - Brazil
 - CHX - Chile
 - COL - Colombia
-- ECD - Ecuador
+- ECU - ECD (Ecuador) + ECG
 - GUY - Guyana
 - PER - Peru
 - PRY - Paraguay
