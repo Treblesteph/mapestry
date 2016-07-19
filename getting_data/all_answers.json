@@ -637,10 +637,10 @@
 		"fake_demonyms": ["Domini", "Domi", "Dominician", "Dominic", "Dominish", "Dominicabe", "Dominicer"],
 		"area (sq km)": "48671"
 	},
-	"ECD": {
+	"ECU": {
 		"country": ["Ecuador", "Republic of Ecuador", "Rep of Ecuador"],
 		"capital": ["Quito"],
-		"flag": "../assets/flags/southamerica/ECD.png",
+		"flag": "../assets/flags/southamerica/ECU.png",
 		"leader": {"type": "president", "name": "Rafael Correa"},
 		"dialing": "+593",
 		"currency": ["USD", "United States Dollar", "US Dollar"],
