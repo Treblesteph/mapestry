@@ -274,7 +274,27 @@ function showcontinent(continentname) {
        .enter().append('path')
        .attr('class', function(d) { return 'country ' + continentname + ' ' + d.id; })
        .attr('d', path)
+
+    cleanISOs(continentname)
   })
+}
+
+function cleanISOs(continent) {
+  if (continentname === 'northamerica') {
+    $('.northamerica.ACA').addClass('ATG')
+    $('.northamerica.ACB').addClass('ATG')
+    $('.northamerica.USK').addClass('USB')
+  } else if (continentname === 'southamerica') {
+
+  } else if (continentname === 'europe') {
+
+  } else if (continentname === 'africa') {
+
+  } else if (continentname === 'asia') {
+
+  } else if (continentname === 'oceania') {
+
+  }
 }
 
 function toggleclicked(id) {
