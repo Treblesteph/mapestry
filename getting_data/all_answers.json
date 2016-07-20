@@ -1846,10 +1846,10 @@
 		"fake_demonyms": ["Roman", "Romani", "Romanic", "Romanish", "Romaniabe", "Romanese", "Romanier"],
 		"area (sq km)": "238391"
 	},
-	"RUE": {
+	"RUS": {
 		"country": ["Russia", "Russian Federation"],
 		"capital": ["Moscow"],
-		"flag": "../assets/flags/europe/RUE.png",
+		"flag": "../assets/flags/europe/RUS.png",
 		"leader": {"type": ["president", "prime minister"], "name": ["Vladimir Putin", "Dmitry Medvedev"]},
 		"dialing": "+7",
 		"currency": ["RUB", "Russian Ruble"],

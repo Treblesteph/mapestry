@@ -67,7 +67,7 @@
 - POL - Poland
 - PRX - Portugal
 - ROU - Romania
-- RUE - Russia
+- RUS - RUE (Russia) + RUK
 - SMR - San Marino
 - SRS - Serbia
 - SVK - Slovakia
