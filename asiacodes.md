@@ -49,7 +49,7 @@
 - BTN - Bhutan
 - BRN - Brunei
 - KHM - Cambodia
-- CHI - China
+- CHN - CHI (China) + CHH + HKG + MAC + PFA
 - GEG - Georgia
 - INX - India
 - IDN - Indonesia

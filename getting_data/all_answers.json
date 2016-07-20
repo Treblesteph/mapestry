@@ -455,10 +455,10 @@
 		"fake_demonyms": ["Chilli", "Chil", "Chilese", "Chileic", "Chileish", "Chili", "Chiliabe", "Chiler", "Chileot"],
 		"area (sq km)": "756096"
 	},
-	"CHI": {
+	"CHN": {
 		"country": ["China", "Peoples Republic of China", "Peoples Rep of China", "People's Republic of China", "People's Rep of China"],
 		"capital": ["Beijing"],
-		"flag": "../assets/flags/asia/CHI.png",
+		"flag": "../assets/flags/asia/CHN.png",
 		"leader": {"type": "president", "name": "Xi Jinping"},
 		"dialing": "+86",
 		"currency": ["CNY", "Yuan"],
