@@ -287,7 +287,7 @@ function showcontinent(continentname) {
                              d3.set(['ESI', 'ESX']), d3.set(['FXC', 'FXX']),
                              d3.set(['ITD', 'ITI', 'ITP', 'ITY', 'ITX']), d3.set(['NJM', 'NSV', 'NOW']),
                              d3.set(['RUK', 'RUE']), d3.set(['SRV', 'SRS'])],
-                 'newISOs': ['FIL', 'BEL', 'BOS', 'DEN', 'GBR', 'ESP', 'FRA', 'ITA']},
+                 'newISOs': ['FIL', 'BEL', 'BOS', 'DEN', 'GBR', 'ESP', 'FRA', 'ITA', 'NOR']},
       'africa': {'oldISOs': [],
                  'newISOs': []},
       'asia': {'oldISOs': [],

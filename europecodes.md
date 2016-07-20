@@ -63,7 +63,7 @@
 - MCO - Monaco
 - MNE - Montenegro
 - NLX - Netherlands
-- NOW - Norway
+- NOR - NOW (Norway) + NJM + NSV
 - POL - Poland
 - PRX - Portugal
 - ROU - Romania

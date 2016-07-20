@@ -1651,10 +1651,10 @@
 		"fake_demonyms": ["Kore", "Kori", "North Koran", "North Koreaic", "North Koreaish", "North Koreabe", "North Korese", "North Koreaer"],
 		"area (sq km)": "120538"
 	},
-	"NOW": {
+	"NOR": {
 		"country": ["Norway", "Kingdom of Norway"],
 		"capital": ["Maputo"],
-		"flag": "../assets/flags/africa/NOW.png",
+		"flag": "../assets/flags/africa/NOR.png",
 		"leader": {"type": ["monarch", "prime minister"], "name": ["Harald V", "Erna Solberg"]},
 		"dialing": "+47",
 		"currency": ["NOK", "Norwegian Krone"],
