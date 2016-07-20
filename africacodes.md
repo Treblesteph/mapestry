@@ -4,18 +4,12 @@
 
 - ESC - Canary Islands (Spain - hide)
 - EUI - Europa Island (France - hide)
-- GNA - Annóbon (Equatorial Guinea island - show)
-- GNK - Bioko (Equatorial Guinea island - show)
-- GNR - Río Muni (Equatorial Guinea mainland - show)
 - JUI - Juan De Nova I (France - hide)
 - MYT - Mayotte (France - hide)
 - PMD - Madeira (Portugal - hide)
 - SAH - Western Sahara (it's complicated - leave black)
 - SEC - Ceuta (Spain - hide)
 - SEM - Melilla (Spain - hide)
-- SOL - Somaliland (Somalia - show)
-- SOP - Puntland (Somalia - show)
-- TZZ - Zanzibar (Tanzania - show)
 
 ## Sovereign states
 
@@ -35,7 +29,7 @@
 - COG - Republic of Congo
 - DJI - Djibouti
 - EGY - Egypt
-- GNQ - Equatorial Guinea, including GNA, GNK, GNR
+- GNQ - Equatorial Guinea - GNA (Annóbon) + GNK (Bioko) + GNR (Río Muni)
 - ERI - Eritrea
 - ETH - Ethiopia
 - GAB - Gabon
@@ -60,12 +54,12 @@
 - STP - STS & STA - Sao Tomé & Príncipe
 - SEN - Senegal
 - SLE - Sierra Leone
-- SOM - SOX (Somalia) + SOL + SOP
+- SOM - SOX (Somalia) + SOL (Somaliland) + SOP (Puntland)
 - ZAX - South Africa
 - SDS - South Sudan
 - SDN - Sudan
 - SWZ - Swaziland
-- TAN - TZA (Tanzania) + TZZ
+- TAN - TZA (Tanzania) + TZZ (Zanzibar)
 - TGO - Togo
 - TUN - Tunisia
 - UGA - Uganda
