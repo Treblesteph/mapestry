@@ -72,7 +72,7 @@
 - SRS - Serbia
 - SVK - Slovakia
 - SVN - Slovenia
-- ESX - Spain
+- ESP - ESX (Spain) + ESI
 - SWE - Sweden
 - CHE - Switzerland
 - UKR - Ukraine

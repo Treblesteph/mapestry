@@ -2119,10 +2119,10 @@
 		"fake_demonyms": ["South Sud", "South Sudanian", "South Sudanan", "South Sudanic", "South Sudanish", "South Sudanabe", "South Sudani", "South Sudaner"],
 		"area (sq km)": "619745"
 	},
-	"ESX": {
+	"ESP": {
 		"country": ["Spain", "Kingdom of Spain"],
 		"capital": ["Madrid"],
-		"flag": "../assets/flags/europe/ESX.png",
+		"flag": "../assets/flags/europe/ESP.png",
 		"leader": {"type": ["monarch", "prime minister"], "name": ["Felipe VI", "Mariano Rajoy"]},
 		"dialing": "+34",
 		"currency": ["EUR", "Euro"],
