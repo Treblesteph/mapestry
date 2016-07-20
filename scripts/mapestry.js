@@ -297,15 +297,17 @@ function showcontinent(continentname) {
     }
 
     var counter = 0
-    var selected = multi_paths.continentname.oldISOs
-    var newISOs = multi_paths.continentname.newISOs
+    var this_continent = multi_paths[continentname]
+    var selected = this_continent['oldISOs']
+    var newISOs = this_continent['newISOs']
 
     selected.forEach(function (codes) {
+      var access_thiscontinent = continent.objects[geofilename]
       svg.append('path')
-         .datum(topojson.merge(continent, continent.objects.continentnorthamerica.geometries.filter(function(d) {
+         .datum(topojson.merge(continent, access_thiscontinent.geometries.filter(function(d) {
            return codes.has(d.id)
          })))
-         .attr('class', 'country northamerica ' + newISOs[counter])
+         .attr('class', 'country ' + continentname + ' ' + newISOs[counter])
          .attr('d', path)
          counter += 1
     })
