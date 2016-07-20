@@ -585,10 +585,10 @@
 		"fake_demonyms": ["Congol", "Cong", "Congolian", "Congolic", "Congolish", "Congoli", "Congobe", "Congoer"],
 		"area (sq km)": "2344858"
 	},
-	"DNK": {
+	"DEN": {
 		"country": ["Denmark", "Kingdom of Denmark"],
 		"capital": ["Copenhagen"],
-		"flag": "../assets/flags/europe/DNK.png",
+		"flag": "../assets/flags/europe/DEN.png",
 		"leader": {"type": "prime minister", "name": "Lars Løkke Rasmussen"},
 		"dialing": "+45",
 		"currency": ["DKK", "Danish Krone"],

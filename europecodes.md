@@ -42,7 +42,7 @@
 - BGR - Bulgaria
 - HRV - Croatia
 - CZE - Czech Republic
-- DNK - Denmark
+- DEN - DNK (Denmark) + DNB + FRO
 - EST - Estonia
 - FIL - FIN (Finland) + ALD (Aland)
 - FXX - France
