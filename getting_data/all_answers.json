@@ -1729,10 +1729,10 @@
 		"fake_demonyms": ["Panam", "Panamani", "Panaman", "Panamanic", "Panamanish", "Panamabe", "Panamese", "Panamer"],
 		"area (sq km)": "75417"
 	},
-	"PNX": {
+	"PAP": {
 		"country": ["Papua New Guinea", "Independent State of Papua New Guinea"],
 		"capital": ["Port Moresby"],
-		"flag": "../assets/flags/oceania/PNX.png",
+		"flag": "../assets/flags/oceania/PAP.png",
 		"leader": {"type": "prime minister", "name": "Peter O'Neill"},
 		"dialing": "+675",
 		"currency": ["PGK", "Papua New Guinean Kina"],

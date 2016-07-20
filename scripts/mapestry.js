@@ -298,9 +298,9 @@ function showcontinent(continentname) {
                            d3.set(['KOB', 'KOJ', 'KOU', 'KNX', 'KXI', 'KOX']), d3.set(['KNZ', 'PRK']),
                            d3.set(['PGA', 'PHL']), d3.set(['TLP', 'TLX']), d3.set(['YES', 'YEM'])],
                'newISOs': ['CHN', 'PSE', 'GEO', 'IRQ', 'JAP', 'KZS', 'IND', 'KOR', 'NKO', 'PHI', 'TIM', 'YMN']},
-      'oceania': {'oldISOs': [d3.set(['AUA', 'AUM', 'AUZ', 'NFK']),
+      'oceania': {'oldISOs': [d3.set(['AUA', 'AUM', 'AUZ', 'NFK'], d3.set(['PNB', 'PNX'])),
                               d3.set(['COK', 'NIU', 'NZA', 'NZC', 'NZK', 'TKL', 'NZN', 'NZS'])],
-                  'newISOs': ['AUS', 'NZL']},
+                  'newISOs': ['AUS', 'PAP', 'NZL']},
     }
 
     var counter = 0

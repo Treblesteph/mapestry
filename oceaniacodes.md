@@ -9,7 +9,6 @@
 - MNP - N. Mariana Is. (USA - hide)
 - NCL - New Caledonia (France - hide)
 - PCN - Pitcairn Is. (UK - hide)
-- PNB - Bougainville (Papua New Guinea - show)
 - PYF - French Polynesia (France - hide)
 - USH - Hawaii (USA - hide)
 - WLF - Wallis & Futuna Is. (France - hide)
@@ -24,7 +23,7 @@
 - NRU - Nauru
 - NZL - New Zealand NZN North Island + NZS (South Island) + COK (Cook Is.) + NIU (Niue) + NZA (Sub Antarctic Is.) + NZC (Chatham Is.) + NZK (Kermadec Is.) + TKL (Tokelau)
 - PLW - Palau
-- PNX - Papua New Guinea
+- PAP - PNX (Papua New Guinea) + PNB (Bougainville)
 - SLB - Solomon Is.
 - TON - Tonga
 - TUV - Tuvalu
