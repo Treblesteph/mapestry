@@ -277,8 +277,8 @@ function showcontinent(continentname) {
 
     // Merging paths for countries with multiple paths.
     var multi_paths = {
-      'northamerica': {'oldISOs': [d3.set(['USB', 'USK']), d3.set(['ACA', 'ACB'])],
-                       'newISOs': ['USA', 'ATG']},
+      'northamerica': {'oldISOs': [d3.set(['USB', 'USK']), d3.set(['ACA', 'ACB']), d3.set(['TTD', 'TTG'])],
+                       'newISOs': ['USA', 'ATG', 'TTO']},
       'southamerica': {'oldISOs': [d3.set(['ECG', 'ECD'])],
                        'newISOs': ['ECU']},
       'europe': {'oldISOs': [d3.set(['ALD', 'FIN']), d3.set(['BCR', 'BFR', 'BWR']), d3.set(['BHB', 'BIS', 'BHF']),

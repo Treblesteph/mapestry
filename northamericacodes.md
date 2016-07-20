@@ -45,7 +45,7 @@
 - KNA - St Kitts & Nevis
 - LCA - St Lucia
 - VCT - St Vincent & the Grenadines
-- TTD & TTG - Trinidad & Tobago
+- TTO - TTD & TTG - Trinidad & Tobago
 - USA - USB (America mainland) + USK (Alaska)
 
 ## Missing sovereign states
