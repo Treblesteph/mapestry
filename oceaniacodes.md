@@ -4,19 +4,13 @@
 
 - ASM - American Samoa (USA - hide)
 - CHP - Easter I. (Chile - hide)
-- COK - Cook Is. (NZ - show)
 - GUM - Guam (USA - hide)
 - LQI - Palmyra Atoll (USA - hide)
 - MNP - N. Mariana Is. (USA - hide)
 - NCL - New Caledonia (France - hide)
-- NIU - Niue (NZ - show)
-- NZA - New Zealand Sub Antarctic Is. (NZ - show)
-- NZC - Chatham Is. (NZ - show)
-- NZK - Kermadec Is. (NZ - show)
 - PCN - Pitcairn Is. (UK - hide)
 - PNB - Bougainville (Papua New Guinea - show)
 - PYF - French Polynesia (France - hide)
-- TKL - Tokelau (NZ - show)
 - USH - Hawaii (USA - hide)
 - WLF - Wallis & Futuna Is. (France - hide)
 
@@ -28,7 +22,7 @@
 - MHL - Marshall Is.
 - FSM - Micronesia
 - NRU - Nauru
-- NZN & NZS - New Zealand North Island & South Island
+- NZL - New Zealand NZN North Island + NZS (South Island) + COK (Cook Is.) + NIU (Niue) + NZA (Sub Antarctic Is.) + NZC (Chatham Is.) + NZK (Kermadec Is.) + TKL (Tokelau)
 - PLW - Palau
 - PNX - Papua New Guinea
 - SLB - Solomon Is.
