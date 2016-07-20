@@ -2,35 +2,7 @@
 
 ## Not sovereign states
 
-- ALD - Aland (Finland - show)
-- BCR - Brussels (Belgium - show)
-- BFR - Flemish (Belgium - show)
-- BHB - Brcko District (Bosnia Herzegovina - show)
-- BIS - Rep. Srpska (Bosnia Herzegovina - show)
-- BWR - Walloon (Belgium - show)
-- DNB - Bornholm (Denmark - show)
-- ENG - England (UK - show)
-- ESI - Belearic Is. (Spain - show)
-- FRO - Faeroe Is. (Denmark - show)
-- FXC - Corsica (France - show)
-- GGA - Alderney (UK - show)
-- GGG - Guernsey (UK - show)
-- GGH - Herm (UK - show)
-- GGS - Sark (UK - show)
-- GIB - Gibraltar (UK - show)
-- IMN - Isle of Man (UK - show)
-- ITD - Sardinia (Italy - show)
-- ITI - Isole Pelagie (Italy - show)
-- ITP - Pantelleria (Italy - show)
-- ITY - Sicily (Italy - show)
-- JEY - Jersey (UK - show)
-- NIR - Northern Ireland (UK - show)
-- NJM - Jan Mayen I. (Norway - show)
-- NSV - Svalbard Is. (Norway - show)
-- RUK - Kaliningrad (Russia - show)
-- SCT - Scotland (UK - show)
-- SRV - Vojvodina (Serbia - show)
-- WLS - Wales (UK - show)
+- GIB - Gibraltar (UK - hide)
 
 ## Sovereign states
 
@@ -38,20 +10,21 @@
 - AND - Andorra
 - AUT - Austria
 - BLR - Belarus
-- BOS - BHF (Bosnia Herzegovina) + BHB + BIS
+- BEL - BCR (Brussels) + BFR (Flemish) + BWR (Walloon)
+- BOS - BHF (Bosnia Herzegovina) + BHB (Brcko District) + BIS (Rep. Srpska)
 - BGR - Bulgaria
 - HRV - Croatia
 - CZE - Czech Republic
-- DEN - DNK (Denmark) + DNB + FRO
+- DEN - DNK (Denmark) + DNB (Bornholm) + FRO (Faeroe Is.)
 - EST - Estonia
 - FIL - FIN (Finland) + ALD (Aland)
-- FRA - FXX (France) + FXC
+- FRA - FXX (France) + FXC (Corsica)
 - DEU - Germany
 - GRC - Greece
 - HUN - Hungary
 - ISL - Iceland
 - IRL - Ireland
-- ITA - ITX (Italy) + ITD + ITI + ITP + ITY
+- ITA - ITX (Italy) + ITD (Sardinia) + ITI (Isole Pelagie) + ITP (Pantelleria) + ITY (Sicily)
 - KOS - Kosovo
 - LVA - Latvia
 - LIE - Liechtenstein
@@ -63,18 +36,19 @@
 - MCO - Monaco
 - MNE - Montenegro
 - NLX - Netherlands
-- NOR - NOW (Norway) + NJM + NSV
+- NOR - NOW (Norway) + NJM (Jan Mayen I.) + NSV (Svalbard Is.)
 - POL - Poland
 - PRX - Portugal
 - ROU - Romania
-- RUS - RUE (Russia) + RUK
+- RUS - RUE (Russia) + RUK (Kaliningrad)
 - SMR - San Marino
-- SER - SRS (Serbia) + SRV
+- SER - SRS (Serbia) + SRV (Vojvodina)
 - SVK - Slovakia
 - SVN - Slovenia
-- ESP - ESX (Spain) + ESI
+- ESP - ESX (Spain) + ESI (Belearic Is.)
 - SWE - Sweden
 - CHE - Switzerland
+- GBR - ENG (England) + GGA (Alderney) + GGG (Guernsey) + GGH (Herm) + GGS (Sark) + IMN (Isle of Man) + JEY (Jersey) + NIR (Northern Ireland) + SCT (Scotland)+ WLS (Wales)
 - UKR - Ukraine
 - VAT - Vatican
 
