@@ -3,40 +3,13 @@
 ## Not sovereign states
 
 - CCK - Cocos Is. (Australia - hide)
-- CHH - Hainan (China - show)
 - CNM - Cyprus U.N. Buffer Zone (Cyprus - hide)
 - CXR - Christmas Is. (Australia - hide)
 - CYN - North Cyprus (Cyprus - hide)
 - CYP - Cyprus (Cyprus - hide)
 - ESB - Dhekelia (UK - hide)
-- GAZ - Gaza (Palestine - show)
-- GEA - Adjara (Georgia - show)
-- HKG - Hong Kong (China - show)
-- IRK - Iraqi Kurdistan (Iraq - show)
-- JPB - Bonin Is. (Japan - show)
-- JPH - Honshu (Japan - show)
-- JPI - Izu-Shoto (Japan - show)
-- JPK - Hokkaido (Japan - show)
-- JPO - Nansei-Shoto (Japan - show)
-- JPS - Shikoku (Japan - show)
-- JPV - Volcano Is. (Japan - show)
-- JPY - Kyushu (Japan - show)
-- KAB - Baikonur (Kazakhstan - show)
-- KAS - Saichen Glacier (India - show)
-- KOB - Baengnyeongdo (South Korea - show)
-- KOJ - Jejudo (South Korea - show)
-- KOU - Ulleungdo (South Korea - show)
-- KNX - Korean DMZ (South) (South Korea - show)
-- KNZ - Korean DMZ (North) (North Korea - show)
-- KXI - Korea (South Korea - show)
-- MAC - Macao (China - show)
-- PFA - Paracel Is. (China - show)
-- PGA - Spratly Is. (Disputed: Brunei, China, Malaysia, Philippines, Vietnam, Taiwan - show)
 - SYU - UNDOF Zone (UN - hide)
-- TLP - Pante Makasar (Timor Leste - show)
-- WEB - West Bank (Palestine - show)
 - WSB - Akrotiri (UK - hide)
-- YES - Socotra (Yemen - show)
 
 ## Sovereign states
 
@@ -48,16 +21,16 @@
 - BTN - Bhutan
 - BRN - Brunei
 - KHM - Cambodia
-- CHN - CHI (China) + CHH + HKG + MAC + PFA
-- GEO - GEG (Georgia) + GEA
-- IND - INX (India) + KAS
+- CHN - CHI (China) + CHH (Hainan) + HKG (Hong Kong) + MAC (Macao) + PFA (Paracel Is.)
+- GEO - GEG (Georgia) + GEA (Adjara)
+- IND - INX (India) + KAS (Saichen Glacier)
 - IDN - Indonesia
 - IRN - Iran
-- IRQ - IRR (Iraq) + IRK
+- IRQ - IRR (Iraq) + IRK (Kurdistan)
 - ISR - Israel
-- JAP - JPX (Japan) + JPB + JPH + JPI + JPK + JPO + JPS + JPV + JPY
+- JAP - JPX (Japan) + JPB (Bonin Is.) + JPH (Honshu) + JPI (Izu-Shoto) + JPK (Hokkaido) + JPO (Nansei-Shoto) + JPS (Shikoku) + JPV (Volcano Is.) + JPY (Kyushu)
 - JOR - Jordan
-- KZS - KAZ (Kazakhstan) + KAB
+- KZS - KAZ (Kazakhstan) + KAB (Baikonur)
 - KWT - Kuwait
 - KGZ - Kyrgyzstan
 - LAO - Lao PDR
@@ -66,28 +39,28 @@
 - MNG - Mongolia
 - MMR - Myanmar
 - NPL - Nepal
-- NKO - PRK (Dem. Rep. Korea (North Korea)) + KNZ
+- NKO - PRK (Dem. Rep. Korea (North Korea)) + KNZ (Korean DMZ)
 - OMN - Oman
 - PAK - Pakistan
-- PSE - Palestine (GAZ + WEB)
-- PHI - PHL (Philippines) + PGA
+- PSE - Palestine - GAZ (Gaza) + WEB (West Bank)
+- PHI - PHL (Philippines) + PGA (Spratly Is.)
 - QAT - Qatar
 - RUA - Russia
 - SAU - Saudi Arabia
 - SGP - Singapore
-- KOR - KOX (South Korea) + KOB + KOJ + KOU + KNX + KXI
+- KOR - KOX (South Korea) + KOB (Baengnyeongdo) + KOJ (Jejudo) + KOU (Ulleungdo) + KNX (Korean DMZ) + KXI (Korea)
 - LKA - Sri Lanka
 - SYX - Syria
 - TWN - Taiwan
 - TJK - Tajikistan
 - THA - Thailand
-- TIM - TLX (Timor Leste) + TLP
+- TIM - TLX (Timor Leste) + TLP (Pante Makasar)
 - TUR - Turkey
 - TKM - Turkmenistan
 - ARE - UAE
 - UZB - Uzbekistan
 - VNM - Vietnam
-- YMN - YEM (Yemen) + YES
+- YMN - YEM (Yemen) + YES (Socotra)
 
 ## Missing sovereign states
 
