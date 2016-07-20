@@ -2275,10 +2275,10 @@
 		"fake_demonyms": ["Thailandi", "Thailandian", "Thailandan", "Thailandic", "Thailandish", "Thailandabe", "Thailandese", "Thailander"],
 		"area (sq km)": "513120"
 	},
-	"TLX": {
+	"TIM": {
 		"country": ["Timor-Leste", "Democratic Republic of Timor-Leste", " Democratic Rep of Timor-Leste", "Dem Republic of Timor-Leste", "Dem Rep of Timor-Leste", "Timor Leste", "Democratic Republic of Timor Leste", " Democratic Rep of Timor Leste", "Dem Republic of Timor Leste", "Dem Rep of Timor Leste"],
 		"capital": ["Dili"],
-		"flag": "../assets/flags/asia/TLX.png",
+		"flag": "../assets/flags/asia/TIM.png",
 		"leader": {"type": ["president", "prime minister"], "name": ["Taur Matan Ruak", "Rui Maria de Araújo"]},
 		"dialing": "+670",
 		"currency": ["USD", "US Dollar", "United States Dollar"],

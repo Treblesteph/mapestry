@@ -81,7 +81,7 @@
 - TWN - Taiwan
 - TJK - Tajikistan
 - THA - Thailand
-- TLX - Timor Leste
+- TIM - TLX (Timor Leste) + TLP
 - TUR - Turkey
 - TKM - Turkmenistan
 - ARE - UAE
