@@ -962,10 +962,10 @@
 		"fake_demonyms": ["Ice", "Icelandese", "Icelandian", "Icelandan", "Icelandish", "Icelandic", "Icelandiabe"],
 		"area (sq km)": "103000"
 	},
-	"INX": {
+	"IND": {
 		"country": ["India", "Republic of India", "Rep of India"],
 		"capital": ["New Delhi"],
-		"flag": "../assets/flags/asia/INX.png",
+		"flag": "../assets/flags/asia/IND.png",
 		"leader": {"type": ["president", "prime minister"], "name": ["Pranab Mukherjee", "Narendra Modi"]},
 		"dialing": "+91",
 		"currency": ["INR", "Indian Rupee"],

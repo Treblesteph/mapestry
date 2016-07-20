@@ -51,7 +51,7 @@
 - KHM - Cambodia
 - CHN - CHI (China) + CHH + HKG + MAC + PFA
 - GEO - GEG (Georgia) + GEA
-- INX - India
+- IND - INX (India) + KAS
 - IDN - Indonesia
 - IRN - Iran
 - IRQ - IRR (Iraq) + IRK
