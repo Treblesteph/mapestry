@@ -1092,10 +1092,10 @@
 		"fake_demonyms": ["Jord", "Jordese", "Jordani", "Jordanish", "Jordanic", "Jordanabe", "Jordaner"],
 		"area (sq km)": "89342"
 	},
-	"KAZ": {
+	"KZS": {
 		"country": ["Kazakhstan", "Republic of Kazakhstan", "Rep of Kazakhstan"],
 		"capital": ["Astana"],
-		"flag": "../assets/flags/asia/KAZ.png",
+		"flag": "../assets/flags/asia/KZS.png",
 		"leader": {"type": ["president", "prime minister"], "name": ["Nursultan Nazarbayev", "Karim Massimov"]},
 		"dialing": ["+76", "+77"],
 		"currency": ["KZT", "Tenge"],

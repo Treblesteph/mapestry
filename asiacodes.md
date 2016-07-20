@@ -58,7 +58,7 @@
 - ISR - Israel
 - JAP - JPX (Japan) + JPB + JPH + JPI + JPK + JPO + JPS + JPV + JPY
 - JOR - Jordan
-- KAZ - Kazakhstan
+- KZS - KAZ (Kazakhstan) + KAB
 - KWT - Kuwait
 - KGZ - Kyrgyzstan
 - LAO - Lao PDR

@@ -293,8 +293,9 @@ function showcontinent(continentname) {
                  'newISOs': ['GNQ', 'SOM', 'TAN', 'STP']},
       'asia': {'oldISOs': [d3.set(['CHH', 'HKG', 'MAC', 'PFA', 'CHI']), d3.set(['GAZ', 'WEB']),
                            d3.set(['GEA', 'GEG']), d3.set(['IRK', 'IRR']),
-                           d3.set(['JPB', 'JPH', 'JPI', 'JPK', 'JPO', 'JPS', 'JPV', 'JPY', 'JPX'])],
-               'newISOs': ['CHN', 'PSE', 'GEO', 'IRQ', 'JAP']},
+                           d3.set(['JPB', 'JPH', 'JPI', 'JPK', 'JPO', 'JPS', 'JPV', 'JPY', 'JPX']),
+                           d3.set(['KAB', 'KAZ'])],
+               'newISOs': ['CHN', 'PSE', 'GEO', 'IRQ', 'JAP', 'KZS']},
       'oceania': {'oldISOs': [],
                   'newISOs': []},
     }
