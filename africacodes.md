@@ -57,7 +57,7 @@
 - NER - Niger
 - NGA - Nigeria
 - RWA - Rwanda
-- STS & STA - Sao Tomé & Príncipe
+- STP - STS & STA - Sao Tomé & Príncipe
 - SEN - Senegal
 - SLE - Sierra Leone
 - SOM - SOX (Somalia) + SOL + SOP
