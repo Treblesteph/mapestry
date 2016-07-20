@@ -70,6 +70,7 @@
 - PRK - Dem. Rep. Korea (North Korea)
 - OMN - Oman
 - PAK - Pakistan
+- PSE - Palestine (GAZ + WEB)
 - PHL - Philippines
 - QAT - Qatar
 - RUA - Russia
