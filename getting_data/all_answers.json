@@ -1001,10 +1001,10 @@
 		"fake_demonyms": ["Iranese", "Irani", "Iranan", "Iranish", "Iranic", "Iranabe", "Iraner"],
 		"area (sq km)": "1648195"
 	},
-	"IRR": {
+	"IRQ": {
 		"country": ["Iraq", "Republic of Iraq", "Rep of Iraq"],
 		"capital": ["Baghdad"],
-		"flag": "../assets/flags/asia/IRR.png",
+		"flag": "../assets/flags/asia/IRQ.png",
 		"leader": {"type": ["president", "prime minister"], "name": ["Fuad Masum", "Haider al-Abadi"]},
 		"dialing": "+964",
 		"currency": ["IQD", "Iraqi Dinar"],

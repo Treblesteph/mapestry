@@ -54,7 +54,7 @@
 - INX - India
 - IDN - Indonesia
 - IRN - Iran
-- IRR - Iraq
+- IRQ - IRR (Iraq) + IRK
 - ISR - Israel
 - JPX - Japan
 - JOR - Jordan
