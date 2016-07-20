@@ -45,13 +45,13 @@
 - DEN - DNK (Denmark) + DNB + FRO
 - EST - Estonia
 - FIL - FIN (Finland) + ALD (Aland)
-- FXX - France
+- FRA - FXX (France) + FXC
 - DEU - Germany
 - GRC - Greece
 - HUN - Hungary
 - ISL - Iceland
 - IRL - Ireland
-- ITX - Italy
+- ITA - ITX (Italy) + ITD + ITI + ITP + ITY
 - KOS - Kosovo
 - LVA - Latvia
 - LIE - Liechtenstein

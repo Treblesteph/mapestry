@@ -754,10 +754,10 @@
 		"fake_demonyms": ["Finn", "Finlese", "Finlandian", "Finlandic", "Finlandish", "Finlabe", "Finlander"],
 		"area (sq km)": "338424"
 	},
-	"FXX": {
+	"FRA": {
 		"country": ["France", "French Republic"],
 		"capital": ["Paris"],
-		"flag": "../assets/flags/europe/FXX.png",
+		"flag": "../assets/flags/europe/FRA.png",
 		"leader": {"type": ["president", "prime minister"], "name": ["François Hollande", "Bohuslav Sobotka"]},
 		"dialing": "+33",
 		"currency": ["EUR", "Euro"],
@@ -1040,10 +1040,10 @@
 		"fake_demonyms": ["Israelese", "Israelian", "Israelan", "Israelish", "Israelic", "Israelabe", "Israeler"],
 		"area (sq km)": "20770"
 	},
-	"ITX": {
+	"ITA": {
 		"country": ["Italy", "Italian Republic"],
 		"capital": ["Rome"],
-		"flag": "../assets/flags/europe/ITX.png",
+		"flag": "../assets/flags/europe/ITA.png",
 		"leader": {"type": ["president", "prime minister"], "name": ["Sergio Mattarella", "Matteo Renzi"]},
 		"dialing": "+39",
 		"currency": ["EUR", "Euro"],

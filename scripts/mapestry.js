@@ -287,7 +287,7 @@ function showcontinent(continentname) {
                              d3.set(['ESI', 'ESX']), d3.set(['FXC', 'FXX']),
                              d3.set(['ITD', 'ITI', 'ITP', 'ITY', 'ITX']), d3.set(['NJM', 'NSV', 'NOW']),
                              d3.set(['RUK', 'RUE']), d3.set(['SRV', 'SRS'])],
-                 'newISOs': ['FIL', 'BEL', 'BOS', 'DEN', 'GBR', 'ESP']},
+                 'newISOs': ['FIL', 'BEL', 'BOS', 'DEN', 'GBR', 'ESP', 'FRA', 'ITA']},
       'africa': {'oldISOs': [],
                  'newISOs': []},
       'asia': {'oldISOs': [],
@@ -298,6 +298,7 @@ function showcontinent(continentname) {
 
     var counter = 0
     var selected = multi_paths.continentname.oldISOs
+    var newISOs = multi_paths.continentname.newISOs
 
     selected.forEach(function (codes) {
       svg.append('path')
