@@ -2522,10 +2522,10 @@
 		"fake_demonyms": ["Viet", "Vietnamian", "Vietnaman", "Vietnamic", "Vietnamish", "Vietnamabe", "Vietnami", "Vietnamer"],
 		"area (sq km)": "331212"
 	},
-	"YEM": {
+	"YMN": {
 		"country": ["Yemen", "Republic of Yemen", "Rep of Yemen"],
 		"capital": ["Sana'a"],
-		"flag": "../assets/flags/asia/YEM.png",
+		"flag": "../assets/flags/asia/YMN.png",
 		"leader": {"type": ["president", "prime minister"], "name": ["Abd Rabbuh Mansur Hadi", "Ahmed Obeid bin Daghr"]},
 		"dialing": "+967",
 		"currency": ["YER", "Yemeni Rial"],

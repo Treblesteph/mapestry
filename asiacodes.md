@@ -87,10 +87,8 @@
 - ARE - UAE
 - UZB - Uzbekistan
 - VNM - Vietnam
-- YEM - Yemen
+- YMN - YEM (Yemen) + YES
 
 ## Missing sovereign states
 
-- South Korea
 - Maldives
-- Palestine
