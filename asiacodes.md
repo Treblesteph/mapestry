@@ -28,8 +28,7 @@
 - KOU - Ulleungdo (South Korea - show)
 - KNX - Korean DMZ (South) (South Korea - show)
 - KNZ - Korean DMZ (North) (North Korea - show)
-- KOX - Korea
-- KXI - Korea
+- KXI - Korea (South Korea - show)
 - MAC - Macao (China - show)
 - PFA - Paracel Is. (China - show)
 - PGA - Spratly Is. (Disputed: Brunei, China, Malaysia, Philippines, Vietnam, Taiwan - show)
@@ -67,7 +66,7 @@
 - MNG - Mongolia
 - MMR - Myanmar
 - NPL - Nepal
-- PRK - Dem. Rep. Korea (North Korea)
+- NKO - PRK (Dem. Rep. Korea (North Korea)) + KNZ
 - OMN - Oman
 - PAK - Pakistan
 - PSE - Palestine (GAZ + WEB)
@@ -76,6 +75,7 @@
 - RUA - Russia
 - SAU - Saudi Arabia
 - SGP - Singapore
+- KOR - KOX (South Korea) + KOB + KOJ + KOU + KNX + KXI
 - LKA - Sri Lanka
 - SYX - Syria
 - TWN - Taiwan
