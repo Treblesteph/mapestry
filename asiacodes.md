@@ -56,7 +56,7 @@
 - IRN - Iran
 - IRQ - IRR (Iraq) + IRK
 - ISR - Israel
-- JPX - Japan
+- JAP - JPX (Japan) + JPB + JPH + JPI + JPK + JPO + JPS + JPV + JPY
 - JOR - Jordan
 - KAZ - Kazakhstan
 - KWT - Kuwait

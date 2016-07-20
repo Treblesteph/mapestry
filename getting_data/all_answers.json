@@ -1066,10 +1066,10 @@
 		"fake_demonyms": ["Jamaic", "Jamaicese", "Jamaician", "Jamaicic", "Jamaicish", "Jamaicabe", "Jamaicer"],
 		"area (sq km)": "10991"
 	},
-	"JPX": {
+	"JAP": {
 		"country": ["Japan"],
 		"capital": ["Tokya"],
-		"flag": "../assets/flags/asia/JPX.png",
+		"flag": "../assets/flags/asia/JAP.png",
 		"leader": {"type": ["emperor", "prime minister"], "name": ["Akihito", "Shinzō Abe"]},
 		"dialing": "+81",
 		"currency": ["JPY", "Yen"],
