@@ -69,7 +69,7 @@
 - ROU - Romania
 - RUS - RUE (Russia) + RUK
 - SMR - San Marino
-- SRS - Serbia
+- SER - SRS (Serbia) + SRV
 - SVK - Slovakia
 - SVN - Slovenia
 - ESP - ESX (Spain) + ESI

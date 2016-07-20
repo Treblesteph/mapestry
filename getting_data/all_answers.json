@@ -1976,10 +1976,10 @@
 		"fake_demonyms": ["Seneg", "Senegalian", "Senegalan", "Senegalic", "Senegalish", "Senegalabe", "Senegali", "Senegaler"],
 		"area (sq km)": "196722"
 	},
-	"SRS": {
+	"SER": {
 		"country": ["Serbia", "Republic of Serbia", "Rep of Serbia"],
 		"capital": ["Belgrade"],
-		"flag": "../assets/flags/africa/SRS.png",
+		"flag": "../assets/flags/africa/SER.png",
 		"leader": {"type": ["president", "prime minister"], "name": ["Tomislav Nikolić", "Aleksandar Vučić"]},
 		"dialing": "+381",
 		"currency": ["RSD", "Serbian Dinar"],
