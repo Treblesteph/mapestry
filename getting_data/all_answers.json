@@ -2249,10 +2249,10 @@
 		"fake_demonyms": ["Tajiki", "Tajikistani", "Tajikian", "Tajikic", "Tajikistaner", "Tadzhiki", "Tadzhikian", "Tadzhikic"],
 		"area (sq km)": "143100"
 	},
-	"TZA": {
+	"TAN": {
 		"country": ["Tanzania", "United Republic of Tanzania", "United Rep of Tanzania"],
 		"capital": ["Dodoma"],
-		"flag": "../assets/flags/africa/TZA.png",
+		"flag": "../assets/flags/africa/TAN.png",
 		"leader": {"type": ["president", "prime minister"], "name": ["John Pombe Magufuli", "Kassim Majaliwa"]},
 		"dialing": "+255",
 		"currency": ["TZS", "Tanzanian Shilling"],

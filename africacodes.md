@@ -65,7 +65,7 @@
 - SDS - South Sudan
 - SDN - Sudan
 - SWZ - Swaziland
-- TZA - Tanzania
+- TAN - TZA (Tanzania) + TZZ
 - TGO - Togo
 - TUN - Tunisia
 - UGA - Uganda
