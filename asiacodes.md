@@ -50,7 +50,7 @@
 - BRN - Brunei
 - KHM - Cambodia
 - CHN - CHI (China) + CHH + HKG + MAC + PFA
-- GEG - Georgia
+- GEO - GEG (Georgia) + GEA
 - INX - India
 - IDN - Indonesia
 - IRN - Iran

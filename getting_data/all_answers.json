@@ -793,10 +793,10 @@
 		"fake_demonyms": ["Gamb", "Gambese", "Gamban", "Gambic", "Gambish", "Gambiabe", "Gambier"],
 		"area (sq km)": "10689"
 	},
-	"GEG": {
+	"GEO": {
 		"country": ["Georgia"],
 		"capital": ["Tbilisi"],
-		"flag": "../assets/flags/asia/GEG.png",
+		"flag": "../assets/flags/asia/GEO.png",
 		"leader": {"type": ["president", "prime minister"], "name": ["Giorgi Margvelashvili", "Giorgi Kvirikashvili"]},
 		"dialing": "+995",
 		"currency": ["GEL", "Georgian Lari"],
