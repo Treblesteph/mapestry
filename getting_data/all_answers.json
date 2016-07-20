@@ -104,10 +104,10 @@
 		"demonym": "Armenian",
 		"area (sq km)": "29743"
 	},
-	"AUZ": {
+	"AUS": {
 		"country": ["Australia", "Commonwealth of Australia"],
 		"capital": ["Canberra"],
-		"flag": "../assets/flags/oceania/AUZ.png",
+		"flag": "../assets/flags/oceania/AUS.png",
 		"leader": {"type": "prime minister", "name": "Malcolm Turnbull"},
 		"dialing": "+61",
 		"currency": ["AUD", "Australian Dollar"],

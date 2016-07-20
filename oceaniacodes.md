@@ -3,15 +3,12 @@
 ## Not sovereign states
 
 - ASM - American Samoa (USA - hide)
-- AUA - Tasmania (Australia - show)
-- AUM - Maquarie I. (Australia - show)
 - CHP - Easter I. (Chile - hide)
 - COK - Cook Is. (NZ - show)
 - GUM - Guam (USA - hide)
 - LQI - Palmyra Atoll (USA - hide)
 - MNP - N. Mariana Is. (USA - hide)
 - NCL - New Caledonia (France - hide)
-- NFK - Norfolk Island (Australia - show)
 - NIU - Niue (NZ - show)
 - NZA - New Zealand Sub Antarctic Is. (NZ - show)
 - NZC - Chatham Is. (NZ - show)
@@ -25,7 +22,7 @@
 
 ## Sovereign states
 
-- AUZ - Australia
+- AUS - AUZ (Australia) + AUA (Tasmania) + AUM (Maquarie I.) + NFK (Norfolk I.)
 - FJI - Fiji
 - KIR - Kiribati
 - MHL - Marshall Is.
