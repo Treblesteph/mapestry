@@ -70,7 +70,7 @@
 - OMN - Oman
 - PAK - Pakistan
 - PSE - Palestine (GAZ + WEB)
-- PHL - Philippines
+- PHI - PHL (Philippines) + PGA
 - QAT - Qatar
 - RUA - Russia
 - SAU - Saudi Arabia

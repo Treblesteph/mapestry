@@ -1768,10 +1768,10 @@
 		"fake_demonyms": ["Per", "Perui", "Peruvan", "Peruvic", "Peruvish", "Peruvabe", "Peruvese", "Peruver"],
 		"area (sq km)": "1285216"
 	},
-	"PHL": {
+	"PHI": {
 		"country": ["Philippines", "Republic of Philippines", "Rep of Philippines"],
 		"capital": ["Maputo"],
-		"flag": "../assets/flags/asia/PHL.png",
+		"flag": "../assets/flags/asia/PHI.png",
 		"leader": {"type": "president", "name": "Rodrigo Duterte"},
 		"dialing": "+63",
 		"currency": ["PHP", "Peso"],
