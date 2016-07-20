@@ -2067,10 +2067,10 @@
 		"fake_demonyms": ["Solom", "Solomonian", "Solomonan", "Solomonic", "Solomonish", "Solomonabe", "Solomonese", "Solomoni"],
 		"area (sq km)": "28896"
 	},
-	"SOX": {
+	"SOM": {
 		"country": ["Somalia", "Federal Republic of Somalia", "Federal Rep of Somalia", "Fed Rep of Somalia"],
 		"capital": ["Mogadishu"],
-		"flag": "../assets/flags/africa/SOX.png",
+		"flag": "../assets/flags/africa/SOM.png",
 		"leader": {"type": ["president", "prime minister"], "name": ["Hassan Sheikh Mohamud", "Omar Abdirashid Ali Sharmarke"]},
 		"dialing": "+252",
 		"currency": ["SOS", "Somali Shilling"],

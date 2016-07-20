@@ -35,6 +35,7 @@
 - COG - Republic of Congo
 - DJI - Djibouti
 - EGY - Egypt
+- GNQ - Equatorial Guinea, including GNA, GNK, GNR
 - ERI - Eritrea
 - ETH - Ethiopia
 - GAB - Gabon
@@ -59,7 +60,7 @@
 - STS & STA - Sao Tomé & Príncipe
 - SEN - Senegal
 - SLE - Sierra Leone
-- SOX - Somalia
+- SOM - SOX (Somalia) + SOL + SOP
 - ZAX - South Africa
 - SDS - South Sudan
 - SDN - Sudan
@@ -73,6 +74,5 @@
 
 ## Missing sovereign states
 
-- GNQ Equatorial Guinea
 - MUS Mauritius
 - SYC Seychelles
