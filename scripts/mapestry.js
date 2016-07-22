@@ -248,11 +248,6 @@ function showcontinent(continentname) {
 
     var geofilename = 'continent' + continentname
 
-    var projection = d3.geo.robinson()
-                           .scale(150)
-                           .translate([width / 2, height / 2])
-                           .precision(.1)
-
     if (continentname === 'northamerica') {
       projection = northamericaprojection
     } else if (continentname === 'southamerica') {
